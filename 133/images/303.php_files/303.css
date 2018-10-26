@@ -1,0 +1,147 @@
+.type-303 .heading h1 {
+  font-weight: bold;
+  float: left;
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: -6px;
+  display: inline-block;
+}
+.type-303 .heading h1 span {
+  font-weight: normal;
+  font-size: 0.6em;
+}
+@media (min-width: 992px) {
+  .type-303 .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+@media (min-width: 480px) {
+  .type-303 .row {
+    margin: 0;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+  }
+}
+@media (min-width: 992px) {
+  .type-303 .col-md-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .type-303 .col-md-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+}
+@media (min-width: 768px) {
+  .type-303 .program h3 {
+    text-align: right;
+  }
+}
+@media (min-width: 768px) {
+  .type-303 .program .desc {
+    padding-right: 20%;
+    margin-left: 12%;
+  }
+}
+@media (min-width: 768px) {
+  .type-303 .flag {
+    font-size: 4vw;
+  }
+}
+.type-303 .programmer {
+  position: relative;
+  overflow: hidden;
+  margin: 50px 0;
+  clear: both;
+}
+.type-303 .program:after {
+  content: "";
+  position: absolute;
+  background: black;
+  height: 5px;
+  left: 1.5%;
+  right: 1.5%;
+  top: -5px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+}
+.type-303 .program h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 25px;
+  padding-right: 10%;
+}
+.type-303 .desc {
+  text-align: justify;
+}
+.type-303 .f-college {
+  background: #c02e25;
+}
+.type-303 .f-vocational {
+  background: #258b77;
+}
+.type-303 .f-collegetrans {
+  background: #d69200;
+}
+.type-303 .flag {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.type-303 .flag span {
+  line-height: 2em;
+}
+.type-303 .flagtri {
+  width: 100%;
+  height: 0;
+  padding-left: 50%;
+  padding-bottom: 30%;
+  overflow: hidden;
+}
+.type-303 .flagtri:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left: -500px;
+  border-left: 500px solid transparent;
+  border-right: 500px solid transparent;
+  border-bottom: 300px solid #f5f5f5;
+}
+.type-303 .program ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+.type-303 .program ul li {
+  padding: 2px 0;
+  font-size: 1.15em;
+}
+.type-303 .college {
+  color: #c02e25;
+}
+.type-303 .college1 a {
+  color: #c02e25;
+}
+.type-303 .vocational {
+  color: #258b77;
+}
+.type-303 .vocational1 a {
+  color: #258b77;
+}
+.type-303 .collegetrans {
+  color: #d69200;
+}
+.type-303 .collegetrans1 {
+  color: #c02e25;
+}
+.type-303 .collegetrans1 a {
+  color: #c02e25;
+}
