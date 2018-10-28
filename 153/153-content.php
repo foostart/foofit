@@ -1,23 +1,18 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<?php
+$url_host = $_SERVER['HTTP_HOST'];
 
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/321.less', 'css/321.css');
-    ?>
-    <link href="css/321.css" rel="stylesheet" type="text/css"/>
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
-</head>
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-<body>
+preg_match_all($pattern_uri, __DIR__, $matches);
 
-    <div class="type-321">
+$url_path = $url_host . $matches[1][0];
+
+$url_path = str_replace('\\', '/', $url_path);
+?>
+
+    <div class="type-153">
         <div class="container sidebar">
             <div class="row">
 
@@ -27,8 +22,6 @@
 
                 <!--LEFT SIDE BAR-->
                 <div class="col-md-4">
-                    <div class="widget recent_news">
-
                         <!--RECENT NEWS-->
                         <div class="panel panel-default">
                             <div class="panel-heading">
@@ -64,15 +57,9 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="divider"></div>
                         <!--/END RECENT NEWS-->
-
                     </div>
-                </div>
                 <!--/END LEFT SIDE BAR-->
-
             </div>
         </div>
     </div>
-
-</body>

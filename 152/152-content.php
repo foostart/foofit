@@ -1,46 +1,34 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<?php
+$url_host = $_SERVER['HTTP_HOST'];
 
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/320.less', 'css/320.css');
-    ?>
-    <link href="css/320.css" rel="stylesheet" type="text/css"/>
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
-</head>
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-<body>
+preg_match_all($pattern_uri, __DIR__, $matches);
 
-    <div class="type-320">
+$url_path = $url_host . $matches[1][0];
+
+$url_path = str_replace('\\', '/', $url_path);
+?>
+    <div class="type-152">
         <div class="container slidebar">
             <div class="row">
-
                 <!--LEFT-->
                 <div class="col-md-8"></div>
                 <!--/END LEFT-->
-
                 <!--RIGHT SIDE BAR-->
                 <div class="col-md-4">
-
                     <!--LIST DEPARTMENTS-->
-                    <div class="widget dept_itdc">
-
-                        <div class="panel panel-default list_departments">
+                        <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h2>Bộ môn <br><span>chuyên ngành</span></h2>
                             </div>
                             <div class="crossedbg"></div>
-                            <div class="dep_list">
                                 <div class="dep_item dep_network">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <img class="img-responsive" src="images/mmt_thumb.jpg">
+                                            <img class="img-responsive" src="http://<?php echo $url_path ?>/images/mmt_thumb.jpg" alt="mmt">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
                                             Mạng<br>máy tính
@@ -50,7 +38,7 @@
                                 <div class="dep_item dep_software">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <img class="img-responsive" src="images/cnpm_thumb.jpg">
+                                            <img class="img-responsive" src="http://<?php echo $url_path ?>/images/cnpm_thumb.jpg" alt="cnpm">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
                                             công nghệ<br> phần mềm
@@ -60,7 +48,7 @@
                                 <div class="dep_item dep_graphic">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <img class="img-responsive" src="images/dh_thumb.jpg">
+                                            <img class="img-responsive" src="http://<?php echo $url_path ?>/images/dh_thumb.jpg" alt="dh">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
                                             Đồ họa
@@ -70,24 +58,19 @@
                                 <div class="dep_item dep_informatics">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <img class="img-responsive" src="images/thcs_thumb.jpg">
+                                            <img class="img-responsive" src="http://<?php echo $url_path ?>/images/thcs_thumb.jpg" alt="thcs">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
                                             Tin học<br>cơ sở
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                         </div>	
                         <div class="divider"></div>
-                    </div>
                     <!--/END LIST DEPARTMENTS-->
                 </div>             
-
             </div>
             <!--/END RIGHT SIDE BAR-->
-
         </div>
     </div>
 
-</body>
