@@ -1,86 +1,38 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/306.less', 'css/306.css');
-    ?>
-    <link href="css/306.css" rel="stylesheet" type="text/css"/>
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
 
-</head>
+if (!class_exists('lessc')) {
+    $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
+    require_once($dir_block . '/libs/lessc.inc.php');
+}
 
-<body>
-
-    <div class="type-306">
-        <div class="container sidebar">
-            <div class="row">
-                <!--LEFT SIDE BAR-->
-                <div class="col-md-4">
-                    
-                    <!--WIDGET TOP WORKS-->
-                    <div class="widget topworks">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h2>Tuyển dụng <br><span>Cơ hội việc làm</span></h2>
-                            </div>
-                            <div class="crossedbg"></div>
-                            <div class="panel-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <a href="#">IT Phần Cứng - Mạng</a>                        
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href="#">Nhân Viên Kỹ Thuật</a>                        
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>	
-                        <div class="divider"></div>
-                    </div>
-                    <!--/END WIDGET TOP WORKS-->
-
-                    <!--WIDGET TOP ALUMNUS-->
-                    <div class="widget topalumnuS">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h2>Cựu sinh viên <br><span>Thông tin cần biết</span></h2>
-                            </div>
-                            <div class="crossedbg"></div>
-                            <div class="panel-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item">
-                                        <a href="#">Làm thế nào học tiếng Anh với 15 phút mỗi ngày?</a>                        
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href="#">Ứng đối trôi chảy</a>                        
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href="#">Bản đồ tư duy</a>                       
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href="#">Kỹ năng giao tiếp</a>                        
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href="#">Phân tích SWOT</a>                        
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>	
-                        <div class="divider"></div>
-                    </div>
-                    <!--/END WIDGET TOP ALUMNUS-->
-
-                </div>
-                <!--/END LEFT SIDE BAR-->
-
-            </div>
-        </div>
-    </div>
-
-</body>
+$less = new lessc;
+$less->compileFile('less/138.less', 'css/138');
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>138</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/138.css" rel="stylesheet" type="text/css" />
+        <?php
+        if (!class_exists('lessc')) {
+            include ('./libs/lessc.inc.php');
+        }
+        $less = new lessc;
+        $less->compileFile('less/138.less', 'css/138.css');
+        ?>
+    </head>
+    <body >
+        <?php include '../138/138-content.php'; ?>
+    </body>
+</html>

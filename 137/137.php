@@ -1,84 +1,38 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/305.less', 'css/305.css');
-    ?>
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
 
-    <link href="css/305.css" rel="stylesheet" type="text/css"/>
+if (!class_exists('lessc')) {
+    $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
+    require_once($dir_block . '/libs/lessc.inc.php');
+}
 
-</head>
-
-<body>
-
-    <div class="type-305">
-
-        <div class="container event">
-            <div class="row">
-                <!--LEFT SIDE BAR-->
-                <div class="col-md-4">
-
-                    <!--WIDGET TOP EVENTS-->
-                    <div class="widget topevents">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h2>Sự kiện <br><span>Hoạt động</span></h2>
-                            </div>
-                            <div class="crossedbg"></div>
-                            <div class="bodytimeline">
-                                <ul class="timeline">
-                                    <!--TOP EVENTS LEFT-->
-                                    <li>
-                                        <div class="timeline-badge "></div>
-                                        <div class="timeline-panel">
-                                            <div class="eventtime">
-                                                <div class="eventtimecover">
-                                                    <div class="eventdm">
-                                                        <div class="eventday">14</div>
-                                                        <div class="eventmonth">01</div>
-                                                    </div>
-                                                    <div class="eventyear">'17</div>
-                                                </div>
-                                            </div>
-                                            <div class="eventdetails">
-                                                <div class="eventlocation">
-                                                    Hội trường H
-                                                </div>
-                                                <div class="eventdesc">
-                                                    <a href="#">Hội nghị học tập, quán triệt nghị quyết TW4 và chỉ thị 05</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <!--/END TOP EVENTS LEFT-->
-
-                                    <!--TOP EVENTS RIGHT-->
-
-                                    <!--/END TOP EVENTS RIGHT-->
-                                </ul>
-                            </div>
-                            <div class="crossedbg"></div>
-                        </div>
-
-                        <div class="divider"></div>
-                    </div>
-                    <!--/END WIDGET TOP EVENTS-->
-
-                </div>
-                <!--/END LEFT SIDE BAR-->
-
-                <!--RIGHT SIDE BAR-->
-                <!--/END RIGHT SIDE BAR-->
-            </div>
-        </div>
-
-    </div>
-
-</body>
+$less = new lessc;
+$less->compileFile('less/137.less', 'css/137');
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>137</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/137.css" rel="stylesheet" type="text/css" />
+        <?php
+        if (!class_exists('lessc')) {
+            include ('./libs/lessc.inc.php');
+        }
+        $less = new lessc;
+        $less->compileFile('less/137.less', 'css/137.css');
+        ?>
+    </head>
+    <body >
+        <?php include '../137/137-content.php'; ?>
+    </body>
+</html>

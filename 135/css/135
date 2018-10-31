@@ -1,19 +1,19 @@
-.type-303 {
+.type-135 {
   background-image: url('../images/bg_pattern.png');
 }
-.type-303 .prof_profile {
+.type-135 .prof_profile {
   margin-top: 55px;
   background: #fff;
 }
-.type-303 .prof_profile img {
+.type-135 .prof_profile img {
   width: 100%;
   max-width: 100%;
 }
-.type-303 .prof_profile .prof_ide {
+.type-135 .prof_profile .prof_ide {
   background: #f5ce31;
   position: relative;
 }
-.type-303 .prof_profile .prof_ide .prof_fullname {
+.type-135 .prof_profile .prof_ide .prof_fullname {
   font-weight: 800;
   text-transform: capitalize;
   border-right: 1px #333 solid;
@@ -21,14 +21,14 @@
   vertical-align: middle;
   padding-right: 15px;
 }
-.type-303 .prof_profile .prof_ide .prof_title {
+.type-135 .prof_profile .prof_ide .prof_title {
   display: table-cell;
   vertical-align: middle;
   text-transform: uppercase;
   font-style: italic;
   padding-left: 15px;
 }
-.type-303 .prof_profile .prof_ide:before {
+.type-135 .prof_profile .prof_ide:before {
   content: "";
   position: absolute;
   top: 100%;
@@ -39,64 +39,64 @@
   display: block;
   width: 0;
 }
-.type-303 .prof_profile .prof_contact {
+.type-135 .prof_profile .prof_contact {
   padding: 30px;
   font-style: italic;
 }
-.type-303 .prof_profile .prof_contact .prof_dep {
+.type-135 .prof_profile .prof_contact .prof_dep {
   font-weight: bold;
   font-size: 1.2em;
 }
-.type-303 .prof_profile .prof_contact ul {
+.type-135 .prof_profile .prof_contact ul {
   list-style: none;
   padding: 0;
   margin: 0;
   margin-top: 15px;
 }
-.type-303 .prof_profile .prof_contact ul li {
+.type-135 .prof_profile .prof_contact ul li {
   padding: 5px 0;
 }
-.type-303 .prof_profile .crossedbg {
+.type-135 .prof_profile .crossedbg {
   background: url(../images/bg_cr_grey.png);
   height: 15px;
 }
-.type-303 .col-md-8,
-.type-303 .col-md-4 {
+.type-135 .col-md-8,
+.type-135 .col-md-4 {
   padding-left: 0;
   padding-right: 0;
 }
 @media (min-width: 768px) {
-  .type-303 .profile {
+  .type-135 .profile {
     width: 960px;
     padding: 0;
   }
-  .type-303 .prof_ide {
+  .type-135 .prof_ide {
     padding: 30px;
   }
-  .type-303 .prof_fullname {
+  .type-135 .prof_fullname {
     font-size: 1.8em;
   }
-  .type-303 .prof_title {
+  .type-135 .prof_title {
     font-size: 1.2em;
   }
-  .type-303 .prof_ava {
+  .type-135 .prof_ava {
     padding-left: 15px;
   }
-  .type-303 .prof_info {
+  .type-135 .prof_info {
     padding-right: 15px;
   }
 }
 @media (max-width: 768px) {
-  .type-303 .prof_ide {
+  .type-135 .prof_ide {
     padding: 15px;
   }
-  .type-303 .prof_fullname {
+  .type-135 .prof_fullname {
     font-size: 1em;
   }
-  .type-303 .prof_title {
+  .type-135 .prof_title {
     font-size: 0.7em;
   }
-  .type-303 .container {
+  .type-135 .container {
     padding: 0;
   }
 }

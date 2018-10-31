@@ -1,0 +1,146 @@
+.type-133 .navbar-default {
+  background: #42a7a9;
+  border: none;
+  margin: -5px;
+}
+.type-133 nav.topnav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.type-133 nav.topnav ul li {
+  float: left;
+  text-align: center;
+}
+.type-133 nav.topnav ul li a {
+  color: #fff;
+  padding: 15px;
+  display: inline-block;
+}
+.type-133 nav.topnav .active>a {
+  background: #56bdbf;
+  color: #fff;
+}
+.type-133 nav.topnav .active>a:hover {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.type-133 nav.topnav a:hover {
+  color: #333;
+}
+.type-133 .topnav a {
+  text-decoration: none;
+}
+.type-133 .container {
+  width: 960px;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.type-133 .logo {
+  background-color: #fff;
+  padding: 17px 0;
+  padding-right: 30px;
+  position: absolute;
+  float: left;
+}
+.type-133 .triangle-arrow {
+  border-right: 58px solid transparent;
+  border-top: 96px solid #fff;
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  right: -58px;
+  top: 0;
+  filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.25));
+}
+.type-133 .left-bg {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  left: -100%;
+  height: 100px;
+}
+.type-133 .logo a img {
+  height: auto;
+}
+.type-133 .navbar-header {
+  float: left;
+}
+.type-133 .navbar-inverse {
+  background-color: #003b7a;
+}
+.type-133 .navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: none;
+}
+.type-133 .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+.type-133 .navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.type-133 .navbar-toggle .icon-bar+.icon-bar {
+  margin-top: 4px;
+}
+.type-133 .navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.type-133 #mainnav {
+  font-size: 1em !important;
+}
+.type-133 .navbar-collapse.collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+.type-133 .navbar-collapse {
+  width: auto;
+  border-top: 0;
+  box-shadow: none;
+}
+.type-133 .navbar-right {
+  float: right !important;
+}
+.type-133 .navbar-nav.navbar-right:last-child {
+  margin-right: -15px;
+}
+.type-133 .navbar-nav {
+  padding: 0;
+}
+.type-133 .navbar-nav>li {
+  float: left;
+}
+.type-133 .nav>li {
+  position: relative;
+  display: block;
+}
+.type-133 .navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 25px 20px;
+}

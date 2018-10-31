@@ -1,43 +1,38 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/304.less', 'css/304.css');
-    ?>
-    <link href="css/304.css" rel="stylesheet" type="text/css"/>
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
 
-</head>
+if (!class_exists('lessc')) {
+    $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
+    require_once($dir_block . '/libs/lessc.inc.php');
+}
 
-<body>
-
-    <div class="type-304">
-        <div class="container sidebar">
-            <div class="row">
-                <!--LEFT SIDE BAR-->
-                <div class="col-md-4">
-
-                    <!--WIDGET IMAGES ENROLLMENT-->
-                    <div class="widget html">
-                        <div style="margin-top: 45px;">
-                            <a href="#">
-                                <img src="images/tuyensinh.gif" style="max-width: 100%; width: 100%;">
-                            </a>
-                        </div>	
-                        <div class="divider"></div>
-                    </div>
-                    <!--/END WIDGET IMAGES ENROLLMENT-->
-
-                </div>
-                <!--/END LEFT SIDE BAR-->
-            </div>
-        </div>
-    </div>
-
-</body>
+$less = new lessc;
+$less->compileFile('less/136.less', 'css/136');
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>136</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/136.css" rel="stylesheet" type="text/css" />
+        <?php
+        if (!class_exists('lessc')) {
+            include ('./libs/lessc.inc.php');
+        }
+        $less = new lessc;
+        $less->compileFile('less/136.less', 'css/136.css');
+        ?>
+    </head>
+    <body >
+        <?php include '../136/136-content.php'; ?>
+    </body>
+</html>

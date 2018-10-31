@@ -1,43 +1,35 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<?php
+$url_host = $_SERVER['HTTP_HOST'];
 
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/304.less', 'css/304.css');
-    ?>
-    <link href="css/304.css" rel="stylesheet" type="text/css"/>
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
-</head>
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-<body>
+preg_match_all($pattern_uri, __DIR__, $matches);
 
-    <div class="type-304">
-        <div class="container sidebar">
-            <div class="row">
-                <!--LEFT SIDE BAR-->
-                <div class="col-md-4">
+$url_path = $url_host . $matches[1][0];
 
-                    <!--WIDGET IMAGES ENROLLMENT-->
-                    <div class="widget html">
-                        <div style="margin-top: 45px;">
-                            <a href="#">
-                                <img src="images/tuyensinh.gif" style="max-width: 100%; width: 100%;">
-                            </a>
-                        </div>	
-                        <div class="divider"></div>
-                    </div>
-                    <!--/END WIDGET IMAGES ENROLLMENT-->
+$url_path = str_replace('\\', '/', $url_path);
+?>
+<div class="type-136">
+    <div class="container sidebar">
+        <div class="row">
+            <!--LEFT SIDE BAR-->
+            <div class="col-md-4">
 
+                <!--WIDGET IMAGES ENROLLMENT-->
+                <div class="widget html">
+                    <div style="margin-top: 45px;">
+                        <a href="#">
+                            <img src="http://<?php echo $url_path ?>/images/tuyensinh.gif" style="max-width: 100%; width: 100%;">
+                        </a>
+                    </div>	
+                    <div class="divider"></div>
                 </div>
-                <!--/END LEFT SIDE BAR-->
+                <!--/END WIDGET IMAGES ENROLLMENT-->
+
             </div>
+            <!--/END LEFT SIDE BAR-->
         </div>
     </div>
-
-</body>
+</div>

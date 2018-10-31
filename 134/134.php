@@ -1,65 +1,43 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/302.less', 'css/302.css');
-    ?>
-    <link href="css/302.css" rel="stylesheet" type="text/css"/>
-    <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
-</head>
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
 
-<body>
-    <div class="type-302">
-        <div class="container slideshow">
-            <!--SLIDE SHOW-->
-            <div class="swiper-container">
-                <!--SLIDE BANNER-->
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="#">
-                            <img src="images/banner3.jpg" alt=""/>
-                        </a>
-                        <div class="content-slide-show">
-                            <h3 class="title" data-swiper-parallax="-100">Ra mắt <br><span class="subtitle">Logo Khoa CNTT</span></h3>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#">
-                            <img src="images/banner2.jpg" alt=""/>
-                        </a>
-                        <div class="content-slide-show">
-                            <h3 class="title" data-swiper-parallax="-100"><span class="subtitle">Chào mừng Tân Sinh viên</span><br>Khóa 2016</h3>
-                        </div>       
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="#">
-                            <img src="images/banner1.jpg" alt=""/>
-                        </a>   
-                        <div class="content-slide-show">
-                            <h3 class="title" data-swiper-parallax="-100"><span class="subtitle">Khoa CNTT</span><br>Trường CĐ Công Nghệ Thủ Đức</h3>
-                        </div>    
-                    </div>
-                </div>
-                <!--END SLIDE BANNER-->
-                
-                <!--PAGINATION-->
-                <div class="swiper-pagination"></div>
-                <!--END PAGINATION-->
-                <!--ARROWS -->
-                <div class="swiper-button-next"><span class="btn-next fa fa-chevron-right"></span></div>
-                <div class="swiper-button-prev"><span class="btn-prev fa fa-chevron-left"></span></div>
-                <!--END ARROWS-->
-            </div>
-            <!--END SLIDE SHOW-->
-        </div>
-    </div>
-</body>
-<script src="js/swiper.min.js" type="text/javascript"></script>
-<script src="js/302.js" type="text/javascript"></script>
+if (!class_exists('lessc')) {
+    $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
+    require_once($dir_block . '/libs/lessc.inc.php');
+}
+
+$less = new lessc;
+$less->compileFile('less/134.less', 'css/134');
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>134</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="<?php echo $url_path ?>/css/134.css" rel="stylesheet" type="text/css" />
+        <?php
+        if (!class_exists('lessc')) {
+            include ('./libs/lessc.inc.php');
+        }
+        $less = new lessc;
+        $less->compileFile('less/134.less', 'css/134.css');
+        ?>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/swiper.min.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/134.js" type="text/javascript"></script>
+    </head>
+    <body >
+        <?php include '../134/134-content.php'; ?>
+    </body>
+</html>

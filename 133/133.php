@@ -1,73 +1,39 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/301.less', 'css/301.css');
-    ?>
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
 
-    <link href="css/301.css" rel="stylesheet" type="text/css"/>
-    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+if (!class_exists('lessc')) {
+    $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
+    require_once($dir_block . '/libs/lessc.inc.php');
+}
 
-</head>
-
-<body>
-    <div class="type-301">
-        <!--MENU HOME-->
-        <div class="navbar-default" role="navigation">
-           
-            <div class="container">        
-                <nav class="topnav">
-                    <ul>
-                        <li class="active"><a href="#">Trang chủ</a></li>
-                        <li><a href="gioi-thieu">Giới thiệu</a></li>
-                        <li><a href="thanh-tich">Thành tích</a></li>
-                        <li><a href="tuyen-sinh">Tuyển sinh</a></li>
-                        <li><a href="brochure">Brochure</a></li>
-                        <li><a href="lien-he">Liên hệ</a></li> 
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <!--END MENU HOME-->
-      
-        <div class="navbar navbar-inverse navbar-static-top">
-            <!--LIST OF HEADER -->
-            <div class="container" style="position: relative;">
-                <div class="left-bg">&nbsp;</div>
-                <div class="container">
-                    <div class="logo">
-                        <a href="#"><img alt="TDC-Khoa CNTT logo" src="images/logo.png"></a>
-                        <span class="triangle-arrow">&nbsp;</span>
-                    </div>
-                    
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainnav"> 
-                            <span class="sr-only">Toggle navigation</span> 
-                            <span class="icon-bar"></span> 
-                            <span class="icon-bar"></span> 
-                            <span class="icon-bar"></span> 
-                        </button>
-                    </div>
-                    <!---->
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="first parent"><a href="#">TIN TỨC</a></li>
-                            <li class="parent"><a href="#">GIẢNG VIÊN</a></li>
-                            <li class="parent"><a href="#">SINH VIÊN</a></li>
-                            <li class="parent"><a href="#">CHUYÊN ĐỀ</a></li>
-                            <li class="last parent"><a href="#">ĐÀO TẠO</a></li>
-                        </ul>
-                    </div>                  
-                </div>
-            </div>
-        </div>
-        <!--END MENU HEADER-->
-    </div>
-</body>
+$less = new lessc;
+$less->compileFile('less/133.less', 'css/133');
+?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>133</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="<?php echo $url_path ?>/css/133.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <?php
+        if (!class_exists('lessc')) {
+            include ('./libs/lessc.inc.php');
+        }
+        $less = new lessc;
+        $less->compileFile('less/133.less', 'css/133.css');
+        ?>
+    </head>
+    <body >
+        <?php include '../133/133-content.php'; ?>
+    </body>
+</html>
