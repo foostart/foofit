@@ -47,6 +47,12 @@
 .type-331 .itdcadd li {
   margin: 10px 0;
 }
+.type-331 .Date-Time {
+  padding-left: 5px;
+}
+.type-331 .Date-time-Secondline {
+  padding-left: 32px;
+}
 .type-331 #map-canvas {
   height: 450px;
 }

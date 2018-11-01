@@ -1,23 +1,3 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/331.less', 'css/331.css');
-    ?>
-    <link href="css/331.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Prata" />
-
-</head>
-
-<body>
-
     <div class="type-331">
         <div class="container address">
             <div class="row">
@@ -36,15 +16,15 @@
                                 </p>
                                 <ul class="itdcadd">
                                     <li>
-                                        <i class="fa fa-clock-o fa-lg fa-fw"></i>&nbsp; Thứ 2 đến thứ 6, 7h00 - 11h30, 13h30 - 16h30<br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thứ 7, 7h30 - 11h
+                                        <i class="fa fa-clock-o fa-lg fa-fw"></i> <span class="Date-Time"> Thứ 2 đến thứ 6, 7h00 - 11h30, 13h30 - 16h30 </span> <br>
+                                        <span class="Date-time-Secondline">Thứ 7, 7h30 - 11h</span>
                                     </li>
                                     <li>
-                                        <i class="fa fa-building fa-lg fa-fw"></i>&nbsp; 53, Võ Văn Ngân, P.Linh Chiểu,<br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Q.Thủ Đức, Tp.HCM
+                                        <i class="fa fa-building fa-lg fa-fw"></i><span class="Date-Time"> 53, Võ Văn Ngân, P.Linh Chiểu,</span><br>
+                                        <span class="Date-Time-Secondline"> Q.Thủ Đức, Tp.HCM </span>
                                     </li>
                                     <li>
-                                        <i class="fa fa-phone fa-lg fa-fw"></i>&nbsp; (08) 22 158 642
+                                        <i class="fa fa-phone fa-lg fa-fw"></i><span class="Date-Time"> (08) 22 158 642 </span>
                                     </li>
                                 </ul>
                             </address>
@@ -66,5 +46,3 @@
                 </div>
             </div>
         </div>
-
-</body>
