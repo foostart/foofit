@@ -1,4 +1,10 @@
 .type-133{
+    .background-hover-menu{
+        color: #fff;
+        background: linear-gradient(to bottom, #1f27a3 0%,#42a7a9 100%,#003b7a 100%);
+        transition: all 1s ease;
+    }
+
     .navbar-default {
         background: #42a7a9;
         border: none;
@@ -24,11 +30,10 @@
         color: #fff;
     }
     nav.topnav .active>a:hover {    
-        color: #555;
-        background-color: #e7e7e7;
+        .background-hover-menu;
     }
-    nav.topnav a:hover {       
-        color:#333;        
+    nav.topnav a:hover { 
+        .background-hover-menu;      
     }
     .topnav a{
         text-decoration: none;
@@ -124,6 +129,7 @@
     }
     .navbar-right {
         float: right!important;
+        margin-top: -5px;
     }
     .navbar-nav.navbar-right:last-child {
         margin-right: -15px;
@@ -144,10 +150,16 @@
         font-weight: bold;
         font-size: 1.1em;
         padding: 25px 20px;
+
     }
+    a:hover{
+        .background-hover-menu;      
+    }
+
+
     /*----------REPONSIVE-----------*/
     @media (max-width: 768px){
-        
+
     }
 }
 

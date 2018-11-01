@@ -49,9 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </li>
                                 <!--/END TOP EVENTS LEFT-->
-
                                 <!--TOP EVENTS RIGHT-->
-
                                 <!--/END TOP EVENTS RIGHT-->
                             </ul>
                         </div>
