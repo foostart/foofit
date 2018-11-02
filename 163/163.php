@@ -9,9 +9,9 @@
         include ('./libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/331.less', 'css/331.css');
+    $less->compileFile('less/163.less', 'css/163.css');
     ?>
-    <link href="css/331.css" rel="stylesheet" type="text/css"/>
+    <link href="css/163.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Prata" />
 
 </head>

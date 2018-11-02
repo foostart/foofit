@@ -1,22 +1,3 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/332.less', 'css/332.css');
-    ?>
-    <link href="css/332.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Prata" />
-
-</head>
-
-<body>
 
     <div class="type-332">
         <div class="container address">
@@ -45,7 +26,7 @@
                                     <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
                                 </div>
                                 <div class="form-group">
-                                    <textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Lời nhắn"></textarea>
+                                    <textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Lời nhắn" style="resize:none;"></textarea>
                                     <span class="help-block" style="display: none;">Please enter a message.</span>
                                 </div>
                                 <br>
@@ -65,5 +46,3 @@
             </div>
         </div>
     </div>
-
-</body>

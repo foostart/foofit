@@ -9,14 +9,14 @@
         include ('./libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/333.less', 'css/333.css');
+    $less->compileFile('less/165.less', 'css/165.css');
     ?>
-    <link href="css/333.css" rel="stylesheet" type="text/css"/>
+    <link href="css/165.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>       
 </head>
 
 <body>
-    <div class="type-333">
+    <?php include '../165/165-content.php'; ?>
         <div class="container intro">
             <div class="row">
                 <!-----INTRODUCTION------> 
