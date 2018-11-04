@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <!--PROFILE-->
         <div class="container prof_profile shadow profile">
             <div class="row">
-                <!--------------Begin Profile---------------->
+                <!--Begin Profile-->
                 <div class="col-md-4 .col-sm-5 col-xs-5 prof_ava">
                     <img src="http://<?php echo $url_path ?>/images/VoThanhTrung.jpg" alt=""/>
                 </div>
@@ -31,23 +31,23 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                     <div class="prof_contact">
                         <span class="prof_dep">Văn phòng khoa</span>
-                        <ul>
+                        <div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
-                                    <li><i class="fa fa-graduation-cap fa-lg fa-fw"></i>&nbsp; Thạc sĩ</li>
-                                    <li title="Phone number"><i class="fa fa-phone fa-lg fa-fw"></i>&nbsp; (+84)822158642</li>
-                                    <li title="Email"><i class="fa fa-envelope fa-lg fa-fw"></i>&nbsp;trunga2@tdc.edu.vn </li>
+                                    <div><i class="fa fa-graduation-cap fa-lg fa-fw"></i>&nbsp; Thạc sĩ</div>
+                                    <div title="Phone number"><i class="fa fa-phone fa-lg fa-fw"></i>&nbsp; (+84)822158642</div>
+                                    <div title="Email"><i class="fa fa-envelope fa-lg fa-fw"></i>&nbsp;trunga2@tdc.edu.vn </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
-                                    <li title="Skype"><i class="fa fa-skype fa-lg fa-fw"></i>&nbsp;trungtdc2013</li>
-                                    <li title="Website"><i class="fa fa-external-link fa-lg fa-fw"></i>&nbsp; http://fit.tdc.edu.vn/nhan-su/vo-thanh-trung</li>
+                                    <div title="Skype"><i class="fa fa-skype fa-lg fa-fw"></i>&nbsp;trungtdc2013</div>
+                                    <div title="Website"><i class="fa fa-external-link fa-lg fa-fw"></i>&nbsp; http://fit.tdc.edu.vn/nhan-su/vo-thanh-trung</div>
                                 </div>
                             </div>
-                        </ul>
+                        </div>
                     </div>
 
                 </div>
-                <!--------------End Profile---------------->
+                <!--End Profile-->
             </div>
         </div>
 

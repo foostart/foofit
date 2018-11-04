@@ -33,9 +33,9 @@ $less->compileFile('less/134.less', 'css/134.css');
         $less = new lessc;
         $less->compileFile('less/134.less', 'css/134.css');
         ?>
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/swiper.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/134.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/134.js"></script>
     </head>
     <body >
         <?php include '../134/134-content.php'; ?>

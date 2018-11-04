@@ -31,7 +31,7 @@ $less->compileFile('less/135.less', 'css/135.css');
         $less = new lessc;
         $less->compileFile('less/135.less', 'css/135.css');
         ?>
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
     </head>
     <body >
         <?php include '../135/135-content.php'; ?>

@@ -20,7 +20,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="widget html">
                     <div class="img">
                         <a href="#">
-                            <img src="http://<?php echo $url_path ?>/images/tuyensinh.gif">
+                            <img src="http://<?php echo $url_path ?>/images/tuyensinh.gif" alt="tuyensinh">
                         </a>
                     </div>	
                     <div class="divider"></div>
