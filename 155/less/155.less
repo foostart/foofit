@@ -1,4 +1,4 @@
-.type-153 {
+.type-155 {
 
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
@@ -8,7 +8,7 @@
 
     a:hover, a:focus {
         color: @color_hover;
-        text-decoration: none;
+        text-decoration: underline;
     }
 
     /*------------------GENERAL--------------------*/
@@ -36,7 +36,24 @@
         background: url(../images/bg_cr_grey.png);
         height: 15px;
     }
-    /*------------------/END GENERAL--------------------*/
+    .zoom {
+    border-bottom: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    display: block;
+    float: left;
+    overflow: hidden;
+    background: #fff;
+}
+.zoom:hover img{
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+}
+.zoom img{
+	width:100%;
+	-webkit-transition:all 0.3s ease-out 0s;
+	transition:all 0.3s ease-out 0s;
+}
+    /*------------------END GENERAL--------------------*/
 
     /*------------------TOP WORKS & TOP ALUMNUS--------------------*/
     .panel-body {
@@ -70,19 +87,25 @@
     .list-group-item:last-child {
         border: none;
     }
-    /*------------------/END TOP WORKS & TOP ALUMNUS--------------------*/
-
-    /*------------------RECENT NEWS--------------------*/
-    .on-recent-news {
-        padding: 5px 15px !important;
-        margin: 0 5px !important;
-        span {
-            font-size: 11px; 
-            color: #bfbfbf;
-        }
+    .contest_item{
+         img {
+                display: block;
+                margin: 0;
+                width: 100%;
+                height: auto;
+                transition: all 0.5s;
+            }
+            .img-responsive:hover{
+                 transform: scale(1.6);
+            }
     }
-    /*------------------/END RECENT NEWS--------------------*/
-    /*------------------REPONSIVE--------------*/
+    /*------------------END TOP WORKS & TOP ALUMNUS--------------------*/
+
+    .contest_list .contest_item {
+        padding: 0 2px 4px 2px;
+    }
+    
+    /*---------------REPONSIVE-------------*/
     @media (min-width: 992px){
         .sidebar{
             padding: 0;

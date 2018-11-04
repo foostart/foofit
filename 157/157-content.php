@@ -1,36 +1,24 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<?php
+$url_host = $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+?>
 
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/325.less', 'css/325.css');
-    ?>
-    <link href="css/325.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Prata" />
-
-</head>
-
-<body>
-
-    <div class="type-325">
+    <div class="type-157">
         <div class="container sidebar">
             <div class="row">
                 <!--CONTENTS LEFT-->
                 <div class="col-md-8">
 
                     <!--LIST NEWS-->
-                    <div class="list_news">
                         <div class="list_new_view">
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="top_news_block_thumb">
-                                        <img src="images/php.jpg">
+                                        <img src="http://<?php echo $url_path ?>/images/php.jpg" alt="thumb">
                                     </div>
                                 </div>
                                 <div class="col-md-7 top_news_block_desc">
@@ -55,7 +43,7 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="top_news_block_thumb">
-                                        <img src="images/php.jpg">
+                                        <img src="http://<?php echo $url_path ?>/images/php.jpg" alt="thumb">
                                     </div>
                                 </div>
                                 <div class="col-md-7 top_news_block_desc">
@@ -80,7 +68,7 @@
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="top_news_block_thumb">
-                                        <img src="images/php.jpg">
+                                        <img src="http://<?php echo $url_path ?>/images/php.jpg" alt="thumb">
                                     </div>
                                 </div>
                                 <div class="col-md-7 top_news_block_desc">
@@ -100,7 +88,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+               
                     <!--/END LIST NEWS-->
 
                 </div>
@@ -111,5 +99,3 @@
             </div>
         </div>
     </div>
-
-</body>

@@ -1,21 +1,12 @@
-.type-153 {
+.type-154 {
 
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
 
-    background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
 
-    a:hover, a:focus {
-        color: @color_hover;
-        text-decoration: none;
-    }
-
     /*------------------GENERAL--------------------*/
-    .panel {
-        background: none;
-        box-shadow: none;
-    }
+
     .panel-default {
         border: none;
     }   
@@ -24,7 +15,7 @@
         background: none !important;
         padding: 20px 0 0;
         h2 {
-            font-weight: bold;
+            font-weight: 800;
             font-size: 1.8em;
         }
         h2>span {
@@ -36,7 +27,7 @@
         background: url(../images/bg_cr_grey.png);
         height: 15px;
     }
-    /*------------------/END GENERAL--------------------*/
+    /*------------------END GENERAL--------------------*/
 
     /*------------------TOP WORKS & TOP ALUMNUS--------------------*/
     .panel-body {
@@ -72,16 +63,39 @@
     }
     /*------------------/END TOP WORKS & TOP ALUMNUS--------------------*/
 
-    /*------------------RECENT NEWS--------------------*/
-    .on-recent-news {
-        padding: 5px 15px !important;
-        margin: 0 5px !important;
-        span {
-            font-size: 11px; 
-            color: #bfbfbf;
+    /*------------------STUDENT--------------------*/
+    .feedback_owner {
+        margin: 0;
+        .feedback_thumb img {
+            border-radius: 50%;
         }
+        .feedback_desc {
+            padding: 5px 0;
+        }
+        .feedback_name {
+            color: #f5ce31;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: bold;
+            text-transform: capitalize;
+            font-size: 1.2em;
+        }
+        .feedback_title {
+            margin: 5px 0 0;
+        }
+        .mobile{
+            margin-top: 15px;
+              margin-bottom: 15px;
+        }
+        cursor: pointer;
     }
-    /*------------------/END RECENT NEWS--------------------*/
+    .feedback_owner:hover{
+        background: #003b7a;
+        .feedback_desc{
+            color:#fff;
+        }
+       
+    }
+    /*------------------/END STUDENT--------------------*/
     /*------------------REPONSIVE--------------*/
     @media (min-width: 992px){
         .sidebar{
