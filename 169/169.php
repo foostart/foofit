@@ -1,6 +1,7 @@
-<head>
+<!DOCTYPE html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>Module 169</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 

@@ -1,12 +1,9 @@
 
     <div class="type-339">
         <div class="container news">
-            
-           
             <div class="row">
             <!--NEWS-->
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                   
                     <div class="top_news_block">
                         <div class="top_news_block_thumb">
                             <img src="images/posts-1.png" alt=""/>
@@ -25,10 +22,8 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                    
                     <div class="top_news_block">
                         <div class="top_news_block_thumb">
                             <img src="images/posts-1.png" alt=""/>
@@ -46,8 +41,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
+                    </div>  
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12">                   
                     <div class="top_news_block">
@@ -68,7 +62,6 @@
                             </div>
                         </div>
                     </div>
-                   
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     
@@ -90,7 +83,6 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     
@@ -111,8 +103,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
+                    </div> 
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12">                   
                     <div class="top_news_block">
@@ -132,14 +123,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                   
+                    </div>  
                 </div>  
-             
             <!--END NEWS-->  
-            
             </div>
-            
             <!--PAGINATION-->
             <div class="pagination-centered">
                 <ul class="pagination">

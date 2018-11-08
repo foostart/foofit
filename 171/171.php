@@ -1,6 +1,7 @@
-<head>
+<!DOCTYPE html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>Module 171</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
 
@@ -12,7 +13,7 @@
     $less->compileFile('less/171.less', 'css/171.css');
     ?>
     <link href="css/171.css" rel="stylesheet" type="text/css"/>
-    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>       
+    <script src="js/jquery-2.1.4.min.js"></script>       
 </head>
 
 <body>

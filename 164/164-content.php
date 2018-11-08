@@ -1,12 +1,9 @@
-
     <div class="type-332">
         <div class="container address">
             <div class="row">
-
                 <!--LEFT ADDRESS-->
                 <div class="col-sm-6 col-md-6"></div>
                 <!--/END LEFT ADDRESS-->
-
                 <!--RIGHT CONTACTS-->
                 <div class="col-sm-6 col-md-6">
                     <div class="panel panel-default">
@@ -16,7 +13,7 @@
                         <div class="crossedbg"></div>
                         <div class="panel-body">
                             <!--CONTACT FORM-->
-                            <form role="form" id="feedbackForm" method="POST">
+                            <form id="feedbackForm" method="POST">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="name" placeholder="Họ và tên">
                                     <span class="help-block" style="display: none;">Please enter your name.</span>
@@ -42,7 +39,6 @@
                     </div>			
                 </div>
                 <!--/END RIGHT CONTACTS-->
-
             </div>
         </div>
     </div>

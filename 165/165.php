@@ -1,6 +1,8 @@
-<head>
+<!DOCTYPE html>
+<head lang="vi" >
+   
     <meta charset="UTF-8">
-    <title></title>
+    <title>Module 165</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
 
@@ -22,6 +24,6 @@
 <body>
     <script>AOS.init();</script>
     <?php include '../165/165-content.php'; ?>
-    </div>
+    
 </body>
 

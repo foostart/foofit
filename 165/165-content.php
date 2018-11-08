@@ -20,8 +20,6 @@
                     <div class="images_Center" data-aos="fade-right">
                         <img src="images/tdc-1.jpg" alt=""/>
                     </div>
-                    ;
-
                     <div class="images_Center" data-aos="fade-right">
                         <img src="images/tdc-2.jpg" alt=""/>
                     </div>
@@ -33,7 +31,6 @@
                          <strong>Khoa Công nghệ Thông tin Trường Cao đẳng Công nghệ Thủ Đức</strong> được thành lập năm 2008, trên cơ sở Khoa Công Nghệ Thông Tin trường Trung Cấp Kỹ Thuật và Nghiệp Vụ Thủ Đức.<br>
                     Với đội ngũ cán bộ giảng dạy và nghiên cứu nhiều kinh nghiệm, đã hoặc đang làm việc thực tế ở các công ty, chúng tôi tự hào luôn mang đến một môi trường học tập tiên tiến, sáng tạo, năng động, phù hợp với thực tiễn doanh nghiệp. Các lĩnh vực nghiên cứu và giảng dạy của khoa rất đa dạng và phong phú, tập trung ở các chuyên ngành ứng với bốn bộ môn: Tin học cơ sở, Công nghệ phần mềm, Mạng máy tính và Đồ họa.
                     </div>
-                   
                    <div class="images_Center" data-aos="fade-right">
                         <img src="images/tdc-3.jpg" alt=""/>
                          <em>Bộ môn Tin học cơ sở - Khoa CNTT</em><br>
@@ -101,7 +98,6 @@
                             <li data-aos="fade-right">Phòng thực hành Quản trị mạng.</li>
                     </ul>
                     
-                   
                    <div class="images_Center" data-aos="fade-right">
                      <img src="images/tdc-10.jpg" alt=""/>
                         <em>Phòng thực hành;Quản trị mạng</em>
@@ -126,8 +122,7 @@
                         <em>Giờ tự học của sinh viên tại thư viện</em>
                     </div>
                     <br>
-                    
-                   
+                     
                     <div class="images_Center"  data-aos="fade-right" >
                      <img src="images/tdc-14.jpg" alt=""/>
                         <em>Khuôn viên trường thoáng mát, yên tĩnh dành cho sinh viên</em>
@@ -150,12 +145,12 @@
                         </div>
                     </div>
                 </div>
-                <!-----END INTRODUCTION------>
-                <!------SIDEBAR-->
+                <!-- ---END INTRODUCTION---- -->
+                <!-- ----SIDEBAR -->
                 <div class="col-md-4">
                     
                 </div>
-                <!-----END SIDEBAR-->
+                <!-- ---END SIDEBAR -->
             </div>
         </div>
     </div>

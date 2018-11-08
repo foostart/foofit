@@ -19,7 +19,7 @@
                     <li>
                         <div class="cube">
                             <div class="active-state">
-                                <h2></h2>
+                             
                                 <p>Trang bị cho sinh viên kiến thức và kỹ năng để trở thành nhà phát triển phần mềm chuyên nghiệp.</p>
                             </div>
                             <div class="default-state">
@@ -108,3 +108,5 @@
             </div>
             <!--END OF HEADER-->
         </div>
+</div>
+</div>

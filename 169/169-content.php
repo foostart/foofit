@@ -1,14 +1,11 @@
     <div class="type-337">
         <div class="container sidebar">
             <div class="row">
-
                 <!--LEFT-->
                 <div class="col-md-8"></div>
                 <!--/END LEFT-->
-
                 <!--RIGHT SIDE BAR-->
                 <div class="col-md-4">
-
                     <!--LIST DEPARTMENTS-->
                     <div class="widget dept_itdc">
 
@@ -21,7 +18,7 @@
                                 <div class="dep_item dep_network slide_diagonal">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <img class="img-responsive" src="images/mmt_thumb.jpg">
+                                            <img alt="" class="img-responsive" src="images/mmt_thumb.jpg">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
                                             Mạng<br>máy tính
@@ -31,7 +28,7 @@
                                 <div class="dep_item dep_software slide_diagonal">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <img class="img-responsive" src="images/cnpm_thumb.jpg">
+                                            <img alt="" class="img-responsive" src="images/cnpm_thumb.jpg">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
                                             công nghệ<br> phần mềm
@@ -41,7 +38,7 @@
                                 <div class="dep_item dep_graphic slide_diagonal">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <img class="img-responsive" src="images/dh_thumb.jpg">
+                                            <img alt="" class="img-responsive" src="images/dh_thumb.jpg">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
                                             Đồ họa
@@ -51,7 +48,7 @@
                                 <div class="dep_item dep_informatics slide_diagonal">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <img class="img-responsive" src="images/thcs_thumb.jpg">
+                                            <img alt="" class="img-responsive" src="images/thcs_thumb.jpg">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
                                             Tin học<br>cơ sở
@@ -64,9 +61,7 @@
                     </div>
                     <!--/END LIST DEPARTMENTS-->
                 </div>             
-
             </div>
             <!--/END RIGHT SIDE BAR-->
-
         </div>
     </div>

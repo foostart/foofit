@@ -4,10 +4,8 @@
                 <!--INTRODUCTION-->
                 <div class="col-md-8"></div>
                 <!--END INTRODUCTION-->
-
                 <!--RIGHT SIDE BAR-->
                 <div class="col-md-4">
-
                     <!--WIDGET TOP ALUMNUS-->
                     <div class="widget topalumnuS">
                         <div class="panel panel-default">
@@ -38,10 +36,8 @@
                         <div class="divider"></div>
                     </div>
                     <!--/END WIDGET TOP ALUMNUS-->
-
                 </div>
                 <!--/END RIGHT SIDE BAR-->
-
             </div>
         </div>
     </div>

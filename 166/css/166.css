@@ -12,6 +12,10 @@
 .type-334 .button_hover {
   transition: transform 0.5s;
 }
+.type-334 .button_hover img {
+  max-width: 100%;
+  width: 100%;
+}
 .type-334 .button_hover:hover {
   transform: scale(1.1);
 }
