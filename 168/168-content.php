@@ -17,19 +17,19 @@
                             <div class="crossedbg"></div>
                             <div class="panel-body">
                                 <ul class="list-group">
-                                    <li class="list-group-item">
+                                    <li class="list-group-item slide_right">
                                         <a href="#">Làm thế nào học tiếng Anh với 15 phút mỗi ngày?</a>                        
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="list-group-item slide_right">
                                         <a href="#">Ứng đối trôi chảy</a>                        
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="list-group-item slide_right">
                                         <a href="#">Bản đồ tư duy</a>                       
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="list-group-item slide_right">
                                         <a href="#">Kỹ năng giao tiếp</a>                        
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="list-group-item slide_right">
                                         <a href="#">Phân tích SWOT</a>                        
                                     </li>
                                 </ul>

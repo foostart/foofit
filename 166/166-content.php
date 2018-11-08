@@ -9,10 +9,10 @@
                 <div class="col-md-4">
 
                     <!--WIDGET IMAGES ENROLLMENT-->
-                    <div class="widget html">
-                        <div style="margin-top: 45px;">
-                            <a href="#">
-                                <img src="images/tuyensinh.gif" style="max-width: 100%; width: 100%;">
+                    <div class="widget html button_hover">
+                        <div>
+                            <a href="#" >
+                                <img src="images/tuyensinh.png" style="max-width: 100%; width: 100%;">
                             </a>
                         </div>	
                         <div class="divider"></div>

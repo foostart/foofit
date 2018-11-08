@@ -2,14 +2,25 @@
     @color_background: #fff;
     background-image: url('../images/bg_pattern.png');
     .news{width: 960px; padding: 0}
-    
+    a{
+        text-decoration: none;
+    }
     
     .top_news_block{
         margin-bottom: 15px;
         background: @color_background;
+        transition: border 0.5s ease-in-out;
+         border: 3px solid #fff;
         img{    
             max-width: 100%;
             width: 100%;
+        }
+
+        .top_news_block_thumb{
+            img{
+                width: 300px;
+                height: 300px;
+            }
         }
         .top_news_block_desc {
             font-size: 0.9em;
@@ -42,6 +53,9 @@
                 color: #333;
             }
         }
+    }
+    .top_news_block:hover{
+        border: 3px solid #000;
     }
     .pagination-centered {
         text-align: center;

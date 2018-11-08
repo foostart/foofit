@@ -1,44 +1,44 @@
-.type-336 {
+.type-335 {
   background: url(../images/bg_pattern.png) repeat;
   font-family: 'Open Sans', sans-serif;
 }
-.type-336 a:hover,
-.type-336 a:focus {
+.type-335 a:hover,
+.type-335 a:focus {
   color: #2a6496;
   text-decoration: none;
 }
-.type-336 .panel {
+.type-335 .panel {
   background: none;
   box-shadow: none;
 }
-.type-336 .panel-default {
+.type-335 .panel-default {
   border: none;
 }
-.type-336 .panel-heading {
+.type-335 .panel-heading {
   border: none !important;
   background: none !important;
   padding: 20px 0 0;
 }
-.type-336 .panel-heading h2 {
+.type-335 .panel-heading h2 {
   font-weight: bold;
   font-size: 1.8em;
 }
-.type-336 .panel-heading h2>span {
+.type-335 .panel-heading h2>span {
   font-weight: normal;
   font-size: 1em;
 }
-.type-336 .crossedbg {
+.type-335 .crossedbg {
   background: url(../images/bg_cr_grey.png);
   height: 15px;
 }
-.type-336 .panel-body {
+.type-335 .panel-body {
   background: #fff;
 }
-.type-336 .list-group {
+.type-335 .list-group {
   list-style: disc;
   margin-bottom: 0;
 }
-.type-336 .list-group-item {
+.type-335 .list-group-item {
   border: none;
   border-bottom: 1px #d9d9d9 solid;
   margin-bottom: 0;
@@ -50,14 +50,14 @@
   -moz-transition: ease-out 0.7s;
   transition: ease-out 0.7s;
 }
-.type-336 .slide_right:hover {
+.type-335 .slide_right:hover {
   box-shadow: inset 400px 0 0 0 #00E8FF;
 }
-.type-336 .list-group-item:first-child {
+.type-335 .list-group-item:first-child {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
 }
-.type-336 .list-group-item:before {
+.type-335 .list-group-item:before {
   font-family: Arial, Helvetica, sans-serif;
   color: #f5ce31;
   content: "\2022";
@@ -66,21 +66,21 @@
   position: relative;
   top: .15em;
 }
-.type-336 .list-group-item:last-child {
+.type-335 .list-group-item:last-child {
   border: none;
 }
 @media (min-width: 992px) {
-  .type-336 .sidebar {
+  .type-335 .sidebar {
     padding: 0;
   }
 }
 @media (min-width: 768px) {
-  .type-336 .sidebar {
+  .type-335 .sidebar {
     width: 960px;
   }
 }
 @media (max-width: 480px) {
-  .type-336 .sidebar {
+  .type-335 .sidebar {
     padding: 0;
   }
 }

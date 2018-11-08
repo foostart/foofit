@@ -18,7 +18,7 @@
                             </div>
                             <div class="crossedbg"></div>
                             <div class="dep_list">
-                                <div class="dep_item dep_network">
+                                <div class="dep_item dep_network slide_diagonal">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
                                             <img class="img-responsive" src="images/mmt_thumb.jpg">
@@ -28,7 +28,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="dep_item dep_software">
+                                <div class="dep_item dep_software slide_diagonal">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
                                             <img class="img-responsive" src="images/cnpm_thumb.jpg">
@@ -38,7 +38,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="dep_item dep_graphic">
+                                <div class="dep_item dep_graphic slide_diagonal">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
                                             <img class="img-responsive" src="images/dh_thumb.jpg">
@@ -48,7 +48,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="dep_item dep_informatics">
+                                <div class="dep_item dep_informatics slide_diagonal">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-6">
                                             <img class="img-responsive" src="images/thcs_thumb.jpg">

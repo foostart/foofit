@@ -18,10 +18,10 @@
                             <div class="crossedbg"></div>
                             <div class="panel-body">
                                 <ul class="list-group">
-                                    <li class="list-group-item">
+                                    <li class="list-group-item slide_right">
                                         <a href="#">IT Phần Cứng - Mạng</a>                        
                                     </li>
-                                    <li class="list-group-item">
+                                    <li class="list-group-item slide_right">
                                         <a href="#">Nhân Viên Kỹ Thuật</a>                        
                                     </li>
                                 </ul>

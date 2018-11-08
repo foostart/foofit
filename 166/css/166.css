@@ -2,6 +2,19 @@
   background: url(../images/bg_pattern.png) repeat;
   font-family: 'Open Sans', sans-serif;
 }
+.type-334 img {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.type-334 .button_hover {
+  transition: transform 0.5s;
+}
+.type-334 .button_hover:hover {
+  transform: scale(1.1);
+}
 @media (min-width: 992px) {
   .type-334 .sidebar {
     padding: 0;

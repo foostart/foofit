@@ -13,7 +13,8 @@
             padding: 0;
         }
     }
-    .ready {padding-top: 10px;}
+    .ready {padding-top: 10px;
+        padding-bottom: 60px;}
     .tabs {
         list-style: none;
         margin: 0 auto; 
@@ -119,21 +120,11 @@
         text-transform: uppercase;
         position: absolute;
         padding: 0 15px;
-        width: 100%;
+        width: 96%;
+    margin-left: 6px;
     }
 
-    .tabs li:before,
-        .tabs li:after {
-        background: #444;
-        backface-visibility: hidden;
-        content: '';
-        display: block;
-        width: 2px;
-        height: 6px;
-        position: absolute;
-        transform-origin: 50% 50%;
-        z-index: 2;
-    }
+
 
     .tabs li:before {
         bottom: 19px;
@@ -221,6 +212,12 @@
         border-radius:.5em;
         padding:.3em .5em;
         text-decoration:none;
+    }
+
+    .button_more{
+        position: relative;
+        top:50px;
+        right: 10px;
     }
 
     /*----------REPONSIVE-----------*/
