@@ -9,39 +9,12 @@
         include ('./libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/334.less', 'css/334.css');
+    $less->compileFile('less/166.less', 'css/166.css');
     ?>
-    <link href="css/334.css" rel="stylesheet" type="text/css"/>
+    <link href="css/166.css" rel="stylesheet" type="text/css"/>
 
 </head>
 
 <body>
-
-    <div class="type-334">
-        <div class="container sidebar">
-            <div class="row">
-                <!-----INTRODUCTION----->
-                <div class="col-md-8"></div>
-                <!-----END INTRODUCTION----->
-
-                <!--RIGHT SIDE BAR-->
-                <div class="col-md-4">
-
-                    <!--WIDGET IMAGES ENROLLMENT-->
-                    <div class="widget html">
-                        <div style="margin-top: 45px;">
-                            <a href="#">
-                                <img src="images/tuyensinh.gif" style="max-width: 100%; width: 100%;">
-                            </a>
-                        </div>	
-                        <div class="divider"></div>
-                    </div>
-                    <!--/END WIDGET IMAGES ENROLLMENT-->
-
-                </div>
-                <!--/END RIGHT SIDE BAR-->
-            </div>
-        </div>
-    </div>
-
+        <?php include '../166/166-content.php'; ?>
 </body>
