@@ -24,7 +24,6 @@ $less->compileFile('less/134.less', 'css/134.css');
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        
         <link href="<?php echo $url_path ?>/css/134.css" rel="stylesheet" type="text/css" />
         <?php
         if (!class_exists('lessc')) {

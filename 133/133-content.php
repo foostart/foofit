@@ -16,7 +16,16 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="navbar-default" role="navigation">
         <div class="container">        
             <nav class="topnav">
-                <ul>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed mobile" data-toggle="collapse" data-target="#maintop" aria-expanded="false" aria-controls="navbar"> 
+                        <span class="sr-only">Toggle navigation</span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="maintop">
+                <ul  class="nav navbar-nav">
                     <li class="active"><a href="#">Trang chủ</a></li>
                     <li><a href="gioi-thieu">Giới thiệu</a></li>
                     <li><a href="thanh-tich">Thành tích</a></li>
@@ -24,6 +33,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <li><a href="brochure">Brochure</a></li>
                     <li><a href="lien-he">Liên hệ</a></li> 
                 </ul>
+                </div>
             </nav>
         </div>
     </div>
@@ -39,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
 
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainnav"> 
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainnav" aria-expanded="false" aria-controls="navbar"> 
                         <span class="sr-only">Toggle navigation</span> 
                         <span class="icon-bar"></span> 
                         <span class="icon-bar"></span> 
@@ -47,7 +57,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </button>
                 </div>
               
-                <div class="navbar-collapse collapse">
+                <div class="navbar-collapse collapse" id="mainnav">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="first parent"><a href="#">TIN TỨC</a></li>
                         <li class="parent"><a href="#">GIẢNG VIÊN</a></li>

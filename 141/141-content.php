@@ -1,165 +1,125 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<?php
+$url_host = $_SERVER['HTTP_HOST'];
 
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/309.less', 'css/309.css');
-    ?>
-    <link href="css/309.css" rel="stylesheet" type="text/css"/>
-    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-    <script src="js/ekko-lightbox-min.js" type="text/javascript"></script>
-    <script src="js/309.js" type="text/javascript"></script>
-</head>
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
-<body>
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-    <div class="type-309">
-        <div class="container sidebar">
-            <div class="row">
-                <!--LEFT SIDE BAR-->
-                <div class="col-md-4"></div>
-                <!--/END LEFT SIDE BAR-->
+preg_match_all($pattern_uri, __DIR__, $matches);
 
-                <!--RIGHT CONTENTS HOME-->
-                <div class="col-md-8">
-                    <!--LEFT PARTNERS-->
-                    <div class="widget">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h2>Đối tác</h2>
+$url_path = $url_host . $matches[1][0];
+
+$url_path = str_replace('\\', '/', $url_path);
+?>
+<div class="type-141">
+    <div class="container sidebar">
+        <div class="row">
+            <!--LEFT SIDE BAR-->
+
+            <!--/END LEFT SIDE BAR-->
+
+            <!--RIGHT CONTENTS HOME-->
+
+            <!--LEFT PARTNERS-->
+            <div class="widget">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2>Đối tác</h2>
+                    </div>
+                    <div class="crossedbg"></div>
+                    <h4><b>Chứng nhận</b></h4>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-3">
+                            <div class="partnerlogo">
+                                <a href="http://<?php echo $url_path ?>/images/ms_cert.gif" data-toggle="lightbox" data-title="Microsoft IT Academy">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/micr.png" alt="Microsoft logo"/>
+                                </a>
                             </div>
-                            <div class="crossedbg"></div>
-                            <h4><b>Chứng nhận</b></h4>
-                            <div class="row">
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img onclick="zoomFunction(0)" class="myImg" src="images/ms.gif" alt="Microsoft IT Academy">
-                                        <img class="myImg2" src="images/ms_cert.gif">
-                                    </div>
-                                    <div class="modal myModal">
-                                        <span onclick="exitFunction(0)" class="close">×</span>
-                                        <div class="caption"></div>
-                                        <img class="modal-content img01">  
-                                    </div>                                                                     
-                                </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img onclick="zoomFunction(1)" class="myImg" src="images/cisco.gif" alt="Cisco Networking Academy">
-                                        <img class="myImg2" src="images/cisco_cert.gif">
-                                    </div>
-                                    <div class="modal myModal">
-                                        <span onclick="exitFunction(1)" class="close">×</span>
-                                        <div class="caption"></div>
-                                        <img class="modal-content img01">  
-                                    </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3">
+                            <div class="partnerlogo">
+                                <a href="http://<?php echo $url_path ?>/images/cisco_cert.gif" data-toggle="lightbox" data-title="Microsoft IT Academy">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/cisco.gif" alt="Microsoft logo"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4><b>Công ty thực tập</b></h4>
+                    <div class="row">
+                        <div id="owl-carousel" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/thue.png"  alt="Cục thuế Tp.HCM logo" title="Cục thuế Tp.HCM">
                                 </div>
                             </div>
-                            <h4><b>Công ty thực tập</b></h4>
-                            <div class="row">
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/9e407b891b.png">
-                                    </div>
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/tma.png" alt="TMA solutions logo" title="TMA Solutions">
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/9e9e60e44e.png">
-                                    </div>
+                            </div>
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/fpt.png"  alt="FPT Software logo" title="FPT Software" >
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/ab645dde3c.png">
-                                    </div>
+                            </div>
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/pmsv.png"  alt="PMSV logo" title="Phần mềm giáo dục">
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/9e4a5e2c0f.png">
-                                    </div>
+                            </div>
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/esc.png" alt="ESC logo" title="ESC">
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/9e5de453d8.png">
-                                    </div>
+                            </div>
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/abs.gif" alt="ABS Việt Mỹ logo" title="ABS Việt Mỹ" >
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/9e6df75452.png">
-                                    </div>
+                            </div>
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/softWorld.gif" alt="SoftWorld logo" title="SoftWorld Việt Nam" >
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/9e73406038.png">
-                                    </div>
+                            </div>
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/thietbinhanh.gif" alt="Bibiam logo" title="Bibiam">
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/9e7f6f17d1.png">
-                                    </div>
-                                </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/9e944c4e1f.png">
-                                    </div>
-                                </div>
+                            </div>
 
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/logo-3t.png">
-                                    </div>
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/3t.png"  alt="3T logo" title="3T" >
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/bk.gif">
-                                    </div>
+                            </div>
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/bk.gif" alt="Bach Khoa Group logo" title="Bach Khoa Group">
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/chanchinh.gif">
-                                    </div>
+                            </div>
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/pnc.png" alt="PNC logo" title="PNC Telecom" >
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/hk.gif">
-                                    </div>
+                            </div>
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/cmc.png" alt="CMC P&T logo" title="CMC P&T" >
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-4">
-                                    <div class="partnerlogo">
-                                        <img class="img-responsive" src="images/pnc.gif">
-                                    </div>
+                            </div>
+                            <div class="item">
+                                <div class="partnerlogo">
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/southernWaveS.gif" alt="Sóng nam logo" title="Sóng Nam" >
                                 </div>
                             </div>
                         </div>
-                        <div class="divider"></div>
                     </div>
+                    <div class="divider"></div>
                 </div>
-                <!--/END LEFT PARTNERS-->
             </div>
+            <!--/END LEFT PARTNERS-->
         </div>
     </div>
-    <div class="ekko-lightbox modal fade in" tabindex="-1" aria-hidden="false" style="display: none;">
-        <div class="modal-dialog" style="width: auto; max-width: 996.818px;">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title">Microsoft IT Academy</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="ekko-lightbox-container">
-                        <div>
-                            <img src="images/cisco_cert.gif" class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer" style="display:none">null</div>
-            </div>
-        </div>
-    </div>
-    
+</div>
 
-</body>

@@ -1,14 +1,14 @@
-.type-138 {
+.type-142 {
+
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
-
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
 
     a:hover, a:focus {
         color: @color_hover;
-        text-decoration: none;
         transition: all 0.5s ease;
+        text-decoration: none;
     }
 
     /*------------------GENERAL--------------------*/
@@ -36,9 +36,9 @@
         background: url(../images/bg_cr_grey.png);
         height: 15px;
     }
-    /*------------------END GENERAL--------------------*/
+    /*------------------/END GENERAL--------------------*/
 
-    /*------------------TOP WORKS & TOP ALUMNUS--------------------*/
+    /*------------------LIST TITLE POSTS--------------------*/
     .panel-body {
         background: #fff;
     }
@@ -54,6 +54,7 @@
         padding-right: 0;
         margin: 0 15px;
     }
+
     .list-group-item:first-child {
         border-top-right-radius: 4px;
         border-top-left-radius: 4px;
@@ -70,8 +71,31 @@
     .list-group-item:last-child {
         border: none;
     }
-    /*------------------END TOP WORKS & TOP ALUMNUS--------------------*/
-    /*---------------REPONSIVE------------*/
+    /*------------------/END LIST TITLE POSTS--------------------*/
+
+    /*------------------TOP TECHNOLOGIESS--------------------*/
+    .toparticle > .thumb{ 
+        img {
+            max-width: 100%;
+        }
+        img:hover{
+            opacity: 0.8;
+            transition: all 0.5s ease;
+        }
+    }
+
+    .toparticle > h4 {
+        font-weight: bold;
+        font-size: 1.1em;
+        line-height: 1.3em;
+        a:hover{
+            .hover;
+        }
+    }
+
+    /*------------------/END TOP TECHNOLOGIES--------------------*/
+
+    /*------------------REPONSIVE--------------*/
     @media (min-width: 992px){
         .sidebar{
             padding: 0;
