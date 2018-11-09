@@ -5,18 +5,24 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
 
     <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/312.less', 'css/312.css');
+        $url_host = $_SERVER['HTTP_HOST'];
+
+        $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+
+        $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+        preg_match_all($pattern_uri, __DIR__, $matches);
+
+        $url_path = $url_host . $matches[1][0];
+
+        $url_path = str_replace('\\', '/', $url_path);
     ?>
-    <link href="css/312.css" rel="stylesheet" type="text/css"/>
+    <link href="css/144.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>       
 </head>
 
 <body>
-    <div class="type-312">
+     <div class="type-144">
         <div class="container news">
             <div class="row">
                 <!--LIST NEWS-->
@@ -26,114 +32,7 @@
                             <div class="row">
                                 <!--THE IMAGES OF THE ARTICLE-->
                                 <div class="col-md-5">
-                                    <div class="top_news_block_thumb">
-                                        <img src="images/posts-1.jpg" alt=""/>
-                                    </div>
-                                </div>
-                                <!--END THE IMAGES OF THE ARTICLE-->
-                                <!--ARTICLE CONTENT-->
-                                <div class="col-md-7 top_news_block_desc">
-                                    <div class="row">
-                                        <div class="col-md-3 col-xs-3 topnewstime">
-                                            <span class="topnewsdate">20</span><br>
-                                            <span class="topnewsmonth">Tháng 10</span><br>
-                                        </div>
-                                        <div class="col-md-9 col-xs-9 shortdesc">
-                                            <h4>
-                                                <a href="#">Săn lùng kỹ sư công nghệ thông tin</a>
-                                            </h4>
-                                            <p>Navigos Search vừa công bố nhu cầu tuyển dụng nhân sự trung và cao cấp tại thị trường Việt Nam quý III/2016.<a href="#">[...]</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--END ARTICLE CONTENT-->
-                            </div>
-                        </div>
-                        <div class="list_new_view">
-                            <div class="row">
-                                <!--THE IMAGES OF THE ARTICLE-->
-                                <div class="col-md-5">
-                                    <div class="top_news_block_thumb">
-                                        <img src="images/posts-1.jpg" alt=""/>
-                                    </div>
-                                </div>
-                                <!--END THE IMAGES OF THE ARTICLE-->
-                                <!--ARTICLE CONTENT-->
-                                <div class="col-md-7 top_news_block_desc">
-                                    <div class="row">
-                                        <div class="col-md-3 col-xs-3 topnewstime">
-                                            <span class="topnewsdate">20</span><br>
-                                            <span class="topnewsmonth">Tháng 10</span><br>
-                                        </div>
-                                        <div class="col-md-9 col-xs-9 shortdesc">
-                                            <h4>
-                                                <a href="#">Săn lùng kỹ sư công nghệ thông tin</a>
-                                            </h4>
-                                            <p>Navigos Search vừa công bố nhu cầu tuyển dụng nhân sự trung và cao cấp tại thị trường Việt Nam quý III/2016.<a href="#">[...]</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--END ARTICLE CONTENT-->
-                            </div>
-                        </div>
-                        <div class="list_new_view">
-                            <div class="row">
-                                <!--THE IMAGES OF THE ARTICLE-->
-                                <div class="col-md-5">
-                                    <div class="top_news_block_thumb">
-                                        <img src="images/posts-1.jpg" alt=""/>
-                                    </div>
-                                </div>
-                                <!--END THE IMAGES OF THE ARTICLE-->
-                                <!--ARTICLE CONTENT-->
-                                <div class="col-md-7 top_news_block_desc">
-                                    <div class="row">
-                                        <div class="col-md-3 col-xs-3 topnewstime">
-                                            <span class="topnewsdate">20</span><br>
-                                            <span class="topnewsmonth">Tháng 10</span><br>
-                                        </div>
-                                        <div class="col-md-9 col-xs-9 shortdesc">
-                                            <h4>
-                                                <a href="#">Săn lùng kỹ sư công nghệ thông tin</a>
-                                            </h4>
-                                            <p>Navigos Search vừa công bố nhu cầu tuyển dụng nhân sự trung và cao cấp tại thị trường Việt Nam quý III/2016.<a href="#">[...]</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--END ARTICLE CONTENT-->
-                            </div>
-                        </div>
-                        <div class="list_new_view">
-                            <div class="row">
-                                <!--THE IMAGES OF THE ARTICLE-->
-                                <div class="col-md-5">
-                                    <div class="top_news_block_thumb">
-                                        <img src="images/posts-1.jpg" alt=""/>
-                                    </div>
-                                </div>
-                                <!--END THE IMAGES OF THE ARTICLE-->
-                                <!--ARTICLE CONTENT-->
-                                <div class="col-md-7 top_news_block_desc">
-                                    <div class="row">
-                                        <div class="col-md-3 col-xs-3 topnewstime">
-                                            <span class="topnewsdate">20</span><br>
-                                            <span class="topnewsmonth">Tháng 10</span><br>
-                                        </div>
-                                        <div class="col-md-9 col-xs-9 shortdesc">
-                                            <h4>
-                                                <a href="#">Săn lùng kỹ sư công nghệ thông tin</a>
-                                            </h4>
-                                            <p>Navigos Search vừa công bố nhu cầu tuyển dụng nhân sự trung và cao cấp tại thị trường Việt Nam quý III/2016.<a href="#">[...]</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--END ARTICLE CONTENT-->
-                            </div>
-                        </div>
-                        <div class="list_new_view">
-                            <div class="row">
-                                <!--THE IMAGES OF THE ARTICLE-->
-                                <div class="col-md-5">
+
                                     <div class="top_news_block_thumb">
                                         <img src="images/posts-1.jpg" alt=""/>
                                     </div>
