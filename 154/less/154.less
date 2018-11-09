@@ -28,41 +28,6 @@
         height: 15px;
     }
     /*------------------END GENERAL--------------------*/
-
-    /*------------------TOP WORKS & TOP ALUMNUS--------------------*/
-    .panel-body {
-        background: #fff;
-    }
-    .list-group {
-        list-style: disc;
-        margin-bottom: 0;
-    }
-    .list-group-item {
-        border: none;
-        border-bottom: 1px @color_border_gray solid;
-        margin-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
-        margin: 0 15px;
-    }
-    .list-group-item:first-child {
-        border-top-right-radius: 4px;
-        border-top-left-radius: 4px;
-    }
-    .list-group-item:before {
-        font-family: Arial, Helvetica, sans-serif;
-        color: #f5ce31;
-        content: "\2022";
-        font-size: 2em;
-        padding-right: .5em;
-        position: relative;
-        top: .15em;
-    }
-    .list-group-item:last-child {
-        border: none;
-    }
-    /*------------------/END TOP WORKS & TOP ALUMNUS--------------------*/
-
     /*------------------STUDENT--------------------*/
     .feedback_owner {
         margin: 0;
@@ -87,15 +52,19 @@
               margin-bottom: 15px;
         }
         cursor: pointer;
+        box-shadow: inset 0 0 0 0 #003b7a;
+        -webkit-transition: ease-out 0.7s;
+        -moz-transition: ease-out 0.7s;
+        transition: ease-out 0.7s;
     }
-    .feedback_owner:hover{
-        background: #003b7a;
-        .feedback_desc{
-            color:#fff;
+    .hieu_ung:hover{
+            box-shadow: inset 400px 0 0 0 #003b7a;
+.feedback_desc {
+    color: #fff;
+}
         }
        
-    }
-    /*------------------/END STUDENT--------------------*/
+      /*------------------/END STUDENT--------------------*/
     /*------------------REPONSIVE--------------*/
     @media (min-width: 992px){
         .sidebar{
@@ -113,3 +82,4 @@
         }
     }
 }
+
