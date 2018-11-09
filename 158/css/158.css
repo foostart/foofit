@@ -1,0 +1,81 @@
+.type-158 {
+  background: url(../images/bg_pattern.png) repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+.type-158 a:hover,
+.type-158 a:focus {
+  color: #2a6496;
+  text-decoration: none;
+}
+.type-158 .headlines {
+  background: #fff;
+  overflow: hidden;
+  padding: 20px 30px;
+}
+.type-158 .headlines ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.type-158 .headlines ul li {
+  overflow: hidden;
+  display: table;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.type-158 .headlines ul li .headlinestitle {
+  display: table-cell;
+  vertical-align: middle;
+  width: 85%;
+}
+.type-158 .headlines .headlinesdate {
+  font-size: 0.8em;
+  width: 15%;
+  min-width: 55px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.type-158 .headlines .headlinesday {
+  border-bottom: 1px solid #000;
+}
+.type-158 .headlines .headlinesyear {
+  line-height: 3.5em;
+  float: left;
+  margin-left: 3px;
+}
+.type-158 .headlinesdate .headlinesdm,
+.type-158 .headlinesdate {
+  float: left;
+  font-family: 'Prata', serif;
+}
+.type-158 .headlinesdate .headlinesday,
+.type-158 .headlines .headlinesmonth {
+  line-height: 1.7em;
+}
+.type-158 .pagination-center {
+  text-align: center;
+}
+.type-158 .pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.type-158 .pagination li {
+  display: inline;
+}
+@media (min-width: 992px) {
+  .type-158 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-158 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-158 .sidebar {
+    padding: 0;
+  }
+}
