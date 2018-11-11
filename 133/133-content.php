@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-133">
     <!--MENU HOME-->
     <div class="navbar-default" role="navigation">
-        <div class="container">        
+        <div class="container menu">        
             <nav class="topnav">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed mobile" data-toggle="collapse" data-target="#maintop" aria-expanded="false" aria-controls="navbar"> 
@@ -40,9 +40,9 @@ $url_path = str_replace('\\', '/', $url_path);
     <!--END MENU HOME-->
     <div class="navbar navbar-inverse navbar-static-top">
         <!--LIST OF HEADER -->
-        <div class="container" style="position: relative;">
+        <div class="container menu">
             <div class="left-bg">&nbsp;</div>
-            <div class="container">
+            <div class="container menu">
                 <div class="logo">
                     <a href="#"><img alt="TDC-Khoa CNTT logo" src="images/logo.png"></a>
                     <span class="triangle-arrow">&nbsp;</span>

@@ -17,16 +17,16 @@ $url_path = str_replace('\\', '/', $url_path);
             <!--LEFT SIDE BAR-->
             <div class="col-md-4">
                 <!--WIDGET TOP EVENTS-->
-                <div class="widget topevents">
+                <div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2>Sự kiện <br><span>Hoạt động</span></h2>
                         </div>
                         <div class="crossedbg"></div>
                         <div class="bodytimeline">
-                            <ul class="timeline">
+                            <div class="timeline">
                                 <!--TOP EVENTS LEFT-->
-                                <li>
+                                <div class="timeline-left">
                                     <div class="timeline-badge "></div>
                                     <div class="timeline-panel">
                                         <div class="eventtime">
@@ -47,11 +47,32 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
                                         </div>
                                     </div>
-                                </li>
+                                </div>
+                                <div class="timeline-right">
+                                    <div class="timeline-badge "></div>
+                                    <div class="timeline-panel">
+                                        <div class="eventtime">
+                                            <div class="eventtimecover">
+                                                <div class="eventdm">
+                                                    <div class="eventday">15</div>
+                                                    <div class="eventmonth">09</div>
+                                                </div>
+                                                <div class="eventyear">'18</div>
+                                            </div>
+                                        </div>
+                                        <div class="eventdetails">
+                                            <div class="eventlocation">
+                                                Hội trường H                                </div>
+                                            <div class="eventdesc">
+                                                <a href="http://fit.tdc.edu.vn/su-kien/le-chao-don-tan-fit-tdcers">Lễ chào đón Tân FIT - TDCers</a>                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <!--/END TOP EVENTS LEFT-->
                                 <!--TOP EVENTS RIGHT-->
                                 <!--/END TOP EVENTS RIGHT-->
-                            </ul>
+                            </div>
                         </div>
                         <div class="crossedbg"></div>
                     </div>

@@ -1,7 +1,8 @@
 .type-137{
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
-
+    @font-size: 1rem;
+    @padding :1rem;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
 
@@ -14,7 +15,7 @@
         padding: 0;
     }
     .eventlocation {
-        font-size: 12px;
+        font-size: @font-size+0.2;
     }
     /*------------------GENERAL--------------------*/
     .panel {
@@ -27,19 +28,19 @@
     .panel-heading {
         border: none !important;
         background: none !important;
-        padding: 20px 0 0;
+        padding: @padding*2 0 0;
         h2 {
             font-weight: bold;
-            font-size: 1.8em;
+            font-size: @font-size+1.5;
         }
         h2>span {
             font-weight: normal;
-            font-size: 1em;
+            font-size: @font-size+1.5;
         }
     }
     .crossedbg {
         background: url(../images/bg_cr_grey.png);
-        height: 15px;
+        height: 1.5rem;
     }
     /*------------------END GENERAL--------------------*/
 
@@ -50,12 +51,51 @@
     }
     .timeline {
         list-style: none;
-        padding: 20px 0 20px;
+        padding: @padding*2 0 @padding*2;
         position: relative;
-
+        .timeline-left,
+        .timeline-right{
+            position: relative;
+            .timeline-panel {
+                /*        width: 46%;*/
+                float: left;
+                position: relative;
+            }
+            .timeline-panel:before {
+                position: absolute;
+                top: 2.7rem;
+                right: -1.5rem;
+                display: inline-block;
+                border-top: 0.1rem solid @color_border_gray;
+                content: " ";
+                width: 100%;
+            }
+        }
+        .timeline-left,
+        .timeline-right:after {
+            clear: both;
+        }
+        .timeline-left,
+        .timeline-right:before,
+            .timeline-left,
+            .timeline-right:after {
+            content: " ";
+            display: table;
+        }
+        .timeline-badge {
+            width: 1.8rem;
+            height: 1.8rem;
+            position: absolute;
+            top: 1.9rem;
+            margin-left: -1rem;
+            background-color: #fff;
+            border: 0.2rem solid @color_border_gray;
+            border-radius: 50%;
+            z-index: 5;
+        }
         .eventtime {
-            width: 56px;
-            height: 56px;
+            width: 5.6rem;
+            height: 5.6rem;
             background: #f5ce31;
             border-radius: 50%;
             position: relative;
@@ -63,42 +103,59 @@
             float: left;
             .eventtimecover {
                 position: absolute;
-                top: 9px;
-                left: 10px;
+                top: 0.9rem;
+                left: 1rem;
             }
             .eventdm {
                 float: left;
             }
             .eventday {
                 font-weight: bold;
-                font-size: 1.5em;
-                border-bottom: 1px #4e4e4e solid;
-                line-height: 1em;
+                font-size: @font-size*2;
+                border-bottom: 0.1rem #4e4e4e solid;
+                line-height: 1.8rem;
             }
             .eventmonth {
                 text-align: center;
             }
             .eventyear {
                 float: left;
-                margin-top: 14px;
+                margin-top: 1.4rem;
             }
         }
         .eventdetails {
-            margin-right: -5px;
+            margin-right: -0.5rem;
             float: right;
             width: 59%;
-            margin-top: 7px;
+            margin-top: 0.7rem;
             .eventlocation {
                 font-family: 'Open Sans Condensed', sans-serif;
                 font-weight: bold;
             }
             .eventdesc {
-                margin-top: 15px;
+                margin-top: 1.5rem;
             }
             .eventdesc :hover {
                 text-decoration: none;
             }
 
+        }
+        .timeline-right{
+            .timeline-panel{
+                float: right;
+            }
+            .eventtime{
+                float: right;
+            }
+            .timeline-panel:before {
+                position: absolute;
+                top: 27px;
+                right: 0.5rem;
+                display: inline-block;
+                border-top: 0.1rem solid @color_border_gray;
+                content: " ";
+                width: 100%;
+            }
         }
     }
     .timeline:before {
@@ -106,46 +163,10 @@
         bottom: 0;
         position: absolute;
         content: " ";
-        width: 2px;
+        width: 0.2rem;
         background-color: @color_border_gray;
         left: 50%;
-        margin-left: -1.5px;
-    }
-    .timeline > li {
-        position: relative;
-    }
-    .timeline > li:after {
-        clear: both;
-    }
-    .timeline > li:before, .timeline > li:after {
-        content: " ";
-        display: table;
-    }
-    .timeline > li > .timeline-badge {
-        width: 18px;
-        height: 18px;
-        position: absolute;
-        top: 19px;
-
-        margin-left: -10px;
-        background-color: #fff;
-        border: 2px solid @color_border_gray;
-        border-radius: 50%;
-        z-index: 5;
-    }
-    .timeline > li > .timeline-panel {
-        /*        width: 46%;*/
-        float: left;
-        position: relative;
-    }
-    .timeline > li > .timeline-panel:before {
-        position: absolute;
-        top: 27px;
-        right: -15px;
-        display: inline-block;
-        border-top: 1px solid @color_border_gray;
-        content: " ";
-        width: 100%;
+        margin-left: -0.15rem;
     }
     /*------------------/END TOP EVENTS TIMELINE--------------------*/
     /*--------Reponsive--------*/
@@ -165,37 +186,35 @@
     }
     @media (max-width: 767px) {
         .timeline{
-            margin-right: 50px;
+            margin-right: 5rem;
+            .eventtime {
+                float: right;
+            }
+            .eventdetails {
+                text-align: left;
+                float: left;
+            }
+            timeline-left,
+            timeline-right {
+                margin-bottom: 1.5rem;
+            }
         }
         .timeline-panel {
             width: 100%;
+            left: 2rem;
+            padding-left: @padding*4;
         }
-        .timeline-badge{
-            left: 20px;
+        timeline:before {
+            left: 2rem;
         }
-        .timeline > li {margin-bottom: 15px;}
-        ul.timeline:before {
-            left: 20px;
-        }
-        ul.timeline > li > .timeline-panel {
-
-            padding-left: 40px;
-        }
-        ul.timeline > li > .timeline-panel:before {
+        .timeline-panel:before {
             border-left-width: 0;
-            border-right-width: 15px;
-            left: 10px;
+            border-right-width: 1.5rem;
+            left: 1rem;
             right: auto;
         }
-        .timeline .eventtime {
-            float: right;
-        }
-        .timeline .eventdetails {
-            text-align: left;
-            float: left;
-        }
         .panel-default{
-            padding: 0 15px;
+            padding: 0 @padding+0.5;
         }
     }
     @media (max-width: 480px){

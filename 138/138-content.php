@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <!--LEFT SIDE BAR-->
             <div class="col-md-4">
                 <!--WIDGET TOP WORKS-->
-                <div class="widget topworks">
+                <div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2>Tuyển dụng <br><span>Cơ hội việc làm</span></h2>
@@ -38,7 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <!--/END WIDGET TOP WORKS-->
                 <!--WIDGET TOP ALUMNUS-->
-                <div class="widget topalumnuS">
+                <div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2>Cựu sinh viên <br><span>Thông tin cần biết</span></h2>

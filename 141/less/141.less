@@ -1,8 +1,15 @@
 .type-141 {
-
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
-
+    .row{
+        margin-right: 0;
+    }
+    .widget{
+        margin-left: 2.5rem;
+    }
+    .swiper-slide img{
+        width: calc(100% - 10rem);
+    }
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
 
@@ -22,19 +29,15 @@
     .panel-heading {
         border: none !important;
         background: none !important;
-        padding: 20px 0 0;
+        padding: 2rem 0 0;
         h2 {
             font-weight: bold;
-            font-size: 1.8em;
-        }
-        h2>span {
-            font-weight: normal;
-            font-size: 1em;
+            font-size: 2.5rem;
         }
     }
     .crossedbg {
         background: url(../images/bg_cr_grey.png);
-        height: 15px;
+        height: 1.5rem;
     }
     /*------------------/END GENERAL--------------------*/
 
@@ -42,156 +45,30 @@
     .partnerlogo {
         cursor: pointer;
         position: relative;
-        margin-bottom: 25px;
+        margin-bottom: 2.5rem;
         z-index:1;
         img {
-            width: 100%;
-            max-width: 100%;
-            border: 1px #e0e0e0 solid;
-                filter: grayscale(90%);
+            border: 0.1rem #e0e0e0 solid;
+            filter: grayscale(90%);
         }
         img:hover{
             filter: grayscale(0%);
-                transition: 250ms linear;
+            transition: 250ms linear;
         }
     }
     .partnerlogo:before, .partnerlogo:after {
         content: "";
         position: absolute;
         z-index: -1;
-        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        box-shadow: 0 0 2rem rgba(0,0,0,0.3);
         top: 50%;
         bottom: 0;
-        left: 10px;
-        right: 10px;
-        border-radius: 100px / 10px;
+        left: 1rem;
+        right: 3rem;
+        border-radius: 10rem / 1rem;
     }
     /*------------------/END LEFT PARTNERS--------------------*/
-    
-    
-    /*--------------IMAGES ZOOM-----------*/
-    .myImg2{
-        display: none;
-    }
-    .modal {
-        display: none; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        z-index: 5; /* Sit on top */
-        left: 0;
-        top: 0;
-        width: auto;      
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-    }
-    .modal-content {
-        margin: auto;
-        display: block;
-        max-width: 100%;
-        max-height: 100%;
-    }
-    .caption {
-        display: block;
-        text-align: center;
-        color: #ccc;
-        padding: 10px 0;
-        font-size: 18px;
-    }
-    .modal-content, #caption {    
-        -webkit-animation-name: zoom;
-        -webkit-animation-duration: 0.6s;
-        animation-name: zoom;
-        animation-duration: 0.6s;
-    }
-    .close {
-        position: absolute;
-        top: 15px;
-        right: 35px;
-        color: #f1f1f1;
-        font-size: 40px;
-        font-weight: bold;
-        transition: 0.3s;
-    }
-    .close:hover,
-    .close:focus {
-        color: #bbb;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    .carousel-control.left  {
-        background-image:none; 
-        padding-top: 3px;
-    }
-    .carousel-control.right {
-        background-image:none; 
-        padding-top: 3px;
-        margin-right: 10px;
-    }
-    .carousel-control.right:hover  {
-        background-color: #ffc23a;
-        color: #fff;
-    }
-    #customNav{
-        margin-right: 40px;
-    }
-    .carousel-control{
-        color: #bcbcbc;
-        background-color: #fff;
-        font-size: 10px;
-        position: static;
-        float: right;
-        opacity: 1;
-        width: 2%;
-        border: 1px solid #d7d7d7;  
-        text-shadow:none;
-    }
-    .owl-stage{
-     padding-left: 15px;   
-    }
-    .owl-carousel{
-        display: block;
-        margin-top: 15px;
-    }
-    #owl-carousel{
-        position: relative;
-    }
-    .owl-nav{
-        position: absolute;
-        top: -45px;
-        right: 15px;
-        color: #bcbcbc;
-    }
 
-    .owl-prev{
-        float: left;
-        background: #eaeaea;
-        width: 24px;
-        height: 24px;
-        color: #ccc;
-        text-align: center;
-        line-height: 24px;
-        margin-right: 5px;
-    }
-    .owl-prev:hover{
-        background-color: #b60202;
-        color: #fff;
-    }
-    .owl-next{
-        float: left;
-        background: #eaeaea;
-        width: 24px;
-        height: 24px;
-        color: #ccc;
-        text-align: center;
-        line-height: 24px;
-    }
-    .owl-next:hover{
-        background-color: #b60202;
-        color: #fff;
-    }
-    /*--------------END IMAGES ZOOM------------------*/
-    
     /*-----------REPONSIVE---------------*/
     @media (min-width: 992px){
         .sidebar{
@@ -200,7 +77,7 @@
     }
     @media (min-width: 768px){
         .sidebar{
-            width: 960px;
+            width: 96rem;
         }
     }
     @media (max-width: 480px){

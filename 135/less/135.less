@@ -1,117 +1,119 @@
 .type-135{
     background-image: url('../images/bg_pattern.png');
+    @padding:1.5rem;
+    @display:table-cell;
+    @vertical-align:middle;
+    @font-style:italic;
+    @font-size:0.75rem;
+    @border-style:solid;
     .prof_profile {
-        margin-top: 55px;     
+        margin-top: 5.5rem;     
         background: #fff;
         img {
-                width: 100%;
-                max-width: 100%;
-            }
-            img:hover{
-                opacity: 0.8;
-                transition: all 0.2s ease;
-            }
+            width: 100%;
+            max-width: 100%;
+        }
+        img:hover{
+            opacity: 0.8;
+            transition: all 0.2s ease;
+        }
         .prof_ide {
             background: #f5ce31;            
             position: relative;
             .prof_fullname {
                 font-weight: 800;
                 text-transform: capitalize;
-                border-right: 1px #333 solid;
-                display: table-cell;
-                vertical-align: middle;
-                padding-right: 15px;
+                border-right: 0.1rem #333 @border-style;
+                display: @display;
+                vertical-align: @vertical-align;
+                padding-right: @padding;
             }
             .prof_title {
-                display: table-cell;
-                vertical-align: middle;
+                display: @display;
+                vertical-align: @vertical-align;
                 text-transform: uppercase;
-                font-style: italic;
-                padding-left: 15px;
+                font-style: @font-style;
+                padding-left: @padding;
             }
         }
         .prof_ide:before {
             content: "";
             position: absolute;
             top: 100%;
-            left: 30px;
-            border-width: 12px 12px 0;
-            border-style: solid;
+            left: 3rem;
+            border-width: 1.2rem 1.2rem 0;
+            border-style: @border-style;
             border-color: #f5ce31 transparent;
             display: block;
             width: 0;
         }
         .prof_contact {
-            padding: 30px;
-            font-style: italic;
+            padding: @padding*2;
+            font-style: @font-style;
             .prof_dep {
                 font-weight: bold;
-                font-size: 1.2em;
+                font-size: @font-size+0.7;
             }
-            ul {
-                list-style: none;
-                padding: 0;
-                margin: 0;
-                margin-top: 15px;
-                li {
-                    padding: 5px 0;
+            .inf-contact{
+                padding-top:2rem;
+                .inf{
+                    padding:0.5rem 0;
                 }
             }
         }
         .crossedbg {
             background: url(../images/bg_cr_grey.png);
-            height: 15px;
+            height: 1.5rem;
         }
     }
-    
-    
+
+
     .col-md-8, .col-md-4{
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: @padding*0;
+        padding-right: @padding*0;
     }
     /*-------REPONSIVE----------*/
-   
+
     @media (min-width: 992px){
-        
+
     }
     @media (min-width: 768px){       
         .profile{
-            width: 960px;
-            padding: 0;
-        }
-        .prof_ide {
-            padding: 30px;
-        }
-        .prof_fullname {
-            font-size: 1.8em;
-        }
-        .prof_title {
-            font-size: 1.2em;
-        }
-        .prof_ava {
-            padding-left: 15px;
-            
-        }
-        .prof_info{
-            padding-right: 15px;
+            width: 96rem;
+            padding: @padding*0;
+            .prof_ava {
+                padding-left: @padding;
+            }
+            .prof_info{
+                padding-right: @padding;
+                .prof_ide {
+                    padding: 3rem;
+                    .prof_fullname {
+                        font-size: @font-size+1.3;
+                    }
+                    .prof_title {
+                        font-size: @font-size+0.7;
+                    }
+                }
+            }
         }
     }
     @media (max-width: 768px){
         .prof_ide {
-            padding: 15px;
+            padding: @padding;
+            .prof_fullname {
+                font-size: @font-size*2;
+            }
+            .prof_title {
+                font-size: @font-size+0.2;
+            }
         }
-        .prof_fullname {
-            font-size: 1em;
-        }
-        .prof_title {
-            font-size: 0.7em;
-        }
-        .container{
-            padding: 0;
+        .employees{
+            padding: @padding*0;
         }
     }
     @media (max-width: 480px){
-        
+
     }
     /*-------END REPONSIVE----------*/
 }

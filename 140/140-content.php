@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-4"></div>
             <div class="col-md-8">
                 <!--CONTENTS INTRO-->
-                <div class="widget intro">
+                <div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2>Khoa Công nghệ thông tin <br><span>Trường Cao đẳng Công nghệ Thủ Đức</span></h2>

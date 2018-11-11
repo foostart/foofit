@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <!--RIGHT SIDE BAR-->
             <div class="col-md-8">
                 <!--WIDGET TOP TECHNOLOGIES-->
-                <div class="widget toptechnologies">
+                <div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2>Bài viết <br><span>Học thuật</span></h2>
@@ -38,7 +38,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <h4>
                                         <a href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp (Phần 2)</a>                
                                     </h4>
-                                    <div class="desc">
+                                    <div>
                                         (PCWorldVN) Ba bài thực hành ở cấp độ trung cấp đòi hỏi bạn phải "võ luyện" nhiều lần, kết hợp với cọ xát thực tế với thiết bị, mạng giả lập và mạng thực tế tại gia đình, doanh nghiệp.                    
                                         <a href="#">[...]</a>                
                                     </div>

@@ -3,25 +3,52 @@ $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
     $(this).ekkoLightbox();
 });
 $('document').ready(function () {
-    $('#owl-carousel').owlCarousel({
-        margin: 30,
-        loop: true,
-        stagePadding: 15,
-        smartSpeed: 450,
-        nav: true,
-        navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
-        responsive: {
-            0: {
-                items: 1
+    var swiper = new Swiper('.swiper-container', {
+        paginationClickable: true, // Khi click vào nút pagination slide sẽ chuyển trang
+        spaceBetween: 18, // Khoảng cách giữa các slide tính bằng px
+        centeredSlides: true,
+        slidesOffsetBefore: 122,
+        slidesPerView: 4,
+        slidesPerGroup: 1,
+        autoplay: 3000,
+        loop: true, // lặp lại khi chạy
+        breakpointsInverse: true,
+        breakpoints: {
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 10,
+                slidesOffsetBefore: 115,
+                centeredSlides: true
             },
-            300: {
-                items: 2
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+                slidesOffsetBefore: 480,
+                centeredSlides: true
             },
-            800: {
-                items: 3
+            414: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+                slidesOffsetBefore: 310,
+                centeredSlides: true
             },
-            1200: {
-                items: 4
+            375: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+                slidesOffsetBefore: 282,
+                centeredSlides: true
+            },
+            360: {
+                slidesPerView: 2,
+                spaceBetween: 15,
+                slidesOffsetBefore: 275,
+                centeredSlides: true
+            },
+            320: {
+                slidesPerView: 2,
+                spaceBetween: 15,
+                slidesOffsetBefore: 245,
+                centeredSlides: true
             }
         }
     });

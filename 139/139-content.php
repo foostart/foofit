@@ -19,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <!--/END LEFT SIDE BAR-->
             <!--RIGHT CONTENTS HOME-->
             <div class="col-md-8">
-                <div class="widget topnews">
+                <div class="topnews">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2>Tin tức <br><span>Thông báo</span></h2>
@@ -48,7 +48,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 right">
                                         <div class="row">
                                             <div class="col-md-4 topnewstime">
                                                 <span class="topnewsdate">12</span><br>

@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-4 col-sm-12 col-xs-12">
 
                 <div class="top_news_block">
-                    <div class="top_news_block_thumb">
+                    <div>
                         <img src="http://<?php echo $url_path ?>/images/news-3.jpg" alt=""/>
                     </div>
                     <div class="top_news_block_desc">

@@ -17,17 +17,27 @@ $url_path = str_replace('\\', '/', $url_path);
             <!--LEFT SIDE BAR-->
             <div class="col-md-4">
                 <!--WIDGET IMAGES ENROLLMENT-->
-                <div class="widget html">
+                <div class="html">
                     <div class="img">
                         <a href="#">
-                            <img src="http://<?php echo $url_path ?>/images/tuyensinh.gif" alt="tuyensinh">
+                            <img src="http://<?php echo $url_path ?>/images/tuyensinh.jpg" alt="tuyensinh" title="Tuyen Sinh TDC">
                         </a>
                     </div>	
                     <div class="divider"></div>
                 </div>
+                <svg height="0">
+                <!-- THE mask -->
+              
+                <!-- the filter to make the image white -->
+                <filter id="filter">
+                    <feFlood flood-color="white" />
+                    <feComposite in2="SourceAlpha" operator="in" />
+                </filter>
+                </svg>
                 <!--/END WIDGET IMAGES ENROLLMENT-->
             </div>
             <!--/END LEFT SIDE BAR-->
         </div>
     </div>
+
 </div>
