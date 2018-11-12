@@ -50,13 +50,14 @@
         img {
             border: 0.1rem #e0e0e0 solid;
             filter: grayscale(90%);
-        }
-        img:hover{
-            filter: grayscale(0%);
-            transition: 250ms linear;
+            &:hover{
+                filter: grayscale(0%);
+                transition: 250ms linear;
+            }
         }
     }
-    .partnerlogo:before, .partnerlogo:after {
+    .partnerlogo:before,
+    .partnerlogo:after {
         content: "";
         position: absolute;
         z-index: -1;

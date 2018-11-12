@@ -1,8 +1,8 @@
 .type-137{
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
-    @font-size: 1rem;
-    @padding :1rem;
+    @font-size: 1.5rem;
+    @padding :1.5rem;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
 
@@ -15,7 +15,7 @@
         padding: 0;
     }
     .eventlocation {
-        font-size: @font-size+0.2;
+        font-size: @font-size - 0.3 ;
     }
     /*------------------GENERAL--------------------*/
     .panel {
@@ -28,14 +28,14 @@
     .panel-heading {
         border: none !important;
         background: none !important;
-        padding: @padding*2 0 0;
+        padding: @padding + 0.5 0 0;
         h2 {
             font-weight: bold;
-            font-size: @font-size+1.5;
-        }
-        h2>span {
-            font-weight: normal;
-            font-size: @font-size+1.5;
+            font-size: @font-size + 1;
+            span {
+                font-weight: normal;
+                font-size: @font-size + 1;
+            }
         }
     }
     .crossedbg {
@@ -51,7 +51,7 @@
     }
     .timeline {
         list-style: none;
-        padding: @padding*2 0 @padding*2;
+        padding: @padding + 0.5 0 @padding + 0.5;
         position: relative;
         .timeline-left,
         .timeline-right{
@@ -60,27 +60,25 @@
                 /*        width: 46%;*/
                 float: left;
                 position: relative;
+                &:before{
+                    position: absolute;
+                    top: 2.7rem;
+                    right: -1.5rem;
+                    display: inline-block;
+                    border-top: 0.1rem solid @color_border_gray;
+                    content: " ";
+                    width: 100%;
+                }
             }
-            .timeline-panel:before {
-                position: absolute;
-                top: 2.7rem;
-                right: -1.5rem;
-                display: inline-block;
-                border-top: 0.1rem solid @color_border_gray;
+            &:after{
+                clear: both;
                 content: " ";
-                width: 100%;
+                display: table;
             }
-        }
-        .timeline-left,
-        .timeline-right:after {
-            clear: both;
-        }
-        .timeline-left,
-        .timeline-right:before,
-            .timeline-left,
-            .timeline-right:after {
-            content: " ";
-            display: table;
+            &:before{
+                content: " ";
+                display: table;
+            }
         }
         .timeline-badge {
             width: 1.8rem;
@@ -111,7 +109,7 @@
             }
             .eventday {
                 font-weight: bold;
-                font-size: @font-size*2;
+                font-size: @font-size + 0.5;
                 border-bottom: 0.1rem #4e4e4e solid;
                 line-height: 1.8rem;
             }
@@ -134,40 +132,40 @@
             }
             .eventdesc {
                 margin-top: 1.5rem;
+                a:hover{
+                    text-decoration: none;
+                }
             }
-            .eventdesc :hover {
-                text-decoration: none;
-            }
-
         }
         .timeline-right{
             .timeline-panel{
                 float: right;
+                &:before{
+                    position: absolute;
+                    top: 27px;
+                    right: 0.5rem;
+                    display: inline-block;
+                    border-top: 0.1rem solid @color_border_gray;
+                    content: " ";
+                    width: 100%;
+                }
             }
             .eventtime{
                 float: right;
             }
-            .timeline-panel:before {
-                position: absolute;
-                top: 27px;
-                right: 0.5rem;
-                display: inline-block;
-                border-top: 0.1rem solid @color_border_gray;
-                content: " ";
-                width: 100%;
-            }
+        }
+        &:before{
+            top: 0;
+            bottom: 0;
+            position: absolute;
+            content: " ";
+            width: 0.2rem;
+            background-color: @color_border_gray;
+            left: 50%;
+            margin-left: -0.15rem;
         }
     }
-    .timeline:before {
-        top: 0;
-        bottom: 0;
-        position: absolute;
-        content: " ";
-        width: 0.2rem;
-        background-color: @color_border_gray;
-        left: 50%;
-        margin-left: -0.15rem;
-    }
+
     /*------------------/END TOP EVENTS TIMELINE--------------------*/
     /*--------Reponsive--------*/
     @media (min-width: 768px){
@@ -183,8 +181,17 @@
         .timeline{
             margin: 0;
         }
+        .timeline .timeline-right .timeline-panel:before{
+            right: 2.5rem;
+        }
+        .timeline .timeline-left .timeline-panel:before{
+            right: -2.5rem;
+        }
     }
     @media (max-width: 767px) {
+        .bodytimeline{
+            margin-left: 20px;
+        }
         .timeline{
             margin-right: 5rem;
             .eventtime {
@@ -194,27 +201,25 @@
                 text-align: left;
                 float: left;
             }
-            timeline-left,
-            timeline-right {
+            .timeline-left,
+            .timeline-right {
                 margin-bottom: 1.5rem;
+                .timeline-panel {
+                    width: 100%;
+                    padding-left: @padding + 0.5;
+                    &:before{
+                        width: 99%;
+                        left: 5px;
+                    }
+                }
+            }
+            &:before{
+                left: 0rem;
             }
         }
-        .timeline-panel {
-            width: 100%;
-            left: 2rem;
-            padding-left: @padding*4;
-        }
-        timeline:before {
-            left: 2rem;
-        }
-        .timeline-panel:before {
-            border-left-width: 0;
-            border-right-width: 1.5rem;
-            left: 1rem;
-            right: auto;
-        }
+
         .panel-default{
-            padding: 0 @padding+0.5;
+            padding: 0 @padding;
         }
     }
     @media (max-width: 480px){

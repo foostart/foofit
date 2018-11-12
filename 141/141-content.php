@@ -91,7 +91,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                             <div class="swiper-slide">
                                 <div class="partnerlogo">
-                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/3t.png"  alt="3T logo" title="3T" >
+                                    <img class="img-responsive" src="http://<?php echo $url_path ?>/images/3T.png"  alt="3T logo" title="3T" >
                                 </div>
                             </div>
                             <div class="swiper-slide">

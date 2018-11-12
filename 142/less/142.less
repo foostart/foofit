@@ -1,7 +1,7 @@
 .type-142 {
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
-    @font-size:2.5rem;
+    @font-size:1.5rem;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
 
@@ -25,11 +25,11 @@
         padding: 2rem 0 0;
         h2 {
             font-weight: bold;
-            font-size: @font-size;
-        }
-        h2>span {
-            font-weight: normal;
-            font-size: @font-size;
+            font-size: @font-size + 1;
+            span {
+                font-weight: normal;
+                font-size: @font-size + 1;
+            }
         }
     }
     .crossedbg {
@@ -53,23 +53,22 @@
         padding-left: 0;
         padding-right: 0;
         margin: 0 1.5rem;
-    }
-
-    .list-group-item:first-child {
-        border-top-right-radius: 0.4rem;
-        border-top-left-radius: 0.4rem;
-    }
-    .list-group-item:before {
-        font-family: Arial, Helvetica, sans-serif;
-        color: #f5ce31;
-        content: "\2022";
-        font-size: 2.5rem;
-        padding-right: 1rem;
-        position: relative;
-        top: 0.5rem;
-    }
-    .list-group-item:last-child {
-        border: none;
+        &:first-child{
+            border-top-right-radius: 0.4rem;
+            border-top-left-radius: 0.4rem;
+        }
+        &:before{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #f5ce31;
+            content: "\2022";
+            font-size: 2.5rem;
+            padding-right: 1rem;
+            position: relative;
+            top: 0.5rem;
+        }
+        &:last-child{
+             border: none;
+        }
     }
     /*------------------/END LIST TITLE POSTS--------------------*/
 
@@ -77,10 +76,10 @@
     .toparticle > .thumb{ 
         img {
             max-width: 100%;
-        }
-        img:hover{
-            opacity: 0.8;
+            &:hover{
+                opacity: 0.8;
             transition: all 0.5s ease;
+            }
         }
     }
 
@@ -88,7 +87,7 @@
         margin-top: 2.5rem;
         h4 {
             font-weight: bold;
-            font-size: @font-size - 0.5;
+            font-size: @font-size + 0.5;
             line-height: 2.5rem;
             a:hover{
                 .hover;

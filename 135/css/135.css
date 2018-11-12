@@ -1,0 +1,103 @@
+.type-135 {
+  background-image: url('../images/bg_pattern.png');
+}
+.type-135 .prof_profile {
+  margin-top: 5.5rem;
+  background: #fff;
+}
+.type-135 .prof_profile img {
+  width: 100%;
+  max-width: 100%;
+}
+.type-135 .prof_profile img:hover {
+  opacity: 0.8;
+  transition: all 0.2s ease;
+}
+.type-135 .prof_profile .prof_ide {
+  background: #f5ce31;
+  position: relative;
+}
+.type-135 .prof_profile .prof_ide .prof_fullname {
+  font-weight: 800;
+  text-transform: capitalize;
+  border-right: 0.1rem #333 solid;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 1.5rem;
+}
+.type-135 .prof_profile .prof_ide .prof_title {
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-style: italic / 2;
+  padding-left: 1.5rem;
+}
+.type-135 .prof_profile .prof_ide:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 3rem;
+  border-width: 1.2rem 1.2rem 0;
+  border-style: solid;
+  border-color: #f5ce31 transparent;
+  display: block;
+  width: 0;
+}
+.type-135 .prof_profile .prof_contact {
+  padding: 3rem;
+  font-style: italic / 2;
+}
+.type-135 .prof_profile .prof_contact .prof_dep {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.type-135 .prof_profile .prof_contact .inf-contact {
+  padding-top: 2rem;
+}
+.type-135 .prof_profile .prof_contact .inf-contact .inf {
+  padding: 0.5rem 0;
+}
+.type-135 .prof_profile .crossedbg {
+  background: url(../images/bg_cr_grey.png);
+  height: 1.5rem;
+}
+.type-135 .col-md-8,
+.type-135 .col-md-4 {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+@media (min-width: 768px) {
+  .type-135 .profile {
+    width: 96rem;
+    padding: 0rem;
+  }
+  .type-135 .profile .prof_ava {
+    padding-left: 1.5rem;
+  }
+  .type-135 .profile .prof_info {
+    padding-right: 1.5rem;
+  }
+  .type-135 .profile .prof_info .prof_ide {
+    padding: 3rem;
+  }
+  .type-135 .profile .prof_info .prof_ide .prof_fullname {
+    font-size: 2rem;
+  }
+  .type-135 .profile .prof_info .prof_ide .prof_title {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .type-135 .prof_ide {
+    padding: 1.5rem;
+  }
+  .type-135 .prof_ide .prof_fullname {
+    font-size: 1.5rem;
+  }
+  .type-135 .prof_ide .prof_title {
+    font-size: 1rem;
+  }
+  .type-135 .employees {
+    padding: 0rem;
+  }
+}

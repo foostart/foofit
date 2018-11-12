@@ -2,7 +2,7 @@
     @color_background: #4bb4b6;
     @color_font: #fff;
     @color_hover: #2a6496;
-    @font-size: 2.5rem;
+    @font-size: 1.5rem;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
     .hover{
@@ -31,11 +31,11 @@
         padding: 2rem 0 0;
         h2 {
             font-weight: bold;
-            font-size: @font-size;
-        }
-        h2>span {
-            font-weight: normal;
-            font-size: @font-size;
+            font-size: @font-size + 1;
+            span {
+                font-weight: normal;
+                font-size: @font-size + 1;
+            }
         }
     }
     /*------------------END GENERAL--------------------*/
@@ -50,6 +50,11 @@
             padding: 3rem 0;
             .row .row {
                 margin: 0 !important;
+                .col-md-6:first-child {
+                    padding-right: 0;
+                    border-right: 0.1rem solid #86d8da;
+                    padding-left: 0;
+                }
             }
             .topnewsthumb img {
                 width: 100%;
@@ -61,22 +66,14 @@
             }
             h4 {
                 font-weight: bold;
-                font-size: @font-size - 1;
+                font-size: @font-size;
                 line-height: 2rem;
                 a {
                     color: @color_font;
+                    &:hover{
+                        .hover;
+                    }
                 }
-                a:hover{
-                    .hover;
-                }
-            }
-            .row > .col-md-6:first-child {
-                padding-right: 0;
-                border-right: 0.1rem solid #86d8da;
-                padding-left: 0;
-            }
-            .right{
-                padding-left: 0;
             }
             .topnewsdesc{
                 a:hover{
@@ -88,14 +85,14 @@
             text-align: center;
             .topnewsdate {
                 font-family: 'Prata', serif;
-                font-size: @font-size*2;
+                font-size: @font-size + 2.5;
                 line-height: 2.5rem;
                 margin-left: 1.25rem;
             }
             .topnewsmonth {
                 text-transform: uppercase;
-                font-size: @font-size/2;
-                margin-left: 1.4rem;
+                font-size: @font-size - 0.25;
+                margin-left: 0.9rem;
             }
         }
     }
@@ -126,7 +123,7 @@
             }
         }
         .headlinesdate {
-            font-size: @font-size - 1;
+            font-size: @font-size;
             width: 15%;
             min-width: 5.5rem;
             display: table-cell;
@@ -181,6 +178,11 @@
     @media (min-width: 768px){
         .sidebar{
             width: 96rem;
+        }
+    }
+    @media (max-width: 991px){
+        .bottom{
+            margin-bottom: 1.5rem;
         }
     }
     @media (max-width: 480px){

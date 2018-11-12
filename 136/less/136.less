@@ -1,13 +1,13 @@
 .type-136 {
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
-    @margin:3rem;
+    @margin:1.5rem;
     .padding{
         padding:0;
     }
     .img{
-        margin-top: @margin;
-        margin-bottom: @margin;
+        margin-top: @margin * 2;
+        margin-bottom: @margin * 2;
         a {
             position: relative;
             display: inline-block;
@@ -15,39 +15,37 @@
             /* Sử dụng mặt nạ là chính bức ảnh .png để che đi những phần không muốn hiển thị: */
             -webkit-mask: url(../images/tuyensinh.jpg) center center;
             border-radius: 50%;
-            mask: url('#mask-firefox');
             img{
                 max-width: 100%;
                 width: 100%;
                 border-radius: 50%;
             }
+            &:after{
+                content: '';
+                position: absolute;
+                pointer-events: none;
+                top: -110%;
+                left: -210%;
+                width: 150%;
+                height: 150%;
+                opacity: 0;
+                background: linear-gradient(
+                    to right, 
+                    rgba(255, 255, 255, 0.13) 0%,
+                    rgba(255, 255, 255, 0.13) 77%,
+                    rgba(255, 255, 255, 0.5) 92%,
+                    rgba(255, 255, 255, 0.0) 100%
+                    );
+            }
+            &:hover:after{
+                opacity: 1;
+                top: -20%;
+                left: -30%;
+                transition-property: left, top, opacity;
+                transition-duration: .8s, .8s, .15s;
+                transition-timing-function: ease;
+            }
         }
-        a:after{
-            content: '';
-            position: absolute;
-            pointer-events: none;
-            top: -110%;
-            left: -210%;
-            width: 200%;
-            height: 200%;
-            opacity: 0;
-            background: linear-gradient(
-                to right, 
-                rgba(255, 255, 255, 0.13) 0%,
-                rgba(255, 255, 255, 0.13) 77%,
-                rgba(255, 255, 255, 0.5) 92%,
-                rgba(255, 255, 255, 0.0) 100%
-                );
-        }
-        a:hover:after{
-            opacity: 1;
-            top: -30%;
-            left: -30%;
-            transition-property: left, top, opacity;
-            transition-duration: 1s, 1s, .15s;
-            transition-timing-function: ease;
-        }
-
     }
 
     /*------REPONSIVE---------*/
@@ -66,8 +64,8 @@
         .sidebar{
             .padding;
         }
-        .img a img {
-            width: 50%;
+        .img{
+            width: calc(100% - 50rem);
         }
     }
     @media (max-width: 480px){
