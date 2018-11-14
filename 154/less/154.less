@@ -2,6 +2,8 @@
 
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
+	@color_hover_hieuung: #003b7a;
+	@color_feedback_name: #f5ce31;
 
     font-family: 'Open Sans', sans-serif;
 
@@ -38,7 +40,7 @@
             padding: 5px 0;
         }
         .feedback_name {
-            color: #f5ce31;
+            color: @color_feedback_name;
             font-family: 'Open Sans Condensed', sans-serif;
             font-weight: bold;
             text-transform: capitalize;
@@ -52,13 +54,13 @@
               margin-bottom: 15px;
         }
         cursor: pointer;
-        box-shadow: inset 0 0 0 0 #003b7a;
+        box-shadow: inset 0 0 0 0 @color_hover_hieuung;
         -webkit-transition: ease-out 0.7s;
         -moz-transition: ease-out 0.7s;
         transition: ease-out 0.7s;
     }
     .hieu_ung:hover{
-            box-shadow: inset 400px 0 0 0 #003b7a;
+            box-shadow: inset 400px 0 0 0 @color_hover_hieuung;
 .feedback_desc {
     color: #fff;
 }
