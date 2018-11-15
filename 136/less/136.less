@@ -2,6 +2,9 @@
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
     @margin:1.5rem;
+    @md-992: 992px;
+    @sm-768: 768px;
+    @xs-480: 480px;
     .padding{
         padding:0;
     }
@@ -49,18 +52,18 @@
     }
 
     /*------REPONSIVE---------*/
-    @media (min-width: 992px){
+    @media (min-width: @md-992){
         .sidebar{
             .padding;
         }
 
     }
-    @media (min-width: 768px){
+    @media (min-width: @sm-768px){
         .sidebar{
             width: 96rem;
         }
     }
-    @media only screen and (min-width: 480px) and (max-width: 996px){
+    @media only screen and (min-width: @xs-480) and (max-width: @md-992){
         .sidebar{
             .padding;
         }
@@ -68,7 +71,7 @@
             width: calc(100% - 50rem);
         }
     }
-    @media (max-width: 480px){
+    @media (max-width: @xs-480){
         .sidebar{
             .padding;
         }

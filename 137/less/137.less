@@ -1,8 +1,10 @@
 .type-137{
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
-    @font-size: 1.5rem;
+    @font_size: 1.5rem;
     @padding :1.5rem;
+    @sm-768: 768px;
+    @xs-480: 480px;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
 
@@ -168,7 +170,7 @@
 
     /*------------------/END TOP EVENTS TIMELINE--------------------*/
     /*--------Reponsive--------*/
-    @media (min-width: 768px){
+    @media (min-width: @sm-768){
         .event{
             width: 960px;
         }
@@ -188,7 +190,7 @@
             right: -2.5rem;
         }
     }
-    @media (max-width: 767px) {
+    @media (max-width: @sm-768) {
         .bodytimeline{
             margin-left: 20px;
         }
@@ -222,7 +224,7 @@
             padding: 0 @padding;
         }
     }
-    @media (max-width: 480px){
+    @media (max-width: @xs-480){
         .panel-default{
             padding: 0;
         }

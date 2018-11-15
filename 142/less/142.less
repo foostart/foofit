@@ -1,7 +1,10 @@
 .type-142 {
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
-    @font-size:1.5rem;
+    @font_size:1.5rem;
+    @md-992: 992px;
+    @sm-768: 768px;
+    @xs-480: 480px;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
 
@@ -67,7 +70,7 @@
             top: 0.5rem;
         }
         &:last-child{
-             border: none;
+            border: none;
         }
     }
     /*------------------/END LIST TITLE POSTS--------------------*/
@@ -78,7 +81,7 @@
             max-width: 100%;
             &:hover{
                 opacity: 0.8;
-            transition: all 0.5s ease;
+                transition: all 0.5s ease;
             }
         }
     }
@@ -98,17 +101,17 @@
     /*------------------/END TOP TECHNOLOGIES--------------------*/
 
     /*------------------REPONSIVE--------------*/
-    @media (min-width: 992px){
+    @media (min-width: @md-992){
         .sidebar{
             padding: 0;
         }
     }
-    @media (min-width: 768px){
+    @media (min-width: @sm-768){
         .sidebar{
             width: 96rem;
         }
     }
-    @media (max-width: 480px){
+    @media (max-width: @xs-480){
         .sidebar{
             padding: 0;
         }

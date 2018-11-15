@@ -1,8 +1,11 @@
 .type-139 {
     @color_background: #4bb4b6;
-    @color_font: #fff;
+    @color_white: #fff;
     @color_hover: #2a6496;
-    @font-size: 1.5rem;
+    @font_size: 1.5rem;
+    @md-992: 992px;
+    @sm-768: 768px;
+    @xs-480: 480px;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
     .hover{
@@ -11,7 +14,7 @@
         text-decoration: none;
     }
     .news a {
-        color: @color_font;
+        color: @color_white;
     }
     a:hover, a:focus {
         text-decoration: none; 
@@ -44,7 +47,7 @@
     .news {
         background: none;
         padding: 0;
-        color: @color_font;
+        color: @color_white;
         .topnews {
             background: @color_background;
             padding: 3rem 0;
@@ -69,7 +72,7 @@
                 font-size: @font-size;
                 line-height: 2rem;
                 a {
-                    color: @color_font;
+                    color: @color_white;
                     &:hover{
                         .hover;
                     }
@@ -170,22 +173,22 @@
     }
     /*------------------/END LINK SEE ALL NEWS--------------------*/
     /*----------REPONSIVE-------------*/
-    @media (min-width: 992px){
+    @media (min-width: @md-992){
         .sidebar{
             padding: 0;
         }
     }
-    @media (min-width: 768px){
+    @media (min-width: @sm-768){
         .sidebar{
             width: 96rem;
         }
     }
-    @media (max-width: 991px){
+    @media (max-width: @md-992){
         .bottom{
             margin-bottom: 1.5rem;
         }
     }
-    @media (max-width: 480px){
+    @media (max-width: @xs-480){
         .sidebar{
             padding: 0;
         }

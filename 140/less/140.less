@@ -1,6 +1,9 @@
 .type-140 {
     @color_hover: #2a6496;
     @color_hover_readmore: #003b7a;
+    @md-992: 992px;
+    @sm-768: 768px;
+    @xs-480: 480px;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
     @font-size:1.5rem;
@@ -52,17 +55,17 @@
         }
     }
     /*-------------REPONSIVE--------------*/
-    @media (min-width: 992px){
+    @media (min-width: @md-992){
         .content{
             padding: 0;
         }
     }
-    @media (min-width: 768px){
+    @media (min-width: @sm-768){
         .content{
             width: 96rem;
         }
     }
-    @media (max-width: 480px){
+    @media (max-width: @xs-480){
         .content{
             padding: 0;
         }

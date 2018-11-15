@@ -1,6 +1,9 @@
 .type-138 {
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
+    @md-992: 992px;
+    @sm-768: 768px;
+    @xs-480: 480px;
     .fontsize{
         font-size: 2.5rem;
     }
@@ -74,17 +77,17 @@
     }
     /*------------------END TOP WORKS & TOP ALUMNUS--------------------*/
     /*---------------REPONSIVE------------*/
-    @media (min-width: 992px){
+    @media (min-width: @md-992){
         .sidebar{
             padding: 0;
         }
     }
-    @media (min-width: 768px){
+    @media (min-width: @sm-768){
         .sidebar{
             width: 96rem;
         }
     }
-    @media (max-width: 480px){
+    @media (max-width: @xs-480){
         .sidebar{
             padding: 0;
         }
