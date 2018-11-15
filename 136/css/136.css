@@ -49,7 +49,7 @@
     width: 96rem;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 996px) {
+@media only screen and (min-width: 480px) and (max-width: 992px) {
   .type-136 .sidebar {
     padding: 0;
   }

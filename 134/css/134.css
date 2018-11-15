@@ -173,7 +173,7 @@
     transition: left 1.35s, opacity 0.5s;
   }
 }
-@media (max-width: 478px) {
+@media (max-width: 480px) {
   .type-134 .swiper-button-next,
   .type-134 .swiper-button-prev {
     display: none;

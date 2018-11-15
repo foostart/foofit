@@ -176,10 +176,10 @@
     right: 2.5rem;
   }
   .type-137 .timeline .timeline-left .timeline-panel:before {
-    right: -2.5rem;
+    right: -2rem;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .type-137 .bodytimeline {
     margin-left: 20px;
   }

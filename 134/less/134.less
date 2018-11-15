@@ -5,7 +5,7 @@
     @border_swiper:0.7rem;
     @transition_slide:left 1.35s, opacity 0.5s;
     @sm-768: 768px;
-    @sx-480: 480px;
+    @xs-480: 480px;
     .clear{clear: both;}
     background-image: url('../images/bg_pattern.png');
     .slideshow{
@@ -108,11 +108,11 @@
             background:#fff;
             width: 2rem;
             height: 4rem;
-            -webkit-transition: @transition-swiper;
-            -o-transition: @transition-swiper;
-            -ms-transition: @transition-swiper;
-            -moz-transition: @transition-swiper;
-            transition: @transition-swiper;
+            -webkit-transition: @transition_swiper;
+            -o-transition: @transition_swiper;
+            -ms-transition: @transition_swiper;
+            -moz-transition: @transition_swiper;
+            transition: @transition_swiper;
         }
         .btn{
             position: absolute;
@@ -125,8 +125,8 @@
 
         .swiper-button-prev {
             left: 0rem;
-            border-bottom-right-radius: @border-swiper;
-            border-top-right-radius: @border-swiper;
+            border-bottom-right-radius: @border_swiper;
+            border-top-right-radius: @border_swiper;
 
             .btn-prev {
                 .btn;
@@ -135,8 +135,8 @@
 
         .swiper-button-next {
             right: 0rem;
-            border-bottom-left-radius: @border-swiper;
-            border-top-left-radius: @border-swiper;
+            border-bottom-left-radius: @border_swiper;
+            border-top-left-radius: @border_swiper;
 
             .btn-next {
                 .btn;
@@ -181,14 +181,14 @@
                 opacity: 1!important;
                 width: 34rem!important;
                 left: 0rem;
-                -o-transition: @transition-slide;
-                -sm-transition: @transition-slide;
-                -moz-transition: @transition-slide;
-                transition: @transition-slide;
+                -o-transition: @transition_slide;
+                -sm-transition: @transition_slide;
+                -moz-transition: @transition_slide;
+                transition: @transition_slide;
             }
         }
     }
-    @media (max-width: @xs-480){
+    @media (max-width:@xs-480){
         .swiper-button-next, .swiper-button-prev{
             display: none
         }
