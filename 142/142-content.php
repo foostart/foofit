@@ -45,20 +45,25 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                                 <div class="col-md-6">
                                     <ul class="list-group">
-                                        <li class="list-group-item">
+                                        <li class="list-group-item boxshow">
                                             <a href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp_Phần 1</a>                        
+                                            <span class="productdot"> </span>
                                         </li>
-                                        <li class="list-group-item">
-                                            <a href="#">Quên SSD đi, SSHD mới là chiếc ổ cứng thỏa mãn mơ ước của bạn</a>                        
+                                        <li class="list-group-item boxshow">
+                                            <a href="#">Quên SSD đi, SSHD mới là chiếc ổ cứng thỏa mãn mơ ước của bạn</a>
+                                            <span class="productdot"> </span>
                                         </li>
-                                        <li class="list-group-item">
-                                            <a href="#">Microsoft chính thức “kết liễu” Windows 7 và Windows 8</a>                        
+                                        <li class="list-group-item boxshow">
+                                            <a href="#">Microsoft chính thức “kết liễu” Windows 7 và Windows 8</a>        
+                                            <span class="productdot"> </span>
                                         </li>
-                                        <li class="list-group-item">
-                                            <a href="#">Đo tốc độ Internet bằng Google Search</a>                        
+                                        <li class="list-group-item boxshow">
+                                            <a href="#">Đo tốc độ Internet bằng Google Search</a>
+                                            <span class="productdot"> </span>
                                         </li>
-                                        <li class="list-group-item">
-                                            <a href="#">3 cách giúp tăng tốc Internet nhanh hơn 20%</a>                        
+                                        <li class="list-group-item boxshow">
+                                            <a href="#">3 cách giúp tăng tốc Internet nhanh hơn 20%</a>          
+                                            <span class="productdot"> </span>
                                         </li>
                                     </ul>
                                 </div>
