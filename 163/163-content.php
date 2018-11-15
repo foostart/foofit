@@ -21,7 +21,7 @@
                                     </li>
                                     <li>
                                         <i class="fa fa-building fa-lg fa-fw"></i><span class="Date-Time"> 53, Võ Văn Ngân, P.Linh Chiểu,</span><br>
-                                        <span class="Date-Time-Secondline"> Q.Thủ Đức, Tp.HCM </span>
+                                        <span class="Date-time-Secondline">Q.Thủ Đức, Tp.HCM</span>
                                     </li>
                                     <li>
                                         <i class="fa fa-phone fa-lg fa-fw"></i><span class="Date-Time"> (08) 22 158 642 </span>

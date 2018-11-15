@@ -1,5 +1,7 @@
 .type-332 {
-
+    @md-992: 992px;
+    @sm-768: 768px;
+    @xs-480: 480px;
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
     @color_background_white: #fff;
@@ -42,17 +44,17 @@
     }
     /*------------------/END GENERAL--------------------*/
     /*---------------REPONSIVE-------------*/
-    @media (min-width: 992px){
+    @media (min-width: @md-992){
         .address{
             padding: 0;
         }
     }
-    @media (min-width: 768px){
+    @media (min-width: @sm-768){
         .address{
             width: 960px;
         }
     }
-    @media (max-width: 480px){
+    @media (max-width: @xs-480){
         .address{
             padding: 0;
         }

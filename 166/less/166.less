@@ -1,5 +1,7 @@
 .type-334 {
-
+    @md-992: 992px;
+    @sm-768: 768px;
+    @xs-480: 480px;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
     img {
@@ -22,17 +24,17 @@
     }
 
     /*------REPONSIVE---------*/
-    @media (min-width: 992px){
+    @media (min-width: @md-992){
         .sidebar{
             padding: 0;
         }
     }
-    @media (min-width: 768px){
+    @media (min-width: @sm-768){
         .sidebar{
             width: 960px;
         }
     }
-    @media (max-width: 480px){
+    @media (max-width: @xs-480){
         .sidebar{
             padding: 0;
         }

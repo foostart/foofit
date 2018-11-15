@@ -18,6 +18,9 @@
   max-width: 100%;
   width: 100%;
 }
+.type-339 .top_news_block .top_news_block_thumb {
+  text-align: center;
+}
 .type-339 .top_news_block .top_news_block_thumb img {
   width: 300px;
   height: 300px;
@@ -65,7 +68,7 @@
     margin-top: 0;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .type-339 .news {
     padding-left: 0;
     padding-right: 0;
@@ -75,6 +78,9 @@
   .type-339 .row {
     margin-left: -15px !important;
     margin-right: -15px !important;
+  }
+  .type-339 .img {
+    width: 100%;
   }
 }
 @media (max-width: 768px) {

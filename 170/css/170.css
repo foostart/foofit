@@ -27,7 +27,7 @@
     width: auto;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .type-338 .navbar-nav {
     padding: 0 15px;
   }

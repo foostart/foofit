@@ -1,18 +1,10 @@
 .type-340{
+    @md-1200: 1200px;
+    @md-992: 992px;
+    @sm-768: 768px;
+    @xs-480: 480px;
     background-image: url(../images/bg_pattern.png);
     @font_color:#333;
-    @media (min-width: 1200px){
-        .container {
-            max-width: 960px;
-            padding: 0;
-        }
-    }
-    @media(min-width:992px){
-        container{
-            min-width: 760px;
-            padding: 0;
-        }
-    }
     .ready {padding-top: 10px;
         padding-bottom: 60px;}
     .tabs {
@@ -120,7 +112,7 @@
         text-transform: uppercase;
         position: absolute;
         padding: 0 15px;
-        width: 96%;
+        width: 303px;
     margin-left: 6px;
     }
 
@@ -221,13 +213,34 @@
     }
 
     /*----------REPONSIVE-----------*/
-    @media (max-width: 480px){
+    @media (max-width: @xs-480){
         .tuyen-sinh{
             padding: 0;
         }
         .tabs li {
             width: 100%;
             margin: 15px 0;
+        }
+    }
+       @media (min-width:  @md-1200){
+        .container {
+            max-width: 960px;
+            padding: 0;
+        }
+    }
+        @media (max-width: @md-1200){
+            .cube{
+            width: 250px;
+            }
+            .tabs li .more{
+                width: 267px;
+            }
+        }
+    @media(max-width:@md-992){
+        .tabs li{
+         float:none;
+         margin: 0 auto 73px auto;
+         text-align:center;
         }
     }
     /*----------END REPONSIVE-----------*/

@@ -3,17 +3,12 @@
     max-width: 960px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .type-330 .container {
     width: 960px;
   }
 }
 @media (max-width: 480px) {
-  .type-330 .demo {
-    padding: 0;
-  }
-}
-@media (max-width: 768px) {
   .type-330 .demo {
     padding: 0;
   }

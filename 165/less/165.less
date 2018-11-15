@@ -1,6 +1,9 @@
 .type-333{
     background-image: url('../images/bg_pattern.png');
     @color_boder: #cecece;
+    @md-992: 992px;
+    @sm-768: 768px;
+    @xs-480: 480px;
     .title {
         margin-top: 45px;
         h1 {
@@ -57,17 +60,17 @@
        }
    }
    /*----REPONSIVE-------*/
-   @media (min-width: 992px){
+   @media (min-width: @md-992){
        .intro{
            padding: 0;
        }
    }
-   @media (min-width: 768px){
+   @media (min-width: @sm-768){
        .intro{
-           width: 960px
+           width: 960px;
        }
    }
-   @media (max-width: 480px){
+   @media (max-width: @xs-480){
        .intro{
            padding: 0;
        }

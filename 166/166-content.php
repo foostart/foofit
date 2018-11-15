@@ -10,7 +10,7 @@
                     <div class="widget html button_hover">
                         <div>
                             <a href="#" >
-                                <img src="images/tuyensinh.png" alt="" ">
+                                <img src="<?php echo $url_path ?>/images/tuyensinh.png" alt="" ">
                             </a>
                         </div>	
                         <div class="divider"></div>

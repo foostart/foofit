@@ -19,7 +19,7 @@
                     <li>
                         <div class="cube">
                             <div class="active-state">
-                             
+                             <br>
                                 <p>Trang bị cho sinh viên kiến thức và kỹ năng để trở thành nhà phát triển phần mềm chuyên nghiệp.</p>
                             </div>
                             <div class="default-state">
@@ -42,7 +42,7 @@
                     <li>
                        <div class="cube">
                             <div class="active-state">
-                               
+                               <br>
                                 <p>Sinh viên có kiến thức nền tảng và chuyên sâu trong các lĩnh vực thiết kế quảng cáo, phục vụ cho rất nhiều mục đích như: truyền thông, quảng cáo, ...</p>
                             </div>
                             <div class="default-state">

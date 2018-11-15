@@ -6,7 +6,7 @@
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="top_news_block">
                         <div class="top_news_block_thumb">
-                            <img src="images/posts-1.png" alt=""/>
+                            <img src="<?php echo $url_path ?>/images/posts-1.png" alt=""/>
                         </div>
                         <div class="top_news_block_desc">
                             <div class="row">
@@ -26,7 +26,7 @@
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="top_news_block">
                         <div class="top_news_block_thumb">
-                            <img src="images/posts-1.png" alt=""/>
+                            <img src="<?php echo $url_path ?>/images/posts-1.png" alt=""/>
                         </div>
                         <div class="top_news_block_desc">
                             <div class="row">
@@ -46,7 +46,7 @@
                 <div class="col-md-4 col-sm-12 col-xs-12">                   
                     <div class="top_news_block">
                         <div class="top_news_block_thumb">
-                            <img src="images/posts-3.jpg" alt=""/>
+                            <img src="<?php echo $url_path ?>/images/posts-3.jpg" alt=""/>
                         </div>
                         <div class="top_news_block_desc">
                             <div class="row">
@@ -67,7 +67,7 @@
                     
                     <div class="top_news_block">
                         <div class="top_news_block_thumb">
-                            <img src="images/posts-4.png" alt=""/>
+                            <img src="<?php echo $url_path ?>/images/posts-4.png" alt=""/>
                         </div>
                         <div class="top_news_block_desc">
                             <div class="row">
@@ -88,7 +88,7 @@
                     
                     <div class="top_news_block">
                         <div class="top_news_block_thumb">
-                            <img src="images/posts-5.jpg" alt=""/>
+                            <img src="<?php echo $url_path ?>/images/posts-5.jpg" alt=""/>
                         </div>
                         <div class="top_news_block_desc">
                             <div class="row">
@@ -108,7 +108,7 @@
                 <div class="col-md-4 col-sm-12 col-xs-12">                   
                     <div class="top_news_block">
                         <div class="top_news_block_thumb">
-                            <img src="images/posts-6.jpg" alt=""/>
+                            <img src="<?php echo $url_path ?>/images/posts-6.jpg" alt=""/>
                         </div>
                         <div class="top_news_block_desc">
                             <div class="row">

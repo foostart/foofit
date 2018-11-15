@@ -1,5 +1,7 @@
 .type-338{
-    
+    @md-992: 992px;
+    @sm-768: 768px;
+    @xs-480: 480px;
     @color_backgroud: #f5ce31;
     background: url(../images/bg_pattern.png) repeat;
     #catenav {
@@ -19,7 +21,7 @@
     }
     
     /*--REPONSIVE--*/
-    @media (min-width: 768px){
+    @media (min-width:  @sm-768){
         .special{
             width: 960px;
         }
@@ -31,7 +33,7 @@
         }
         
     }
-    @media (max-width: 768px){
+    @media (max-width: @xs-480){
         .navbar-nav {
             padding: 0 15px;
         }

@@ -18,10 +18,10 @@
                             <em><strong>1.1. Lịch Sử Hình Thành Và Phát Triển</strong></em>
                             </p>
                     <div class="images_Center" data-aos="fade-right">
-                        <img src="images/tdc-1.jpg" alt=""/>
+                        <img src="<?php echo $url_path ?>/images/tdc-1.jpg" alt=""/>
                     </div>
                     <div class="images_Center" data-aos="fade-right">
-                        <img src="images/tdc-2.jpg" alt=""/>
+                        <img src="<?php echo $url_path ?>/images/tdc-2.jpg" alt=""/>
                     </div>
                     <div class="images_Center" data-aos="fade-right">
                         <em>GIảng viên - Nhân viên;Khoa Công nghệ thông tin</em>
@@ -32,23 +32,23 @@
                     Với đội ngũ cán bộ giảng dạy và nghiên cứu nhiều kinh nghiệm, đã hoặc đang làm việc thực tế ở các công ty, chúng tôi tự hào luôn mang đến một môi trường học tập tiên tiến, sáng tạo, năng động, phù hợp với thực tiễn doanh nghiệp. Các lĩnh vực nghiên cứu và giảng dạy của khoa rất đa dạng và phong phú, tập trung ở các chuyên ngành ứng với bốn bộ môn: Tin học cơ sở, Công nghệ phần mềm, Mạng máy tính và Đồ họa.
                     </div>
                    <div class="images_Center" data-aos="fade-right">
-                        <img src="images/tdc-3.jpg" alt=""/>
+                        <img src="<?php echo $url_path ?>/images/tdc-3.jpg" alt=""/>
                          <em>Bộ môn Tin học cơ sở - Khoa CNTT</em><br>
                     </div>
 
                    <div class="images_Center" data-aos="fade-right">
-                        <img src="images/tdc-4.jpg" alt=""/>
+                        <img src="<?php echo $url_path ?>/images/tdc-4.jpg" alt=""/>
                          <em >Bộ môn Công nghệ phần mềm;- Khoa CNTT</em><br>
                     </div>
 
                    <div class="images_Center" data-aos="fade-right">
                         <br>
-                            <img src="images/tdc-5.jpg" alt=""/>
+                            <img src="<?php echo $url_path ?>/images/tdc-5.jpg" alt=""/>
                             <em >Bộ môn Mạng máy tính;- Khoa CNTT</em><br>
                     </div>
                     <div class="images_Center" data-aos="fade-right">
                         <br>
-                            <img src="images/tdc-6.jpg" alt=""/>
+                            <img src="<?php echo $url_path ?>/images/tdc-6.jpg" alt=""/>
                         <em >Bộ môn Đồ họa;- Khoa CNTT</em>
                     </div>
                     <br>
@@ -59,7 +59,7 @@
                     <br>
                        
                    <div class="images_Center" data-aos="fade-right" >
-                     <img src="images/tdc-7.jpg" alt=""/>
+                     <img src="<?php echo $url_path ?>/images/tdc-7.jpg" alt=""/>
                         <em>Sinh viên;Khoa CNTT giao lưu, học tập với sinh viên ĐH;Singapore Polytechnic</em>
                     </div>
                     ​<br>
@@ -99,32 +99,32 @@
                     </ul>
                     
                    <div class="images_Center" data-aos="fade-right">
-                     <img src="images/tdc-10.jpg" alt=""/>
+                     <img src="<?php echo $url_path ?>/images/tdc-10.jpg" alt=""/>
                         <em>Phòng thực hành;Quản trị mạng</em>
                     </div>
                     <br>
                     
                    <div class="images_Center" data-aos="fade-right" >
-                    <img src="images/tdc-11.jpg" alt=""/>
+                    <img src="<?php echo $url_path ?>/images/tdc-11.jpg" alt=""/>
                         <em>Giờ thực hành chuyên ngành Truyền thông đa phương tiện</em>
                     </div>
                     <br>
 
                    <div class="images_Center"  data-aos="fade-right" >
-                     <img src="images/tdc-12.jpg" alt=""/>
+                     <img src="<?php echo $url_path ?>/images/tdc-12.jpg" alt=""/>
                         <em>Giờ học lý thuyết</em>
                     </div>
                     <br>
                     
                     
                       <div class="images_Center"  data-aos="fade-right" >
-                    <img src="images/tdc-13.jpg" alt=""/>
+                    <img src="<?php echo $url_path ?>/images/tdc-13.jpg" alt=""/>
                         <em>Giờ tự học của sinh viên tại thư viện</em>
                     </div>
                     <br>
                      
                     <div class="images_Center"  data-aos="fade-right" >
-                     <img src="images/tdc-14.jpg" alt=""/>
+                     <img src="<?php echo $url_path ?>/images/tdc-14.jpg" alt=""/>
                         <em>Khuôn viên trường thoáng mát, yên tĩnh dành cho sinh viên</em>
                     </div>
                     <br>

@@ -1,18 +1,19 @@
 .type-330{
-    @media (min-width: 1200px){
+    @md-1200: 1200px;
+    @sm-768: 768px;
+    @sm-768: 480px;
+    @color_white: #fff;
+    @media (min-width: @md-1200){
         .container {
             max-width: 960px;
         }
     }
-    @media(min-width:768px){
+    @media(min-width:@sm-768){
         .container{
             width:960px;
         }
     }  
-    @media (max-width: 480px){
-        .demo{padding: 0;}
-    }
-    @media (max-width: 768px){
+    @media (max-width:@sm-768){
         .demo{padding: 0;}
     }
     .tuyen-sinh {margin-bottom: 50px;}
@@ -41,7 +42,7 @@
         font-family: 'Helvetica Neue',Helvetica, sans-serif;
         h1 {
             font-size: 25px!important;
-            color: #fff;
+            color: @color_white;
             text-shadow: #d65c5c 0 1px 0;
             margin:0px;
             padding: 15px 10px;

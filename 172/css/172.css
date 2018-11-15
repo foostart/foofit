@@ -1,18 +1,6 @@
 .type-340 {
   background-image: url(../images/bg_pattern.png);
 }
-@media (min-width: 1200px) {
-  .type-340 .container {
-    max-width: 960px;
-    padding: 0;
-  }
-}
-@media (min-width: 992px) {
-  .type-340 container {
-    min-width: 760px;
-    padding: 0;
-  }
-}
 .type-340 .ready {
   padding-top: 10px;
   padding-bottom: 60px;
@@ -110,7 +98,7 @@
   text-transform: uppercase;
   position: absolute;
   padding: 0 15px;
-  width: 96%;
+  width: 303px;
   margin-left: 6px;
 }
 .type-340 .tabs li:before {
@@ -204,5 +192,26 @@
   .type-340 .tabs li {
     width: 100%;
     margin: 15px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .type-340 .container {
+    max-width: 960px;
+    padding: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .type-340 .cube {
+    width: 250px;
+  }
+  .type-340 .tabs li .more {
+    width: 267px;
+  }
+}
+@media (max-width: 992px) {
+  .type-340 .tabs li {
+    float: none;
+    margin: 0 auto 73px auto;
+    text-align: center;
   }
 }

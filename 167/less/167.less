@@ -1,5 +1,8 @@
 .type-335 {
-
+    @md-992: 992px;
+    @sm-768: 768px;
+    @xs-480: 480px;
+    @color_white: #fff;
     @color_hover: #2a6496;
     @color_border_gray: #d9d9d9;
 
@@ -40,7 +43,7 @@
 
     /*------------------TOP WORKS & TOP ALUMNUS--------------------*/
     .panel-body {
-        background: #fff;
+        background:  @color_white;
     }
     .list-group {
         list-style: disc;
@@ -86,17 +89,17 @@
 
     /*------------------END TOP WORKS & TOP ALUMNUS--------------------*/
     /*---------------REPONSIVE------------*/
-    @media (min-width: 992px){
+    @media (min-width: @md-992){
         .sidebar{
             padding: 0;
         }
     }
-    @media (min-width: 768px){
+    @media (min-width: @sm-768){
         .sidebar{
             width: 960px;
         }
     }
-    @media (max-width: 480px){
+    @media (max-width: @xs-480){
         .sidebar{
             padding: 0;
         }

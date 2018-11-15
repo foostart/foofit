@@ -14,8 +14,8 @@
             </div>
             <!--IMAGES-->
             <div>
-                <img class="images-gif" src="images/tdcwhyus.gif" alt="tdc-tuyensinh-2015">
-                <img class="images-gif" src="images/tdc-tuyensinh.gif" alt="tdc-tuyensinh-2015-tong-quan">
+                <img class="images-gif" src="<?php echo $url_path ?>/images/tdcwhyus.gif" alt="tdc-tuyensinh-2015">
+                <img class="images-gif" src="<?php echo $url_path ?>/images/tdc-tuyensinh.gif" alt="tdc-tuyensinh-2015-tong-quan">
             </div>
         </div>
         <!--END OF HEADER-->
