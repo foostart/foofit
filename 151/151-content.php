@@ -29,7 +29,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-8 col-xs-9 shortdesc">
                                 <h4>
-                                    <a href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp (Phần 2)</a>                            </h4>
+                                    <a class="hover-fill" href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp (Phần 2)</a>                            </h4>
                                 <p>(PCWorldVN) Ba bài thực hành ở cấp độ trung cấp đòi hỏi bạn phải "võ luyện" nhiều lần, kết hợp với cọ xát thực tế với thiết bị, mạng giả lập và mạng thực tế tại gia đình, doanh nghiệp.<a href="#">[...]</a></p>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-8 col-xs-9 shortdesc">
                                 <h4>
-                                    <a href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp_Phần 1</a>                            </h4>
+                                    <a  class="hover-fill" href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp_Phần 1</a>                            </h4>
                                 <p>(PCWorldVN) Với nghề quản trị mạng, kinh nghiệm là trên hết, kế đến mới là bằng cấp. PCW giới thiệu đến bạn 9 bài thực hành được thiết kế cho 3 cấp độ, từ cơ bản cho đến nâng cao.<a href="#">[...]</a></p>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-8 col-xs-9 shortdesc">
                                 <h4>
-                                    <a href="#">Quên SSD đi, SSHD mới là chiếc ổ cứng thỏa mãn mơ ước của bạn</a>                            </h4>
+                                    <a class="hover-fill"  href="#">Quên SSD đi, SSHD mới là chiếc ổ cứng thỏa mãn mơ ước của bạn</a>                            </h4>
                                 <p>Thay ổ HHD cũ bằng một ổ SSD mới là cách nhanh chóng và đơn giản nhất để đẩy nhanh hiệu năng của chiếc PC nhà bạn. Thế nhưng giờ đây bạn đã có thêm một lựa chọn để biến những trải nghiệm chơi video game của mình “tuyệt như mơ”.<a href="#">[...]</a></p>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-8 col-xs-9 shortdesc">
                                 <h4>
-                                    <a href="#">Microsoft chính thức “kết liễu” Windows 7 và Windows 8</a>                            </h4>
+                                    <a  class="hover-fill" href="#">Microsoft chính thức “kết liễu” Windows 7 và Windows 8</a>                            </h4>
                                 <p>Trên trang chính thức của mình, Microsoft vừa đưa ra tuyên bố “Ngừng bán” hai hệ điều hành phổ biến nhất của hãng: Windows 7 và Windows 8.<a href="#">[...]</a></p>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-8 col-xs-9 shortdesc">
                                 <h4>
-                                    <a href="#">Đo tốc độ Internet bằng Google Search</a>                            </h4>
+                                    <a class="hover-fill"  href="#">Đo tốc độ Internet bằng Google Search</a>                            </h4>
                                 <p>Công cụ kiểm tra tốc độ Internet của Google hiện chỉ hỗ trợ người dùng ở Mỹ. Tuy nhiên, với thủ thuật trong bài viết sau đây, bạn có thể dễ dàng sử dụng nó ở Việt Nam.<a href="#">[...]</a></p>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-8 col-xs-9 shortdesc">
                                 <h4>
-                                    <a href="#">3 cách giúp tăng tốc Internet nhanh hơn 20%</a>                            </h4>
+                                    <a  class="hover-fill" href="#">3 cách giúp tăng tốc Internet nhanh hơn 20%</a>                            </h4>
                                 <p>Chỉ với vài mẹo nhỏ đơn giản, bạn có thể tăng tốc Internet nhanh hơn 20% mà không cần phải cài đặt thêm các ứng dụng của bên thứ ba.<a href="#">[...]</a></p>
                             </div>
                         </div>

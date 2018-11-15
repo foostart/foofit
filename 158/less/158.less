@@ -49,6 +49,26 @@
             margin-left: 3px;
         }
     }
+   .effect-hover> a {
+	display: inline-block;
+	position: relative;
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 0;
+		bottom: 0;
+		height: 2px;
+		margin: -5px 0;
+		left: 0;
+		background-color:  @color_hover;
+		transition: all 0.4s ease-in 0s;
+	}
+	&:hover:after {
+		width: 100%;
+	}
+}
+
     .headlinesdate .headlinesdm, .headlinesdate {
         float: left;
         font-family: 'Prata', serif;

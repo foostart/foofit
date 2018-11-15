@@ -43,6 +43,25 @@
   float: left;
   margin-left: 3px;
 }
+.type-158 .effect-hover> a {
+  display: inline-block;
+  position: relative;
+}
+.type-158 .effect-hover> a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  bottom: 0;
+  height: 2px;
+  margin: -5px 0;
+  left: 0;
+  background-color: #2a6496;
+  transition: all 0.4s ease-in 0s;
+}
+.type-158 .effect-hover> a:hover:after {
+  width: 100%;
+}
 .type-158 .headlinesdate .headlinesdm,
 .type-158 .headlinesdate {
   float: left;
