@@ -35,8 +35,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <span class="topnewsmonth">Tháng 01</span><br>
                                             </div>
                                             <div class="col-md-8 bottom">
-                                                <div class="topnewsthumb">
-                                                    <img src="http://<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">
+                                                <div class="img"> 
+                                                    <a href="#">
+                                                        <div class="topnewsthumb">
+                                                            <img src="http://<?php echo $url_path ?>/images/hinh1.jpg" alt="hinh1">
+                                                        </div>
+                                                    </a>
                                                 </div>
                                                 <h4>
                                                     <a href="#">TDC kết nối, hợp tác cùng Tập đoàn BKAV</a>                            
@@ -55,8 +59,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <span class="topnewsmonth">Tháng 01</span><br>
                                             </div>
                                             <div class="col-md-8">
-                                                <div class="topnewsthumb">
-                                                    <img src="http://<?php echo $url_path ?>/images/hinh2.jpg" alt="hinh2">
+                                                <div class="img"> 
+                                                    <a href="#">
+                                                        <div class="topnewsthumb">
+                                                            <img src="http://<?php echo $url_path ?>/images/hinh2.jpg" alt="hinh2">
+                                                        </div>
+                                                    </a>
                                                 </div>
                                                 <h4>
                                                     <a href="#">Đại diện HCA đến thăm và làm việc cùng Trường Cao đẳng Công nghệ Thủ Đức</a>                            

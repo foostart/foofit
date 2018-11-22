@@ -18,7 +18,11 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="row">
                 <!--Begin Profile-->
                 <div class="col-md-4 .col-sm-5 col-xs-5 prof_ava">
-                    <img src="http://<?php echo $url_path ?>/images/VoThanhTrung.jpg" alt=""/>
+                    <div class="img">
+                        <a href="#">
+                            <img src="http://<?php echo $url_path ?>/images/VoThanhTrung.jpg" alt=""/>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-md-8 .col-sm-7 col-xs-7 prof_info">
                     <div class="prof_ide">

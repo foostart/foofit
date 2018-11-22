@@ -10,12 +10,42 @@
     .prof_profile {
         margin-top: 5.5rem;     
         background: #fff;
-        img {
-            width: 100%;
-            max-width: 100%;
-            &:hover{
-                opacity: 0.8;
-                transition: all 0.2s ease;
+        a {
+            position: relative;
+            display: inline-block;
+
+            /* Sử dụng mặt nạ là chính bức ảnh .png để che đi những phần không muốn hiển thị: */
+            -webkit-mask: url(../images/VoThanhTrung.jpg) center center;
+            img{
+                max-width: 100%;
+                width: 100%;
+            }
+            &:after{
+                content: '';
+                position: absolute;
+                pointer-events: none;
+                top: -110%;
+                left: -210%;
+                width: 200%;
+                height: 200%;
+                opacity: 0;
+                transform: rotate(0deg);
+              
+                background: linear-gradient(
+                    to right, 
+                    rgba(255, 255, 255, 0.13) 0%,
+                    rgba(255, 255, 255, 0.13) 77%,
+                    rgba(255, 255, 255, 0.5) 92%,
+                    rgba(255, 255, 255, 0.0) 100%
+                    );
+            }
+            &:hover:after{
+                opacity: 1;
+                top: -20%;
+                left: -30%;
+                transition-property: left, top, opacity;
+                transition-duration: .8s, .8s, .15s;
+                transition-timing-function: ease;
             }
         }
         .prof_ide {

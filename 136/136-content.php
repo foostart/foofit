@@ -25,15 +25,6 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>	
                     <div class="divider"></div>
                 </div>
-                <svg height="0">
-                <!-- THE mask -->
-              
-                <!-- the filter to make the image white -->
-                <filter id="filter">
-                    <feFlood flood-color="white" />
-                    <feComposite in2="SourceAlpha" operator="in" />
-                </filter>
-                </svg>
                 <!--/END WIDGET IMAGES ENROLLMENT-->
             </div>
             <!--/END LEFT SIDE BAR-->

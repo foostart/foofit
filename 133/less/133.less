@@ -4,6 +4,7 @@
     @color_background_menu : #003b7a;
     @padding :1.5rem;
     @sm-768: 768px;
+    @md-992: 992px;
     .background-hover-menu{
         color: @color_white !important;
         background: linear-gradient(to bottom, @color_background_menu 0%,#145397 100%);
@@ -100,6 +101,10 @@
             margin-top: 0.4rem;
         }
     }
+    .navbar-collapse{
+        padding-left: 0;
+        padding-right: 0;
+    }
     .navbar-collapse.collapse {
         height: auto!important;
         padding-bottom: 0;
@@ -126,6 +131,16 @@
     }
 
     /*----------REPONSIVE-----------*/
+    @media (min-width: @sm-768) and(max-width:@md-992){
+        .navbar-inverse .navbar-nav>li>a {
+        color: @color_white;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 1.25rem;
+        padding: @padding + 1 @padding - 0.5;
+
+    }
+    }
     @media only screen and (max-width: @sm-768){
         .triangle-arrow {
             border-right: 3rem solid transparent;
@@ -155,5 +170,10 @@
             margin: 0rem 1.5rem;
         }
 
+    }
+    @media (min-width: @sm-768){
+        .navbar-right:last-child{
+            margin-right: -10px !important;
+        }
     }
 }

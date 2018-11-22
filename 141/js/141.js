@@ -4,51 +4,111 @@ $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
 });
 $('document').ready(function () {
     var swiper = new Swiper('.swiper-container', {
-        paginationClickable: true, // Khi click vào nút pagination slide sẽ chuyển trang
-        spaceBetween: 18, // Khoảng cách giữa các slide tính bằng px
-        centeredSlides: true,
-        slidesOffsetBefore: 122,
+
         slidesPerView: 4,
+        spaceBetween: 22,
         slidesPerGroup: 1,
-        autoplay: 3000,
+        nextButton: '.swiper-button-next', // tao ra nút next
+        prevButton: '.swiper-button-prev', // tao ra nút prev
         loop: true, // lặp lại khi chạy
         breakpointsInverse: true,
         breakpoints: {
             1024: {
                 slidesPerView: 4,
-                spaceBetween: 10,
-                slidesOffsetBefore: 115,
-                centeredSlides: true
+                spaceBetween: 40,
+            },
+            991: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+            980: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+            955: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+            880: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+            800: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+            780: {
+                slidesPerView: 3,
+                spaceBetween: 40,
             },
             768: {
                 slidesPerView: 3,
-                spaceBetween: 10,
-                slidesOffsetBefore: 480,
-                centeredSlides: true
+                spaceBetween: 30,
+
             },
-            414: {
-                slidesPerView: 2,
-                spaceBetween: 10,
-                slidesOffsetBefore: 310,
-                centeredSlides: true
+            740: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+
             },
-            375: {
+            720: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            640: {
+                slidesPerView:3,
+                spaceBetween:10,
+
+            },
+            620: {
                 slidesPerView: 2,
-                spaceBetween: 10,
-                slidesOffsetBefore: 282,
-                centeredSlides: true
+                spaceBetween: 50,
+
+            },
+            600: {
+                slidesPerView: 2,
+                spaceBetween: 50,
+
+            },
+            568: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+            },
+            563: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+            },
+            549: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+            },
+            534: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+            },
+            480: {
+                slidesPerView: 2,
+                spaceBetween: 40,
             },
             360: {
-                slidesPerView: 2,
-                spaceBetween: 15,
-                slidesOffsetBefore: 275,
-                centeredSlides: true
+                slidesPerView: 1,
+                spaceBetween: 10,
+
+            },
+            338: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+
+            },
+            330: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+
             },
             320: {
-                slidesPerView: 2,
-                spaceBetween: 15,
-                slidesOffsetBefore: 245,
-                centeredSlides: true
+                slidesPerView: 1,
+                spaceBetween: 10,
+
             }
         }
     });

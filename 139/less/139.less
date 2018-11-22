@@ -1,7 +1,7 @@
 .type-139 {
     @color_background: #4bb4b6;
     @color_white: #fff;
-    @color_hover: #2a6496;
+    @color_hover:gold;;
     @font_size: 1.5rem;
     @md-992: 992px;
     @sm-768: 768px;
@@ -59,13 +59,41 @@
                     padding-left: 0;
                 }
             }
-            .topnewsthumb img {
-                width: 100%;
-                max-width: 100%;
-            }
-            img:hover{
-                opacity: 0.8;
-                transition: all 0.5s ease;
+            .img{
+                a{
+                    -webkit-mask: url(../images/hinh1.jpg) center center;
+                    display: inline-block;
+                    &:after{
+                        content: '';
+                        position: absolute;
+                        pointer-events: none;
+                        top: -110%;
+                        left: -210%;
+                        width: 150%;
+                        height: 150%;
+                        opacity: 0;
+                        background: linear-gradient(
+                            to right, 
+                            rgba(255, 255, 255, 0.13) 0%,
+                            rgba(255, 255, 255, 0.13) 77%,
+                            rgba(255, 255, 255, 0.5) 92%,
+                            rgba(255, 255, 255, 0.0) 100%
+                            );
+                    }
+                    &:hover:after{
+                        opacity: 1;
+                        top: -20%;
+                        left: -30%;
+                        transition-property: left, top, opacity;
+                        transition-duration: .8s, .8s, .15s;
+                        transition-timing-function: ease;
+                    }
+                    .topnewsthumb img {
+                        width: 100%;
+                        max-width: 100%;
+                    }
+
+                }
             }
             h4 {
                 font-weight: bold;
@@ -94,8 +122,8 @@
             }
             .topnewsmonth {
                 text-transform: uppercase;
-                font-size: @font_size - 0.25;
-                margin-left: 0.9rem;
+                font-size: @font_size - 0.5;
+                margin-left: 1rem;
             }
         }
     }

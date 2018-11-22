@@ -16,10 +16,11 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row">
             <!--TOP NEWS-->
             <div class="col-md-4 col-sm-12 col-xs-12">
-
                 <div class="top_news_block">
-                    <div>
-                        <img src="http://<?php echo $url_path ?>/images/news-3.jpg" alt=""/>
+                    <div class="thumb">
+                        <a href="#">
+                            <img src="http://<?php echo $url_path ?>/images/news-3.jpg" alt=""/>
+                        </a>
                     </div>
                     <div class="top_news_block_desc">
                         <div class="row">
@@ -35,13 +36,13 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-
+       <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="top_news_block">
-                    <div class="top_news_block_thumb">
-                        <img src="http://<?php echo $url_path ?>/images/news-3.jpg" alt=""/>
+                    <div class="thumb">
+                        <a href="#">
+                            <img src="http://<?php echo $url_path ?>/images/news-3.jpg" alt=""/>
+                        </a>
                     </div>
                     <div class="top_news_block_desc">
                         <div class="row">
@@ -57,13 +58,13 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-
+             <div class="col-md-4 col-sm-12 col-xs-12">
                 <div class="top_news_block">
-                    <div class="top_news_block_thumb">
-                        <img src="http://<?php echo $url_path ?>/images/news-3.jpg" alt=""/>
+                    <div class="thumb">
+                        <a href="#">
+                            <img src="http://<?php echo $url_path ?>/images/news-3.jpg" alt=""/>
+                        </a>
                     </div>
                     <div class="top_news_block_desc">
                         <div class="row">
@@ -79,7 +80,6 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-
             </div>
             <!--END TOP NEWS-->   
         </div>
