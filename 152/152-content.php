@@ -27,7 +27,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="crossedbg"></div>
                                 <div class="dep_item dep_network">
                                     <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 mask shine">
                                             <img class="img-responsive" src="http://<?php echo $url_path ?>/images/mmt_thumb.jpg" alt="mmt">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
@@ -37,7 +37,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                                 <div class="dep_item dep_software">
                                     <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 mask shine">
                                             <img class="img-responsive" src="http://<?php echo $url_path ?>/images/cnpm_thumb.jpg" alt="cnpm">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
@@ -47,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                                 <div class="dep_item dep_graphic">
                                     <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 mask shine">
                                             <img class="img-responsive" src="http://<?php echo $url_path ?>/images/dh_thumb.jpg" alt="dh">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
@@ -57,7 +57,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                                 <div class="dep_item dep_informatics">
                                     <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 mask shine">
                                             <img class="img-responsive" src="http://<?php echo $url_path ?>/images/thcs_thumb.jpg" alt="thcs">
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
