@@ -18,6 +18,48 @@
     a:hover, a:focus {
         text-decoration: none;
     }
+	.mask{
+			position: relative;
+			display: inline-block;
+			-webkit-mask: url(../images/posts-4.png) center;
+		
+			mask: url('#mask-firefox');
+		}
+		.mask:hover:after,
+		.mask:focus{
+			opacity: 1;
+			top: -30%;
+			left: -30%;
+			transition-property: left, top, opacity;
+			transition-duration: 1s, 1s, .15s;
+			transition-timing-function: ease;
+		}
+		.mask:active:after {
+			opacity: 0;
+		}
+		.mask:after {
+			content: '';
+			position: absolute;
+			pointer-events: none;
+			top: -110%;
+			left: -210%;
+			width: 200%;
+			height: 200%;
+			opacity: 0;
+		}
+		.shine:after {
+			transform: rotate(30deg);
+		}
+		.shine:after {
+			background: linear-gradient(
+				to right, 
+				rgba(255, 255, 255, 0.13) 0%,
+				rgba(255, 255, 255, 0.13) 77%,
+				rgba(255, 255, 255, 0.5) 92%,
+				rgba(255, 255, 255, 0.0) 100%
+			);			
+		}
+	
     .hover-fill {
 	font-weight: bold;
   position: relative;
