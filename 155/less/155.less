@@ -36,24 +36,48 @@
         background: url(../images/bg_cr_grey.png);
         height: 15px;
     }
-    .zoom {
-    border-bottom: 1px solid #e8e8e8;
-    border-right: 1px solid #e8e8e8;
-    display: block;
-    float: left;
-    overflow: hidden;
-    background: #fff;
-}
-.zoom:hover img{
-	-webkit-transform:scale(1.2);
-	transform:scale(1.2);
-}
-.zoom img{
-	width:100%;
-	-webkit-transition:all 0.3s ease-out 0s;
-	transition:all 0.3s ease-out 0s;
-}
-    /*------------------END GENERAL--------------------*/
+    .mask{
+			position: relative;
+			display: inline-block;
+			-webkit-mask: url(../images/oth_logo.gif) center;
+		
+			mask: url('#mask-firefox');
+		}
+		.mask:hover:after,
+		.mask:focus{
+			opacity: 1;
+			top: -30%;
+			left: -30%;
+			transition-property: left, top, opacity;
+			transition-duration: 1s, 1s, .15s;
+			transition-timing-function: ease;
+		}
+		.mask:active:after {
+			opacity: 0;
+		}
+		.mask:after {
+			content: '';
+			position: absolute;
+			pointer-events: none;
+			top: -110%;
+			left: -210%;
+			width: 200%;
+			height: 200%;
+			opacity: 0;
+		}
+		.shine:after {
+			transform: rotate(30deg);
+		}
+		.shine:after {
+			background: linear-gradient(
+				to right, 
+				rgba(255, 255, 255, 0.13) 0%,
+				rgba(255, 255, 255, 0.13) 77%,
+				rgba(255, 255, 255, 0.5) 92%,
+				rgba(255, 255, 255, 0.0) 100%
+			);			
+		}
+        /*------------------END GENERAL--------------------*/
 
     /*------------------TOP WORKS & TOP ALUMNUS--------------------*/
     .panel-body {
@@ -95,9 +119,7 @@
                 height: auto;
                 transition: all 0.5s;
             }
-            .img-responsive:hover{
-                 transform: scale(1.6);
-            }
+           
     }
     /*------------------END TOP WORKS & TOP ALUMNUS--------------------*/
 

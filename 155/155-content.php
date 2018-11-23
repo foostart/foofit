@@ -26,18 +26,31 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="crossedbg"></div>
                             <div class="contest_list">
-                                <div class="col-md-6 col-sm-6 col-xs-6 contest_item zoom">
+                                <div class="col-md-6 col-sm-6 col-xs-6 contest_item mask shine">
                                     <img class="img-responsive" src="http://<?php echo $url_path ?>/images/oth_logo.gif" alt="logo">
                                 </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6 contest_item zoom">
+                                <div class="col-md-6 col-sm-6 col-xs-6 contest_item mask shine">
                                     <img class="img-responsive" src="http://<?php echo $url_path ?>/images/oth_logo.gif" alt="logo">
                                 </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6 contest_item zoom">
+                                <div class="col-md-6 col-sm-6 col-xs-6 contest_item mask shine">
                                     <img class="img-responsive" src="http://<?php echo $url_path ?>/images/oth_logo.gif" alt="logo">
                                 </div>
-                                <div class="col-md-6 col-sm-6 col-xs-6 contest_item zoom">
+                                <div class="col-md-6 col-sm-6 col-xs-6 contest_item mask shine">
                                     <img class="img-responsive" src="http://<?php echo $url_path ?>/images/oth_logo.gif" alt="logo">
                                 </div>
+								
+			<svg height="0">
+				<!-- THE mask -->
+				<mask id="mask-firefox">
+					<image width="160" height="160" xlink:href="images/oth_logo.gif" filter="url(#filter)">
+				</mask>
+			  
+				<!-- the filter to make the image white -->
+				<filter id="filter">
+					<feFlood flood-color="white">
+					<feComposite in2="SourceAlpha" operator="in">
+				</filter>
+			</svg>
                             </div>
                         </div>
                     </div>	
