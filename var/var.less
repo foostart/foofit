@@ -5,6 +5,7 @@
 @color_white : #fff;
 @color_border_gray: #d9d9d9;
 @color_hover_effect: #003b7a;
+@color_hover_readmore: #003b7a;
 @color_feedback_name: #f5ce31;
 @color_background: #4bb4b6;
 @color_background_menu : #003b7a;
@@ -38,3 +39,51 @@
 @vertical_align:middle;
 @font_style:italic;
 @border_style: solid;
+/*Effect Hover Img*/
+.hover-img(){
+    display: inline-block;
+    &:after{
+        content: '';
+        position: absolute;
+        pointer-events: none;
+        top: -110%;
+        left: -400%;
+        width: 150%;
+        height: 150%;
+        opacity: 0;
+        background: linear-gradient(
+            to right, 
+            rgba(255, 255, 255, 0.13) 0%,
+            rgba(255, 255, 255, 0.13) 77%,
+            rgba(255, 255, 255, 0.5) 92%,
+            rgba(255, 255, 255, 0.0) 100%
+            );
+    }
+    &:hover:after{
+        opacity: 1;
+        top: -20%;
+        left: -30%;
+        transition-property: left, top, opacity;
+        transition-duration: .8s, .8s, .15s;
+        transition-timing-function: ease;
+    }
+}
+/*Effect hover*/
+.effect(){
+    .productdot{
+        position: absolute;
+        width: 0%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: 0;
+        background: #42a7a9;
+        height: 2px;
+        transition-duration: 0.5s;
+    }
+    .boxshow:hover{
+        .productdot{
+            width: 100%;
+        }
+    }
+}
