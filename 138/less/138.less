@@ -1,23 +1,10 @@
+@import "../../var/var.less";
 .type-138 {
-    @color_hover: gold;
-    @color_border_gray: #d9d9d9;
-    @md-992: 992px;
-    @sm-768: 768px;
-    @xs-480: 480px;
-    .fontsize{
+    .fontsize(){
         font-size: 2.5rem;
     }
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
-    a{
-        color:lightslategrey;
-    }
-    a:hover, a:focus {
-        color: @color_hover;
-        text-decoration: none;
-        transition: all 0.5s ease;
-    }
-
     /*------------------GENERAL--------------------*/
     .panel {
         background: none;
@@ -40,22 +27,7 @@
         }
     }
 
-    .productdot{
-        position: absolute;
-        width: 0%;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        bottom: 0;
-        background: #42a7a9;
-        height: 2px;
-        transition-duration: 0.5s;
-    }
-    .boxshow:hover{
-        .productdot{
-            width: 100%;
-        }
-    }
+    .effect;
     .crossedbg {
         background: url(../images/bg_cr_grey.png);
         height: 1.5rem;
@@ -64,7 +36,7 @@
 
     /*------------------TOP WORKS & TOP ALUMNUS--------------------*/
     .panel-body {
-        background: #fff;
+        background: @color_white;
     }
     .list-group {
         list-style: disc;
@@ -89,6 +61,14 @@
             padding-right: 1rem;
             position: relative;
             top: 0.4rem;
+        }
+        a{
+            color:lightslategrey;
+            &:hover{
+                color: @color_Cylindrical_coordinate !important;
+                text-decoration: none;
+                transition: all 0.5s ease;
+            }
         }
     }
     /*------------------END TOP WORKS & TOP ALUMNUS--------------------*/

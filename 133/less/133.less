@@ -1,14 +1,10 @@
+@import "../../var/var.less";
 .type-133{
     overflow: hidden;
-    @color_white : #fff;
-    @color_background_menu : #003b7a;
-    @padding :1.5rem;
-    @sm-768: 768px;
-    @md-992: 992px;
     .background-hover-menu{
         color: @color_white !important;
-        background: linear-gradient(to bottom, @color_background_menu 0%,#145397 100%);
-        transition: all 1s ease;
+        background: linear-gradient(to bottom, @color_dark_cerulean 0%,#145397 100%);
+        transition: all 0.5s ease;
     }
 
     .navbar-default {
@@ -74,7 +70,7 @@
         height: auto;
     }
     .navbar-inverse{
-        background-color: @color_background_menu;
+        background-color: @color_dark_cerulean;
     }
 
     .sr-only {
@@ -133,13 +129,13 @@
     /*----------REPONSIVE-----------*/
     @media (min-width: @sm-768) and(max-width:@md-992){
         .navbar-inverse .navbar-nav>li>a {
-        color: @color_white;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: bold;
-        font-size: 1.25rem;
-        padding: @padding + 1 @padding - 0.5;
+            color: @color_white;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: bold;
+            font-size: 1.25rem;
+            padding: @padding + 1 @padding - 0.5;
 
-    }
+        }
     }
     @media only screen and (max-width: @sm-768){
         .triangle-arrow {

@@ -1,11 +1,5 @@
+@import "../../var/var.less";
 .type-134 {
-    @transition: width 1s;
-    @align:center;
-    @transition_swiper: width 0.2s;
-    @border_swiper:0.7rem;
-    @transition_slide:left 1.35s, opacity 0.5s;
-    @sm-768: 768px;
-    @xs-480: 480px;
     .clear{clear: both;}
     background-image: url('../images/bg_pattern.png');
     .slideshow{
@@ -68,7 +62,7 @@
                 height: auto!important;
                 text-align: @align;
                 font-size: 1.8rem;
-                background: #fff;
+                background: @color_white;
                 -webkit-box-pack: @align;
                 -ms-flex-pack: @align;
                 -webkit-justify-content: @align;
@@ -91,7 +85,7 @@
 
         /***********************Pagination*************************/
         .swiper-pagination-bullet-active {
-            background: #fff;
+            background: @color_white;
         }
 
         .swiper-pagination {
@@ -105,7 +99,7 @@
         /***********************Button-Next-And-button-Prev*************************/
 
         .swiper-button-next, .swiper-button-prev {
-            background:#fff;
+            background:@color_white;
             width: 2rem;
             height: 4rem;
             -webkit-transition: @transition_swiper;

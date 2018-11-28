@@ -62,33 +62,33 @@ $('document').ready(function () {
             },
             620: {
                 slidesPerView: 2,
-                spaceBetween: 50,
+                spaceBetween: 15,
 
             },
             600: {
                 slidesPerView: 2,
-                spaceBetween: 50,
+                spaceBetween: 15,
 
             },
             568: {
                 slidesPerView: 2,
-                spaceBetween: 40,
+                spaceBetween: 15,
             },
             563: {
                 slidesPerView: 2,
-                spaceBetween: 40,
+                spaceBetween: 15,
             },
             549: {
                 slidesPerView: 2,
-                spaceBetween: 40,
+                spaceBetween: 15,
             },
             534: {
                 slidesPerView: 2,
-                spaceBetween: 40,
+                spaceBetween: 15,
             },
             480: {
                 slidesPerView: 2,
-                spaceBetween: 40,
+                spaceBetween: 15,
             },
             360: {
                 slidesPerView: 1,

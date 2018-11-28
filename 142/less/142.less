@@ -1,17 +1,12 @@
+  @import "../../var/var.less";
 .type-142 {
-    @color_hover: gold;
-    @color_border_gray: #d9d9d9;
-    @font_size:1.5rem;
-    @md-992: 992px;
-    @sm-768: 768px;
-    @xs-480: 480px;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
     a{
         color:lightslategrey;
     }
     a:hover, a:focus {
-        color: @color_hover;
+        color: @color_Cylindrical_coordinate;
         transition: all 0.5s ease;
         text-decoration: none;
     }
@@ -45,7 +40,7 @@
 
     /*------------------LIST TITLE POSTS--------------------*/
     .panel-body {
-        background: #fff;
+        background: @color_white;
     }
     .list-group {
         list-style: disc;
@@ -64,7 +59,7 @@
         }
         &:before{
             font-family: Arial, Helvetica, sans-serif;
-            color: #f5ce31;
+            color: @color_Cylindrical_coordinate;
             content: "\2022";
             font-size: 2.5rem;
             padding-right: 1rem;
@@ -72,54 +67,14 @@
             top: 0.5rem;
         }
     }
-    .productdot{
-        position: absolute;
-        width: 0%;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        bottom: 0;
-        background: #42a7a9;
-        height: 2px;
-        transition-duration: 0.5s;
-    }
-    .boxshow:hover{
-        .productdot{
-            width: 100%;
-        }
-    }
+    .effect;
     /*------------------/END LIST TITLE POSTS--------------------*/
 
     /*------------------TOP TECHNOLOGIESS--------------------*/
     .toparticle > .thumb{ 
         a{
-            -webkit-mask: url(../images/files.png) center center;
-            display: inline-block;
-            &:after{
-                content: '';
-                position: absolute;
-                pointer-events: none;
-                top: -110%;
-                left: -210%;
-                width: 150%;
-                height: 150%;
-                opacity: 0;
-                background: linear-gradient(
-                    to right, 
-                    rgba(255, 255, 255, 0.13) 0%,
-                    rgba(255, 255, 255, 0.13) 77%,
-                    rgba(255, 255, 255, 0.5) 92%,
-                    rgba(255, 255, 255, 0.0) 100%
-                    );
-            }
-            &:hover:after{
-                opacity: 1;
-                top: -20%;
-                left: -30%;
-                transition-property: left, top, opacity;
-                transition-duration: .8s, .8s, .15s;
-                transition-timing-function: ease;
-            }
+            -webkit-mask: url(../images/files.png) @align @align;
+            .hover-img;
             img {
                 max-width: 100%;
             }
@@ -135,7 +90,7 @@
             a{
                 color: lightslategrey;
                 &:hover{
-                    color: @color_hover ;
+                    color: @color_Cylindrical_coordinate ;
                 }
             }
 

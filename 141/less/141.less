@@ -1,13 +1,5 @@
+@import "../../var/var.less";
 .type-141 {
-    @color_hover: #2a6496;
-    @color_border_gray: #d9d9d9;
-    @md-992: 992px;
-    @sm-768: 768px;
-    @xs-480: 480px;
-    @font_size: 1.5rem;
-    @padding :1.5rem;
-    @transition_swiper: width 0.2s;
-    @border_swiper:0.7rem;
     .row{
         margin-right: 0;
     }
@@ -19,11 +11,6 @@
     }
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
-
-    a:hover, a:focus {
-        color: @color_hover;
-        text-decoration: underline;
-    }
 
     /*------------------GENERAL--------------------*/
     .panel {
@@ -130,40 +117,15 @@
     .img{
         a {
             position: relative;
-            display: block;
+            display: block !important;
 
             /* Sử dụng mặt nạ là chính bức ảnh .png để che đi những phần không muốn hiển thị: */
-            -webkit-mask: url(../images/3T.png) center center;
+            -webkit-mask: url(../images/3T.png) @align @align;
             img{
                 max-width: 100%;
                 width: 100%;
             }
-            &:after{
-                content: '';
-                position: absolute;
-                pointer-events: none;
-                top: -110%;
-                left: -210%;
-                width: 150%;
-                height: 155%;
-                opacity: 0;
-                transform: rotate(0deg);
-                background: linear-gradient(
-                    to right, 
-                    rgba(255, 255, 255, 0.13) 0%,
-                    rgba(255, 255, 255, 0.13) 77%,
-                    rgba(255, 255, 255, 0.5) 92%,
-                    rgba(255, 255, 255, 0.0) 100%
-                    );
-            }
-            &:hover:after{
-                opacity: 1;
-                top: -20%;
-                left: -30%;
-                transition-property: left, top, opacity;
-                transition-duration: .8s, .8s, .15s;
-                transition-timing-function: ease;
-            }
+            .hover-img;
         }
     }
     /*------------------/END LEFT PARTNERS--------------------*/
@@ -183,8 +145,8 @@
         }    
     }
     @media  (max-width: @sm-768){
-        .img-right{
-            margin-left: 15px;
+        .padding{
+            padding-right: 0;
         } 
         .partnerlogo:before,
             .partnerlogo:after {

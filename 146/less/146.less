@@ -1,67 +1,49 @@
+@import "../../var/var.less";
 .type-146{
     background: url(../images/bg_pattern.png) repeat;
+    overflow: hidden;
     .teacher{
-        .panel-heading {
-            border: none !important;
-            background: none !important;
-            padding: 20px 0 0;
-            h2 {
-                font-weight: 800;
-                font-size: 1.8em;
-                span {
-                    font-weight: normal;
-                    font-size: 1em;
-                }
-            }
-            p {
-                margin: 0 0 10px;
-            }
-        }
         .profview {
-            text-align: center;
-            margin-top: 20px;
+            text-align: @align;
+            margin-top: @margin + 0.5;
             .profview_thumb {
-                padding: 8px;
+                padding: @padding - 0.7;
                 background: url(../images/bg_cr_grey.png);
                 border-radius: 50%;
             }
             .profview_thumb_wrap {
                 overflow: hidden;
                 border-radius: 50%;
-                img {
-                    border-radius: 50%;
-                    transition: all 0.5s linear;
-                    display: block;
-                    max-width: 100%;
-                    height: auto;
+                a{
+                    -webkit-mask: url(../images/TieuKimCuong) @align @align;
+                    .hover-img;
+                    img {
+                        max-width: 100%;
+                    }
                 }
-                
+            }
 
-            }
-            h4 {
-                margin-top: 10px;
-                margin-bottom: 10px;
-                font-size: 15px;
-                font-weight: bold;
-                color: #42a7a9;
-            }
-            h4:hover{
-                color: #003b7a;
-            }
             .prof_name{
+                margin-top: @margin -0.5;
+                margin-bottom: @margin -0.5;
+                font-size: @font_size;
+                font-weight: bold;
+                color: lightslategrey;
                 a {
                     font-family: 'Open Sans Condensed', sans-serif;
-                    color: #428bca;
+                    color: lightslategrey;
                     text-decoration: none;
+                    &:hover{
+                        color: @color_Cylindrical_coordinate;
+                        transition: all 0.5s ease;
+                    }
                 }
+
             }
-            .prof_name, .prof_title{
-                text-align: center;
+            .prof_title{
+                text-align: @align;
             }
         }
-        .profview_thumb:hover img { 
-            transform: scale(1.1);
-        } 
         .prof_list{
             .profview:nth-child(4n+1) {
                 clear: both;
@@ -69,15 +51,15 @@
         }
     }
     /*------REPONSIVE----------*/
-    @media (min-width: 992px){
+    @media (min-width: @md-992){
         .teacher{padding: 0;}
     }
-    @media (min-width: 768px){
+    @media (min-width: @sm-768){
         .teacher{
-            width: 960px;
+            width: 96rem;
         }
     }
-    @media (max-width: 480px){
+    @media (max-width: @xs-480){
         .teacher{
             padding: 0;
         }

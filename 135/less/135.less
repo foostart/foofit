@@ -1,55 +1,20 @@
+@import "../../var/var.less";
 .type-135{
     background-image: url('../images/bg_pattern.png');
-    @padding:1.5rem;
-    @display:table-cell;
-    @vertical_align:middle;
-    @font_style:italic;
-    @font_size:1.5rem;
-    @border_style:solid;
-    @sm-768: 768px;
     .prof_profile {
         margin-top: 5.5rem;     
-        background: #fff;
+        background: @color_white;
         a {
+            -webkit-mask: url(../images/VoThanhTrung.jpg) @align @align;
             position: relative;
-            display: inline-block;
-
-            /* Sử dụng mặt nạ là chính bức ảnh .png để che đi những phần không muốn hiển thị: */
-            -webkit-mask: url(../images/VoThanhTrung.jpg) center center;
             img{
                 max-width: 100%;
                 width: 100%;
             }
-            &:after{
-                content: '';
-                position: absolute;
-                pointer-events: none;
-                top: -110%;
-                left: -210%;
-                width: 200%;
-                height: 200%;
-                opacity: 0;
-                transform: rotate(0deg);
-              
-                background: linear-gradient(
-                    to right, 
-                    rgba(255, 255, 255, 0.13) 0%,
-                    rgba(255, 255, 255, 0.13) 77%,
-                    rgba(255, 255, 255, 0.5) 92%,
-                    rgba(255, 255, 255, 0.0) 100%
-                    );
-            }
-            &:hover:after{
-                opacity: 1;
-                top: -20%;
-                left: -30%;
-                transition-property: left, top, opacity;
-                transition-duration: .8s, .8s, .15s;
-                transition-timing-function: ease;
-            }
+           .hover-img;
         }
         .prof_ide {
-            background: #f5ce31;            
+            background: @color_Cylindrical_coordinate;            
             position: relative;
             .prof_fullname {
                 font-weight: 800;
@@ -73,7 +38,7 @@
                 left: 3rem;
                 border-width: 1.2rem 1.2rem 0;
                 border-style: @border_style;
-                border-color: #f5ce31 transparent;
+                border-color: @color_Cylindrical_coordinate transparent;
                 display: block;
                 width: 0;
             }
@@ -91,10 +56,6 @@
                     padding:0.5rem 0;
                 }
             }
-        }
-        .crossedbg {
-            background: url(../images/bg_cr_grey.png);
-            height: 1.5rem;
         }
     }
 

@@ -1,15 +1,10 @@
+@import "../../var/var.less";
 .type-139 {
-    @color_background: #4bb4b6;
-    @color_white: #fff;
-    @color_hover:gold;;
-    @font_size: 1.5rem;
-    @md-992: 992px;
-    @sm-768: 768px;
-    @xs-480: 480px;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
-    .hover{
-        color:@color_hover;
+    overflow: hidden;
+    .hover(){
+        color:@color_Cylindrical_coordinate;
         transition: all 0.5s ease;
         text-decoration: none;
     }
@@ -61,33 +56,8 @@
             }
             .img{
                 a{
-                    -webkit-mask: url(../images/hinh1.jpg) center center;
-                    display: inline-block;
-                    &:after{
-                        content: '';
-                        position: absolute;
-                        pointer-events: none;
-                        top: -110%;
-                        left: -210%;
-                        width: 150%;
-                        height: 150%;
-                        opacity: 0;
-                        background: linear-gradient(
-                            to right, 
-                            rgba(255, 255, 255, 0.13) 0%,
-                            rgba(255, 255, 255, 0.13) 77%,
-                            rgba(255, 255, 255, 0.5) 92%,
-                            rgba(255, 255, 255, 0.0) 100%
-                            );
-                    }
-                    &:hover:after{
-                        opacity: 1;
-                        top: -20%;
-                        left: -30%;
-                        transition-property: left, top, opacity;
-                        transition-duration: .8s, .8s, .15s;
-                        transition-timing-function: ease;
-                    }
+                    -webkit-mask: url(../images/hinh1.jpg) @align @align;
+                    .hover-img;
                     .topnewsthumb img {
                         width: 100%;
                         max-width: 100%;
@@ -144,8 +114,8 @@
                 margin-bottom: 0.5rem;
                 width: 100%;
                 .headlinestitle {
-                    display: table-cell;
-                    vertical-align: middle;
+                    display: @display;
+                    vertical-align: @vertical_align;
                     width: 85%;
                     a:hover{
                         .hover;
@@ -157,10 +127,10 @@
             font-size: @font_size;
             width: 15%;
             min-width: 5.5rem;
-            display: table-cell;
-            vertical-align: middle;
+            display: @display;
+            vertical-align: @vertical_align;
             .headlinesday {
-                border-bottom: 0.1rem solid #fff;
+                border-bottom: 0.1rem solid @color_white;
             }
             .headlinesyear {
                 line-height: 4.75rem;

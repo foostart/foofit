@@ -42,7 +42,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="partnerlogo">
                                 <div class="img">
                                     <a href="http://<?php echo $url_path ?>/images/cisco_cert.gif" data-toggle="lightbox" data-title="Microsoft IT Academy">
-                                        <img class="img-responsive img-right" src="http://<?php echo $url_path ?>/images/cisco.gif" alt="Microsoft logo"/>
+                                        <img class="img-responsive" src="http://<?php echo $url_path ?>/images/cisco.gif" alt="Microsoft logo"/>
                                     </a>
                                 </div>
                             </div>

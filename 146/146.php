@@ -1,31 +1,40 @@
-<head>
-    <meta charset="UTF-8">
-    <title>146</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-    <?php
-    $url_host = 'http://'.$_SERVER['HTTP_HOST'];
-    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-    preg_match_all($pattern_uri, __DIR__, $matches);
-    $url_path = $url_host . $matches[1][0];
-    $url_path = str_replace('\\', '/', $url_path);
-    if (!class_exists('lessc')) {
-        $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);      
-        require_once($dir_block.'/libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/146.less', 'css/146.css');
-    
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+
+if (!class_exists('lessc')) {
+    $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
+    require_once($dir_block . '/libs/lessc.inc.php');
+}
+
+$less = new lessc;
+$less->compileFile('less/146.less', 'css/146.css');
 ?>
-    <link href="css/146.css" rel="stylesheet" type="text/css"/>
-    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>       
-</head>
-
-<body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>146</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/146.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
         <?php
-        include '../146/146-content.php';
+        if (!class_exists('lessc')) {
+            include ('./libs/lessc.inc.php');
+        }
+        $less = new lessc;
+        $less->compileFile('less/146.less', 'css/146.css');
         ?>
-</body>
-
+    </head>
+    <body >
+        <?php include '../146/146-content.php'; ?>
+    </body>
+</html>

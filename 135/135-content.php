@@ -17,14 +17,14 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container prof_profile shadow profile">
             <div class="row">
                 <!--Begin Profile-->
-                <div class="col-md-4 .col-sm-5 col-xs-5 prof_ava">
-                    <div class="img">
+                <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 prof_ava">
+                    <div class="img text-center">
                         <a href="#">
                             <img src="http://<?php echo $url_path ?>/images/VoThanhTrung.jpg" alt=""/>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-8 .col-sm-7 col-xs-7 prof_info">
+                <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 prof_info">
                     <div class="prof_ide">
                         <div class="prof_fullname">
                             Võ Thành Trung

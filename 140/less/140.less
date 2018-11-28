@@ -1,16 +1,9 @@
+@import "../../var/var.less";
 .type-140 {
-    @color_hover: #2a6496;
-    @color_hover_readmore: #003b7a;
-    @md-992: 992px;
-    @sm-768: 768px;
-    @xs-480: 480px;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
     @font_size:1.5rem;
-    a:hover, a:focus {
-        color: @color_hover;
-        text-decoration: underline;
-    }
+    overflow: hidden;
     /*------------------GENERAL--------------------*/
     .panel {
         background: none;
@@ -47,13 +40,28 @@
     /*------------------END GENERAL--------------------*/
 
     .panel-body {
-        background: #fff;
-        a:hover{
-            color: @color_hover_readmore;
-            transition: all 0.5s ease;
-            text-decoration: none;
+        background: @color_white;
+        .left{
+            p{
+                a{
+                    color:lightslategrey;
+                    &:hover{
+                        color: @color_Cylindrical_coordinate;
+                        transition: all 0.5s ease;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .right{
+            a{
+                -webkit-mask: url(../images/aboutfit.jpg) center center;
+                .hover-img;
+            }
         }
     }
+
+
     /*-------------REPONSIVE--------------*/
     @media (min-width: @md-992){
         .content{

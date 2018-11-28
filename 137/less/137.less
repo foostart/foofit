@@ -1,18 +1,8 @@
+@import "../../var/var.less";
 .type-137{
-    @color_hover: #2a6496;
-    @color_border_gray: #d9d9d9;
-    @font_size: 1.5rem;
-    @padding :1.5rem;
-    @sm-768: 768px;
-    @xs-480: 480px;
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
 
-    a:hover, a:focus {
-        color: @color_hover;
-        text-decoration: underline;
-        transition: all 0.5s ease;
-    }
     .event{
         padding: 0;
     }
@@ -88,7 +78,7 @@
             position: absolute;
             top: 1.9rem;
             margin-left: -1rem;
-            background-color: #fff;
+            background-color: @color_white;
             border: 0.2rem solid @color_border_gray;
             border-radius: 50%;
             z-index: 5;
@@ -96,10 +86,10 @@
         .eventtime {
             width: 5.6rem;
             height: 5.6rem;
-            background: #f5ce31;
+            background: @color_Cylindrical_coordinate;
             border-radius: 50%;
             position: relative;
-            color: #4e4e4e;
+            color: @color_time;
             float: left;
             .eventtimecover {
                 position: absolute;
@@ -112,7 +102,7 @@
             .eventday {
                 font-weight: bold;
                 font-size: @font_size + 0.5;
-                border-bottom: 0.1rem #4e4e4e solid;
+                border-bottom: 0.1rem @color_time solid;
                 line-height: 1.8rem;
             }
             .eventmonth {
@@ -138,7 +128,8 @@
                     color: lightslategrey;
                     &:hover{
                         text-decoration: none;
-                        color: gold;
+                        color: @color_Cylindrical_coordinate;
+                        transition: all 0.5s ease;
                     }
                 }
             }
