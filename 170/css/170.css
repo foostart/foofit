@@ -1,6 +1,20 @@
 .type-338 {
   background: url(../images/bg_pattern.png) repeat;
 }
+.type-338 .productdot {
+  position: absolute;
+  width: 0%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+  background: #42a7a9;
+  height: 2px;
+  transition-duration: 0.5s;
+}
+.type-338 .boxshow:hover .productdot {
+  width: 100%;
+}
 .type-338 #catenav {
   background: #f5ce31;
   margin: 55px 0 25px;
@@ -15,6 +29,7 @@
 }
 .type-338 #catenav a {
   color: #000;
+  transition: color 0.5 ease-in-out;
 }
 @media (min-width: 768px) {
   .type-338 .special {

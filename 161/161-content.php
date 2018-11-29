@@ -1,28 +1,3 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <?php
-        $url_host = $_SERVER['HTTP_HOST'];
-
-        $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-
-        $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-        preg_match_all($pattern_uri, __DIR__, $matches);
-
-        $url_path = $url_host . $matches[1][0];
-
-        $url_path = str_replace('\\', '/', $url_path);
-    ?>
-
-    <link href="css/161.css" rel="stylesheet" type="text/css"/>
-    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-
-</head>
-
-<body>
     <div class="type-161">
         <!--LIST OF HEADER-->
         <div class="container">
@@ -76,7 +51,7 @@
                         </div>
                         <div class="col-md-2">
                             <div class="flag f-vocational">
-                                <span>01</span>
+                                <span>02</span>
                                 <div class="flagtri"></div>
                             </div>
                         </div>
@@ -159,4 +134,3 @@
         </div>
         <!--END OF HEADER-->
     </div>
-</body>
