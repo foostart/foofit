@@ -31,10 +31,10 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="crossedbg"></div>
                             <div class="row">
                                
-                                <div class="feedback_owner col-sm-6 col-xs-12 col-md-12 effect">
+                                <div class="feedback_owner col-sm-6 col-xs-12 col-md-12 ">
                                     <div class="row mobile" >
                                         <div class="col-md-4 col-sm-4 col-xs-4">
-                                            <div class="feedback_thumb">
+                                            <div class="feedback_thumb mask shine">
                                                 <img class="img-responsive" src="http://<?php echo $url_path ?>/images/sv.jpg" alt="sv">
                                             </div>
                                         </div>
@@ -44,10 +44,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>          
                                 </div>
-                                <div class="feedback_owner col-sm-6 col-xs-12 col-md-12 effect">
+                                <div class="feedback_owner col-sm-6 col-xs-12 col-md-12 ">
                                     <div class="row mobile" >
                                         <div class="col-md-4 col-sm-4 col-xs-4">
-                                            <div class="feedback_thumb">
+                                            <div class="feedback_thumb mask shine">
                                                 <img class="img-responsive" src="http://<?php echo $url_path ?>/images/sv.jpg" alt="sv">
                                             </div>
                                         </div>
@@ -57,10 +57,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>          
                                 </div>
-                                <div class="feedback_owner col-sm-6 col-xs-12 col-md-12 effect">
+                                <div class="feedback_owner col-sm-6 col-xs-12 col-md-12">
                                     <div class="row mobile" >
                                         <div class="col-md-4 col-sm-4 col-xs-4">
-                                            <div class="feedback_thumb">
+                                            <div class="feedback_thumb mask shine">
                                                 <img class="img-responsive" src="http://<?php echo $url_path ?>/images/sv.jpg" alt="sv">
                                             </div>
                                         </div>
@@ -70,10 +70,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>          
                                 </div>
-                                <div class="feedback_owner col-sm-6 col-xs-12 col-md-12 effect">
+                                <div class="feedback_owner col-sm-6 col-xs-12 col-md-12">
                                     <div class="row mobile" >
                                         <div class="col-md-4 col-sm-4 col-xs-4">
-                                            <div class="feedback_thumb">
+                                            <div class="feedback_thumb mask shine">
                                                 <img class="img-responsive" src="http://<?php echo $url_path ?>/images/sv.jpg" alt="sv">
                                             </div>
                                         </div>
@@ -83,10 +83,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>          
                                 </div>
-                                <div class="feedback_owner col-sm-6 col-xs-12 col-md-12 effect">
+                                <div class="feedback_owner col-sm-6 col-xs-12 col-md-12">
                                     <div class="row mobile" >
                                         <div class="col-md-4 col-sm-4 col-xs-4">
-                                            <div class="feedback_thumb">
+                                            <div class="feedback_thumb mask shine">
                                                 <img class="img-responsive" src="http://<?php echo $url_path ?>/images/sv.jpg" alt="sv">
                                             </div>
                                         </div>
@@ -96,10 +96,10 @@ $url_path = str_replace('\\', '/', $url_path);
                                         </div>
                                     </div>          
                                 </div>
-                                <div class="feedback_owner col-sm-6 col-xs-12 col-md-12 effect">
+                                <div class="feedback_owner col-sm-6 col-xs-12 col-md-12 ">
                                     <div class="row mobile" >
                                         <div class="col-md-4 col-sm-4 col-xs-4">
-                                            <div class="feedback_thumb">
+                                            <div class="feedback_thumb mask shine">
                                                 <img class="img-responsive" src="http://<?php echo $url_path ?>/images/sv.jpg" alt="sv">
                                             </div>
                                         </div>

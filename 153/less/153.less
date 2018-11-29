@@ -1,15 +1,16 @@
+@import "../../var/var.less";
 .type-153 {
-
-    @color_hover: #FF4700;
-    @color_border_gray: #d9d9d9;
-
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
 
-    a:hover, a:focus {
-        color: @color_hover;
-        text-decoration: none;
-    }
+    a{
+            color:lightslategrey;
+            &:hover{
+                color: @color_Cylindrical_coordinate !important;
+                text-decoration: none;
+                transition: all 0.5s ease;
+            }
+        }
 
     /*------------------GENERAL--------------------*/
     .panel {
@@ -56,7 +57,7 @@
 
     /*------------------TOP WORKS & TOP ALUMNUS--------------------*/
     .panel-body {
-        background: #fff;
+        background:@color_white;
     }
     .list-group {
         list-style: disc;

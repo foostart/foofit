@@ -1,20 +1,20 @@
+@import "../../var/var.less";
 .type-158 {
-
-    @color_hover: #42a7a9;
-    @color_border_gray: #d9d9d9;
-    @color_background_white: #fff;
-
     background: url(../images/bg_pattern.png) repeat;
     font-family: 'Open Sans', sans-serif;
 
-    a:hover, a:focus {
-        color: #FF4700;
-         text-decoration: none;
-    }
+  a{
+            color:lightslategrey;
+            &:hover{
+                color: @color_Cylindrical_coordinate !important;
+                text-decoration: none;
+                transition: all 0.5s ease;
+            }
+        }
 
     /*------------------LIST HEADLINES--------------------*/
     .headlines {
-        background: @color_background_white;
+        background: @color_white ;
         overflow: hidden;
         padding: 20px 30px;
         ul {

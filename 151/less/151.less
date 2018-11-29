@@ -1,7 +1,5 @@
+@import "../../var/var.less";
 .type-151{
-    @color_background: #fff;
-    @font-size-article-title: bold 08px;
-    @color:  #003b7a;
     background-image: url('../images/bg_pattern.png');
     .news{width: 960px; padding: 0}
     .panel-heading {
@@ -15,9 +13,14 @@
             }
         }
     }
-    a:hover, a:focus {
-        text-decoration: none;
-    }
+		a{
+            color:lightslategrey;
+            &:hover{
+                color: @color_Cylindrical_coordinate !important;
+                text-decoration: none;
+                transition: all 0.5s ease;
+            }
+        }
 	.mask{
 			position: relative;
 			display: inline-block;
@@ -67,16 +70,15 @@
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
-  color: @color;
+  color: lightslategrey;
   transition: all .3s;
   
-  &:hover {
-   color: #FF4700;
+  
     
     &:after {
       max-width: 100%;
     }
-  }
+  
   
   &:after {
     content: attr(data-txthover);
@@ -97,7 +99,7 @@
     }
     .top_news_block{
         margin-bottom: 15px;
-        background: @color_background;
+        background: @color_white;
         img{    
             max-width: 100%;
             width: 100%;

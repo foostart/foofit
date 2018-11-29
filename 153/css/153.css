@@ -1,0 +1,104 @@
+.type-153 {
+  background: url(../images/bg_pattern.png) repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+.type-153 a {
+  color: lightslategrey;
+}
+.type-153 a:hover {
+  color: #f5ce31 !important;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.type-153 .panel {
+  background: none;
+  box-shadow: none;
+}
+.type-153 .panel-default {
+  border: none;
+}
+.type-153 .panel-heading {
+  border: none !important;
+  background: none !important;
+  padding: 20px 0 0;
+}
+.type-153 .panel-heading h2 {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+.type-153 .panel-heading h2>span {
+  font-weight: normal;
+  font-size: 1em;
+}
+.type-153 .crossedbg {
+  background: url(../images/bg_cr_grey.png);
+  height: 15px;
+}
+.type-153 .productdot {
+  position: absolute;
+  width: 0%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+  background: #42a7a9;
+  height: 2px;
+  transition-duration: 0.5s;
+}
+.type-153 .boxshow:hover .productdot {
+  width: 100%;
+}
+.type-153 .panel-body {
+  background: #fff;
+}
+.type-153 .list-group {
+  list-style: disc;
+  margin-bottom: 0;
+}
+.type-153 .list-group-item {
+  border: none;
+  border-bottom: 1px #d9d9d9 solid;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 15px;
+}
+.type-153 .list-group-item:first-child {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.type-153 .list-group-item:before {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f5ce31;
+  content: "\2022";
+  font-size: 2em;
+  padding-right: .5em;
+  position: relative;
+  top: .15em;
+}
+.type-153 .list-group-item:last-child {
+  border: none;
+}
+.type-153 .on-recent-news {
+  padding: 5px 15px !important;
+  margin: 0 5px !important;
+}
+.type-153 .on-recent-news span {
+  font-size: 11px;
+  color: #bfbfbf;
+}
+@media (min-width: 992px) {
+  .type-153 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-153 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-153 .sidebar {
+    padding: 0;
+  }
+}
