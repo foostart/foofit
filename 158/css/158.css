@@ -10,6 +10,13 @@
   text-decoration: none;
   transition: all 0.5s ease;
 }
+.type-158 a,
+.type-158 a:hover,
+.type-158 a:active,
+.type-158 a:visited,
+.type-158 a:focus {
+  text-decoration: none;
+}
 .type-158 .headlines {
   background: #fff;
   overflow: hidden;

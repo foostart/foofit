@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="crossedbg"></div>
         <div class="row">
             <!--NEWS-->
-            <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-xs-12 col-sm-6">
                 <div class="top_news_block">
                     <div class="img-responsive thumb mask shine">
                         <a href="#" ><img src="http://<?php echo $url_path ?>/images/posts-1.png" alt="post1"/></a>
@@ -36,7 +36,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-xs-12 col-sm-6">
                 <div class="top_news_block">
                     <div class="img-responsive thumb mask shine">
                         <a href="#" > <img src="http://<?php echo $url_path ?>/images/posts-1.png" alt="post1"/></a>
@@ -56,7 +56,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">                   
+            <div class="col-md-4 col-xs-12 col-sm-6">                   
                 <div class="top_news_block">
                     <div class="img-responsive thumb mask shine">
                         <a href="#" >  <img src="http://<?php echo $url_path ?>/images/posts-3.jpg" alt="post3"/></a>
@@ -76,7 +76,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-sm-12 col-xs-12 col-sm-6">
                 <div class="top_news_block">
                     <div class="img-responsive thumb mask shine">
                         <a href="#" >    <img src="http://<?php echo $url_path ?>/images/posts-4.png" alt="post4"/></a>
@@ -96,7 +96,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-xs-12 col-sm-6">
 
                 <div class="top_news_block">
                     <div class="img-responsive thumb mask shine">
@@ -117,7 +117,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">                   
+            <div class="col-md-4 col-xs-12 col-sm-6">                   
                 <div class="top_news_block">
                     <div class="img-responsive thumb mask shine">
                         <a href="#" >  <img src="http://<?php echo $url_path ?>/images/posts-6.jpg" alt="post6"/></a>

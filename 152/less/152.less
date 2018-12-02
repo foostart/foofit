@@ -35,15 +35,14 @@
     }
     /*------------------END GENERAL--------------------*/
     /*------------------LIST DEPARTMENTS--------------------*/
-	.mask{
+	.mask a{
 			position: relative;
 			display: inline-block;
 			-webkit-mask: url(../images/thcs_thumb.jpg) center;
 		
 			mask: url('#mask-firefox');
 		}
-		.mask:hover:after,
-		.mask:focus{
+		.mask a:hover:after{
 			opacity: 1;
 			top: -30%;
 			left: -30%;
@@ -51,31 +50,25 @@
 			transition-duration: 1s, 1s, .15s;
 			transition-timing-function: ease;
 		}
-		.mask:active:after {
-			opacity: 0;
-		}
-		.mask:after {
+		
+		.mask a:after {
 			content: '';
-			position: absolute;
-			pointer-events: none;
-			top: -110%;
-			left: -210%;
-			width: 200%;
-			height: 200%;
-			opacity: 0;
+	position: absolute;
+	pointer-events: none;
+	top: -110%;
+	left: -210%;
+	width: 200%;
+	height: 200%;
+	opacity: 0;
+	background: linear-gradient(
+		to right, 
+		rgba(255, 255, 255, 0.13) 0%,
+		rgba(255, 255, 255, 0.13) 77%,
+		rgba(255, 255, 255, 0.5) 92%,
+		rgba(255, 255, 255, 0.0) 100%
+	);
 		}
-		.shine:after {
-			transform: rotate(30deg);
-		}
-		.shine:after {
-			background: linear-gradient(
-				to right, 
-				rgba(255, 255, 255, 0.13) 0%,
-				rgba(255, 255, 255, 0.13) 77%,
-				rgba(255, 255, 255, 0.5) 92%,
-				rgba(255, 255, 255, 0.0) 100%
-			);			
-		}
+		
       .dep_item {
         padding: 10px;
         background:@color_white;
@@ -106,6 +99,13 @@
     .dep_name {
         padding: 15px 0;
     }
+	
+	
+	
+	
+	
+	
+	
     /*------------------/END LIST DEPARTMENTS--------------------*/
     /*----------REPONSIVE------------*/
     @media (min-width: 768px){

@@ -24,8 +24,6 @@
     <title>152</title>
     <meta charset="UTF-8">
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
     <link href="<?php echo $url_path ?>/css/152.css" rel="stylesheet" type="text/css"/>
 
 </head>

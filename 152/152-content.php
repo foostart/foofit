@@ -27,9 +27,12 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="crossedbg"></div>
                                 <div class="dep_item dep_network">
                                     <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-xs-6 mask shine">
-                                            <img class="img-responsive" src="http://<?php echo $url_path ?>/images/mmt_thumb.jpg" alt="mmt">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 mask ">
+											<a>
+												<img class="img-responsive" src="http://<?php echo $url_path ?>/images/mmt_thumb.jpg" alt="mmt">
+											</a>   
                                         </div>
+										
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
                                             Mạng<br>máy tính
                                         </div>
@@ -37,9 +40,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                                 <div class="dep_item dep_software">
                                     <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-xs-6 mask shine">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 mask ">
+										<a>
                                             <img class="img-responsive" src="http://<?php echo $url_path ?>/images/cnpm_thumb.jpg" alt="cnpm">
-                                        </div>
+                                        </a>
+										</div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
                                             công nghệ<br> phần mềm
                                         </div>
@@ -47,9 +52,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                                 <div class="dep_item dep_graphic">
                                     <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-xs-6 mask shine">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 mask ">
+										<a>
                                             <img class="img-responsive" src="http://<?php echo $url_path ?>/images/dh_thumb.jpg" alt="dh">
-                                        </div>
+                                        </a>
+										</div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
                                             Đồ họa
                                         </div>
@@ -57,17 +64,21 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                                 <div class="dep_item dep_informatics">
                                     <div class="row">
-                                        <div class="col-md-6 col-sm-6 col-xs-6 mask shine">
+                                        <div class="col-md-6 col-sm-6 col-xs-6 mask ">
+										<a>
                                             <img class="img-responsive" src="http://<?php echo $url_path ?>/images/thcs_thumb.jpg" alt="thcs">
-                                        </div>
+                                       </a>
+									   </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6 dep_name">
                                             Tin học<br>cơ sở
                                         </div>
                                     </div>
                                 </div>
                         </div>	
+					
                         <div class="divider"></div>
                     <!--/END LIST DEPARTMENTS-->
+					
                 </div>             
             </div>
             <!--/END RIGHT SIDE BAR-->

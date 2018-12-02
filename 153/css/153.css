@@ -10,6 +10,13 @@
   text-decoration: none;
   transition: all 0.5s ease;
 }
+.type-153 a,
+.type-153 a:hover,
+.type-153 a:active,
+.type-153 a:visited,
+.type-153 a:focus {
+  text-decoration: none;
+}
 .type-153 .panel {
   background: none;
   box-shadow: none;

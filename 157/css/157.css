@@ -10,6 +10,13 @@
   text-decoration: none;
   transition: all 0.5s ease;
 }
+.type-157 a,
+.type-157 a:hover,
+.type-157 a:active,
+.type-157 a:visited,
+.type-157 a:focus {
+  text-decoration: none;
+}
 .type-157 .mask {
   position: relative;
   display: inline-block;

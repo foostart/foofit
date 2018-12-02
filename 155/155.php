@@ -19,8 +19,6 @@ $less->compileFile('less/155.less', 'css/155.css');
     <meta charset="UTF-8">
     <title>155</title>
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
     <link href="<?php echo $url_path ?>/css/155.css" rel="stylesheet" type="text/css"/>
 
 </head>
