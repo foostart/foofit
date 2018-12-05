@@ -43,10 +43,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <!--END SLIDE BANNER-->
-
-            <!--PAGINATION-->
-            <div class="swiper-pagination"></div>
-            <!--END PAGINATION-->
             <!--ARROWS -->
             <div class="swiper-button-next"><span class="btn-next fa fa-chevron-right"></span></div>
             <div class="swiper-button-prev"><span class="btn-prev fa fa-chevron-left"></span></div>

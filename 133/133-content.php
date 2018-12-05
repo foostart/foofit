@@ -44,10 +44,10 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="left-bg">&nbsp;</div>
             <div class="container menu">
                 <div class="logo">
-                    <a href="#"><img alt="TDC-Khoa CNTT logo" src="images/logo.png"></a>
+                    <a href="#"><img alt="TDC-Khoa CNTT logo" src="http://<?php echo $url_path ?>/images/logo.png"></a>
                     <span class="triangle-arrow">&nbsp;</span>
                 </div>
-
+                
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainnav" aria-expanded="false" aria-controls="navbar"> 
                         <span class="sr-only">Toggle navigation</span> 

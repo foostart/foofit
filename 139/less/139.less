@@ -29,10 +29,10 @@
         padding: 2rem 0 0;
         h2 {
             font-weight: bold;
-            font-size: @font_size + 1;
+            font-size: @font-size-heading-5 + 1;
             span {
                 font-weight: normal;
-                font-size: @font_size + 1;
+                font-size: @font-size-heading-5 + 1;
             }
         }
     }
@@ -67,7 +67,7 @@
             }
             h4 {
                 font-weight: bold;
-                font-size: @font_size;
+                font-size: @font-size-heading-5;
                 line-height: 2rem;
                 a {
                     color: @color_white;
@@ -86,13 +86,13 @@
             text-align: center;
             .topnewsdate {
                 font-family: 'Prata', serif;
-                font-size: @font_size + 2.5;
+                font-size: @font-size-heading-5 + 2.5;
                 line-height: 2.5rem;
                 margin-left: 1.25rem;
             }
             .topnewsmonth {
                 text-transform: uppercase;
-                font-size: @font_size - 0.5;
+                font-size: @font-size-heading-5 - 0.5;
                 margin-left: 1rem;
             }
         }
@@ -114,8 +114,8 @@
                 margin-bottom: 0.5rem;
                 width: 100%;
                 .headlinestitle {
-                    display: @display;
-                    vertical-align: @vertical_align;
+                    display: table-cell;
+                    vertical-align: middle;
                     width: 85%;
                     a:hover{
                         .hover;
@@ -124,11 +124,11 @@
             }
         }
         .headlinesdate {
-            font-size: @font_size;
+            font-size: @font-size-heading-5;
             width: 15%;
             min-width: 5.5rem;
-            display: @display;
-            vertical-align: @vertical_align;
+            display: table-cell;
+            vertical-align: middle;
             .headlinesday {
                 border-bottom: 0.1rem solid @color_white;
             }

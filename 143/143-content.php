@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container news">
         <div class="row">
             <!--TOP NEWS-->
-            <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="top_news_block">
                     <div class="thumb text-center">
                         <a href="#">
@@ -37,7 +37,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-       <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="top_news_block">
                     <div class="thumb text-center">
                         <a href="#">
@@ -59,7 +59,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-             <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-sm-6 top_col col-xs-12">
                 <div class="top_news_block">
                     <div class="thumb text-center">
                         <a href="#">

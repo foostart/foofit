@@ -1,12 +1,21 @@
 @import "../../var/var.less";
 .type-133{
     overflow: hidden;
-    .background-hover-menu{
-        color: @color_white !important;
-        background: linear-gradient(to bottom, @color_dark_cerulean 0%,#145397 100%);
-        transition: all 0.5s ease;
+    #maintop{
+        a:hover{
+            color: @color_white !important;
+            background: linear-gradient(to bottom,#42a7a9 0%,#48D1CC 100%);
+            transition: all 0.5s ease;
+        }
     }
 
+    #mainnav{
+        a:hover{
+            color: @color_white !important;
+            background: linear-gradient(to bottom, @color_dark_cerulean 0%,#145397 100%);
+            transition: all 0.5s ease;
+        }
+    }
     .navbar-default {
         background: #42a7a9;
         border: none;
@@ -28,7 +37,9 @@
             background: #56bdbf;
             color: @color_white;
             &:hover{
-                .background-hover-menu;
+                color: @color_white !important;
+                background: linear-gradient(to bottom, @color_dark_cerulean 0%,#145397 100%);
+                transition: all 0.5s ease;
             }
         }
         .topnav a{
@@ -116,16 +127,12 @@
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: bold;
         font-size: 1.5rem;
-        padding: @padding + 1 @padding - 0.5;
+        padding: 2.5rem 1rem;
 
     }
     .mobile{
         margin-right: 1.5rem;
     }
-    a:hover{
-        .background-hover-menu;      
-    }
-
     /*----------REPONSIVE-----------*/
     @media (min-width: @sm-768) and(max-width:@md-992){
         .navbar-inverse .navbar-nav>li>a {
@@ -133,7 +140,7 @@
             font-family: 'Open Sans Condensed', sans-serif;
             font-weight: bold;
             font-size: 1.25rem;
-            padding: @padding + 1 @padding - 0.5;
+            padding: 2.5rem 1rem;
 
         }
     }
@@ -160,7 +167,7 @@
             overflow: hidden;
         }
         .navbar-inverse .navbar-nav>li>a{
-            padding: @padding @padding;
+            padding: 1.5rem 1.5rem;
         }
         .navbar-nav{
             margin: 0rem 1.5rem;

@@ -23,10 +23,10 @@
     .panel-heading {
         border: none !important;
         background: none !important;
-        padding: @padding + 0.5 0 0;
+        padding: 2.5rem 0 0;
         h2 {
             font-weight: bold;
-            font-size: @font_size + 1;
+            font-size: @font-size-heading-5 + 1;
         }
     }
     .crossedbg {
@@ -119,8 +119,7 @@
             position: relative;
             display: block !important;
 
-            /* Sử dụng mặt nạ là chính bức ảnh .png để che đi những phần không muốn hiển thị: */
-            -webkit-mask: url(../images/3T.png) @align @align;
+            -webkit-mask: url(../images/3T.png) center center;
             img{
                 max-width: 100%;
                 width: 100%;

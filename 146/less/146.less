@@ -4,10 +4,10 @@
     overflow: hidden;
     .teacher{
         .profview {
-            text-align: @align;
-            margin-top: @margin + 0.5;
+            text-align: center;
+            margin-top: 2rem;
             .profview_thumb {
-                padding: @padding - 0.7;
+                padding: 0.8rem;
                 background: url(../images/bg_cr_grey.png);
                 border-radius: 50%;
             }
@@ -15,7 +15,7 @@
                 overflow: hidden;
                 border-radius: 50%;
                 a{
-                    -webkit-mask: url(../images/TieuKimCuong) @align @align;
+                    -webkit-mask: url(../images/TieuKimCuong) center center;
                     .hover-img;
                     img {
                         max-width: 100%;
@@ -24,9 +24,9 @@
             }
 
             .prof_name{
-                margin-top: @margin -0.5;
-                margin-bottom: @margin -0.5;
-                font-size: @font_size;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                font-size: @font-size-heading-5;
                 font-weight: bold;
                 color: lightslategrey;
                 a {
@@ -41,7 +41,7 @@
 
             }
             .prof_title{
-                text-align: @align;
+                text-align: center;
             }
         }
         .prof_list{
