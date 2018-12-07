@@ -1,16 +1,16 @@
-.type-340 {
+.type-172 {
   background-image: url(../images/bg_pattern.png);
 }
-.type-340 .ready {
+.type-172 .ready {
   padding-top: 10px;
   padding-bottom: 60px;
 }
-.type-340 .tabs {
+.type-172 .tabs {
   list-style: none;
   margin: 0 auto;
   padding: 0;
 }
-.type-340 .tabs li {
+.type-172 .tabs li {
   margin-right: 1px;
   counter-increment: tab;
   perspective: 350px;
@@ -24,24 +24,24 @@
   width: 49.7%;
   vertical-align: top;
 }
-.type-340 .tab3 li {
+.type-172 .tab3 li {
   width: 33%;
 }
-.type-340 .tabs li:nth-child(2) {
+.type-172 .tabs li:nth-child(2) {
   transition-delay: 150ms;
 }
-.type-340 .tabs li:nth-child(3) {
+.type-172 .tabs li:nth-child(3) {
   transition-delay: 300ms;
 }
-.type-340 .ready .tabs li {
+.type-172 .ready .tabs li {
   opacity: 1;
   transform: translateY(0);
 }
-.type-340 .tabs li .fold {
+.type-172 .tabs li .fold {
   backface-visibility: hidden;
   transform-style: preserve-3d;
 }
-.type-340 .tabs li h3 {
+.type-172 .tabs li h3 {
   backface-visibility: hidden;
   background: #e0593e;
   color: #FFF;
@@ -51,7 +51,7 @@
   height: 50px;
   text-transform: uppercase;
 }
-.type-340 .tabs li h3:before {
+.type-172 .tabs li h3:before {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-origin: content-box;
@@ -70,7 +70,7 @@
   text-align: center;
   width: 24px;
 }
-.type-340 li .fold p {
+.type-172 li .fold p {
   backface-visibility: hidden;
   background: #222;
   color: #222;
@@ -82,7 +82,7 @@
   transform: rotateX(-60deg);
   transform-origin: 50% 0;
 }
-.type-340 .tabs li .more {
+.type-172 .tabs li .more {
   backface-visibility: hidden;
   background: #EAEAEA;
   bottom: 0;
@@ -101,48 +101,48 @@
   width: 303px;
   margin-left: 6px;
 }
-.type-340 .tabs li:before {
+.type-172 .tabs li:before {
   bottom: 19px;
   right: 20px;
   transform: rotate(-45deg);
 }
-.type-340 .tabs li:after {
+.type-172 .tabs li:after {
   bottom: 15px;
   right: 20px;
   transform: rotate(45deg);
 }
-.type-340 .tabs li:hover .fold {
+.type-172 .tabs li:hover .fold {
   transform: translateY(-75px);
 }
-.type-340 .tabs li:hover h3 {
+.type-172 .tabs li:hover h3 {
   background: #3d9fab;
 }
-.type-340 .tabs li:hover .more {
+.type-172 .tabs li:hover .more {
   color: #111;
 }
-.type-340 li:hover .fold p {
+.type-172 li:hover .fold p {
   transform: rotateX(0deg);
   background: #3d9fab;
   color: #fff;
   outline: 1px solid transparent;
 }
-.type-340 li:hover:before,
-.type-340 li:hover:after {
+.type-172 li:hover:before,
+.type-172 li:hover:after {
   background: #111;
 }
-.type-340 header.section-heading {
+.type-172 .section-heading {
   display: table;
   width: 100%;
   max-width: 100%;
   margin: 50px 0;
 }
-.type-340 header.section-heading div {
+.type-172 .section-heading div {
   display: table-row;
   line-height: 1.5em;
   font-size: 2em;
   white-space: nowrap;
 }
-.type-340 header.section-heading h2 {
+.type-172 .section-heading h2 {
   font-size: inherit;
   overflow: hidden;
   display: table-cell;
@@ -151,13 +151,13 @@
   font-weight: bold;
   color: #333;
 }
-.type-340 header.section-heading span.spacer {
+.type-172 .section-heading span.spacer {
   display: table-cell;
 }
-.type-340 header.section-heading h2 {
+.type-172 .section-heading h2 {
   padding: 0 10px;
 }
-.type-340 header.section-heading span.spacer:after {
+.type-172 .section-heading span.spacer:after {
   display: inline-block;
   width: 100%;
   content: ".";
@@ -169,7 +169,7 @@
   position: relative;
   top: -1px;
 }
-.type-340 header.section-heading > a {
+.type-172 .section-heading > a {
   font-size: .4em;
   vertical-align: middle;
   background: #25a2a4;
@@ -180,36 +180,45 @@
   padding: .3em .5em;
   text-decoration: none;
 }
-.type-340 .button_more {
+.type-172 .button_more {
   position: relative;
   top: 50px;
   right: 10px;
 }
+.type-172 .ribbon:before,
+.type-172 .ribbon:after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid #c23a3a;
+  z-index: -1;
+}
 @media (max-width: 480px) {
-  .type-340 .tuyen-sinh {
+  .type-172 .tuyen-sinh {
     padding: 0;
   }
-  .type-340 .tabs li {
+  .type-172 .tabs li {
     width: 100%;
     margin: 15px 0;
   }
 }
 @media (min-width: 1200px) {
-  .type-340 .container {
+  .type-172 .container {
     max-width: 960px;
     padding: 0;
   }
 }
 @media (max-width: 1200px) {
-  .type-340 .cube {
+  .type-172 .cube {
     width: 250px;
   }
-  .type-340 .tabs li .more {
+  .type-172 .tabs li .more {
     width: 267px;
   }
 }
 @media (max-width: 992px) {
-  .type-340 .tabs li {
+  .type-172 .tabs li {
     float: none;
     margin: 0 auto 73px auto;
     text-align: center;

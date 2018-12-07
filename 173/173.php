@@ -14,40 +14,30 @@ if (!class_exists('lessc')) {
 $less = new lessc;
 $less->compileFile('less/173.less', 'css/173.css');
 ?>
-<head>
-    <meta charset="UTF-8">
-    <title>173</title>
-    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $url_path ?>/css/173.css" rel="stylesheet" type="text/css"/>
-    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-    <script src="<?php echo $url_path ?>/js/turn.min.js" type="text/javascript"></script>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <head>
+        <meta charset="UTF-8">
+        <title>173</title>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/173.css" rel="stylesheet" type="text/css"/>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/turn.min.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/173.js" type="text/javascript"></script>
+        <?php
+        if (!class_exists('lessc')) {
+            include ('./libs/lessc.inc.php');
+        }
+        $less = new lessc;
+        $less->compileFile('less/173.less', 'css/173.css');
+        ?>
+    </head>
 
-</head>
-
-<body>
-            <?php
+    <body>
+        <?php
         include '../173/173-content.php';
         ?>
-</body>
-
-<script>
-    var oTurn = $(".flipbook").turn({
-        width: 960,
-        height: 338,
-        elevation: 50,
-        gradients: true,
-        autoCenter: true,
-        next: true
-    });
-
-    $("#prev").click(function (e) {
-        e.preventDefault();
-        oTurn.turn("previous");
-    });
-
-    $("#next").click(function (e) {
-        e.preventDefault();
-        oTurn.turn("next");
-    });
-</script>
+    </body>
+</html>

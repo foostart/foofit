@@ -5,6 +5,20 @@
 .type-152 a:focus {
   text-decoration: underline;
 }
+.type-152 .productdot {
+  position: absolute;
+  width: 0%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+  background: #42a7a9;
+  height: 2px;
+  transition-duration: 0.5s;
+}
+.type-152 .boxshow:hover .productdot {
+  width: 100%;
+}
 .type-152 .panel {
   background: none;
   box-shadow: none;

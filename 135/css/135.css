@@ -1,17 +1,38 @@
 .type-135 {
+  overflow: hidden;
   background-image: url('../images/bg_pattern.png');
 }
 .type-135 .prof_profile {
   margin-top: 5.5rem;
   background: #fff;
 }
-.type-135 .prof_profile img {
-  width: 100%;
-  max-width: 100%;
+.type-135 .prof_profile a {
+  -webkit-mask: url(../images/VoThanhTrung.jpg) center center;
+  position: relative;
+  display: inline-block;
 }
-.type-135 .prof_profile img:hover {
-  opacity: 0.8;
-  transition: all 0.2s ease;
+.type-135 .prof_profile a img {
+  max-width: 100%;
+  width: 100%;
+}
+.type-135 .prof_profile a:after {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: -110%;
+  left: -400%;
+  width: 150%;
+  height: 150%;
+  opacity: 0;
+  background: linear-gradient(to right,rgba(255,255,255,0.13) 0%,rgba(255,255,255,0.13) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);
+}
+.type-135 .prof_profile a:hover:after {
+  opacity: 1;
+  top: -20%;
+  left: -30%;
+  transition-property: left, top, opacity;
+  transition-duration: .8s, .8s, .15s;
+  transition-timing-function: ease;
 }
 .type-135 .prof_profile .prof_ide {
   background: #f5ce31;
@@ -57,19 +78,15 @@
 .type-135 .prof_profile .prof_contact .inf-contact .inf {
   padding: 0.5rem 0;
 }
-.type-135 .prof_profile .crossedbg {
-  background: url(../images/bg_cr_grey.png);
-  height: 1.5rem;
-}
 .type-135 .col-md-8,
 .type-135 .col-md-4 {
-  padding-left: 0rem;
-  padding-right: 0rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 @media (min-width: 768px) {
   .type-135 .profile {
     width: 96rem;
-    padding: 0rem;
+    padding: 0;
   }
   .type-135 .profile .prof_ava {
     padding-left: 1.5rem;
@@ -98,6 +115,6 @@
     font-size: 1rem;
   }
   .type-135 .employees {
-    padding: 0rem;
+    padding: 0;
   }
 }

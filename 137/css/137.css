@@ -2,12 +2,6 @@
   background: url(../images/bg_pattern.png) repeat;
   font-family: 'Open Sans', sans-serif;
 }
-.type-137 a:hover,
-.type-137 a:focus {
-  color: #2a6496;
-  text-decoration: underline;
-  transition: all 0.5s ease;
-}
 .type-137 .event {
   padding: 0;
 }
@@ -94,7 +88,6 @@
   background: #f5ce31;
   border-radius: 50%;
   position: relative;
-  color: #4e4e4e;
   float: left;
 }
 .type-137 .timeline .eventtime .eventtimecover {
@@ -131,8 +124,13 @@
 .type-137 .timeline .eventdetails .eventdesc {
   margin-top: 1.5rem;
 }
+.type-137 .timeline .eventdetails .eventdesc a {
+  color: lightslategrey;
+}
 .type-137 .timeline .eventdetails .eventdesc a:hover {
   text-decoration: none;
+  color: #f5ce31;
+  transition: all 0.5s ease;
 }
 .type-137 .timeline .timeline-right .timeline-panel {
   float: right;

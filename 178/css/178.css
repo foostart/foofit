@@ -1,0 +1,48 @@
+.type-178 .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.type-178 .video-container iframe,
+.type-178 .video-container object,
+.type-178 .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.type-178 .panel {
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.type-178 .panel-body {
+  background: #fff;
+}
+.type-178 .panel-default {
+  border: none;
+}
+.type-178 .panel-heading {
+  border: none !important;
+  background: none !important;
+  padding: 20px 0 0;
+}
+.type-178 .panel-heading h2 {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+.type-178 .panel-heading h2>span {
+  font-weight: normal;
+  font-size: 1em;
+}
+.type-178 a {
+  color: lightslategrey;
+}
+.type-178 a:hover {
+  color: #f5ce31 !important;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}

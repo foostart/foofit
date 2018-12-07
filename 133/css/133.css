@@ -1,10 +1,50 @@
 .type-133 {
   overflow: hidden;
 }
-.type-133 .background-hover-menu {
+.type-133 .scroll_menu .navbar-inverse {
+  height: auto;
+  -webkit-box-shadow: 0px -10px 6px 10px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px -10px 6px 10px rgba(0,0,0,0.35);
+  box-shadow: 0px 8px -10px 10px rgba(0,0,0,0.35);
+}
+.type-133 .scroll_menu .navbar-inverse .navbar-nav>li>a {
+  padding: 15px 20px;
+  font-size: 1em;
+}
+.type-133 .scroll_menu .left-bg {
+  height: 50px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.type-133 .scroll_menu .logo a img {
+  height: 40px;
+}
+.type-133 .scroll_menu .logo {
+  padding: 5px 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.type-133 .scroll_menu .logo .triangle-arrow {
+  border-top: 50px solid #fff;
+  border-right: 30px solid transparent;
+  right: -30px;
+  -webkit-filter: drop-shadow(2px 3px 1px rgba(0,0,0,0));
+  -moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0));
+  -ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0));
+  -o-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0));
+  filter: drop-shadow(1px 1px 4px rgba(0,0,0,0));
+}
+.type-133 #maintop a:hover {
+  color: #fff !important;
+  background: linear-gradient(to bottom,#42a7a9 0%,#48D1CC 100%);
+  transition: all 0.5s ease;
+}
+.type-133 #mainnav a:hover {
   color: #fff !important;
   background: linear-gradient(to bottom,#003b7a 0%,#145397 100%);
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 .type-133 .navbar-default {
   background: #42a7a9;
@@ -28,7 +68,7 @@
 .type-133 nav.topnav .active>a:hover {
   color: #fff !important;
   background: linear-gradient(to bottom,#003b7a 0%,#145397 100%);
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 .type-133 nav.topnav .topnav a {
   text-decoration: none;
@@ -41,14 +81,14 @@
 }
 .type-133 .logo {
   background-color: #fff;
-  padding: 1.7rem 0;
+  padding: 1.23rem 0;
   padding-right: 3rem;
   position: absolute;
   float: left;
 }
 .type-133 .triangle-arrow {
   border-right: 5.8rem solid transparent;
-  border-top: 9rem solid #fff;
+  border-top: 8.6rem solid #fff;
   display: block;
   position: absolute;
   height: 0;
@@ -62,7 +102,7 @@
   background-color: #fff;
   width: 100%;
   left: -100%;
-  height: 10rem;
+  height: 8.7rem;
 }
 .type-133 .logo a img {
   height: auto;
@@ -96,6 +136,10 @@
     .navbar-toggle .icon-bar+.icon-bar {
   margin-top: 0.4rem;
 }
+.type-133 .navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
 .type-133 .navbar-collapse.collapse {
   height: auto !important;
   padding-bottom: 0;
@@ -114,10 +158,14 @@
 .type-133 .mobile {
   margin-right: 1.5rem;
 }
-.type-133 a:hover {
-  color: #fff !important;
-  background: linear-gradient(to bottom,#003b7a 0%,#145397 100%);
-  transition: all 1s ease;
+@media (min-width: 768px) and (max-width: 992px) {
+  .type-133 .navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 2.5rem 1rem;
+  }
 }
 @media only screen and (max-width: 768px) {
   .type-133 .triangle-arrow {
@@ -146,5 +194,15 @@
   }
   .type-133 .navbar-nav {
     margin: 0rem 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .type-133 .navbar-right:last-child {
+    margin-right: -10px !important;
+  }
+  .type-133 .left-bg {
+    -webkit-box-shadow: 7px 6px 6px -6px rgba(0,0,0,0.25);
+    -moz-box-shadow: 7px 6px 6px -6px rgba(0,0,0,0.25);
+    box-shadow: 260px 6px 6px -6px rgba(0,0,0,0.25);
   }
 }

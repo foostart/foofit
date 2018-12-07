@@ -1,8 +1,6 @@
     <div class="type-335">
         <div class="container sidebar">
             <div class="row">
-                <!--INTRODUCTION-->
-                <div class="col-md-8"></div>
                 <!--END INTRODUCTION-->
                 <!--RIGHT SIDE BAR-->
                 <div class="col-md-4">       

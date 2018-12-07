@@ -15,7 +15,6 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container slidebar">
             <div class="row">
                 <!--LEFT-->
-                <div class="col-md-8"></div>
                 <!--/END LEFT-->
                 <!--RIGHT SIDE BAR-->
                 <div class="col-md-4">

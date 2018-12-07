@@ -1,5 +1,5 @@
 @import "../../var/var.less";
-.type-340{
+.type-172{
     @md-1200: 1200px;
     @md-992: 992px;
     @sm-768: 768px;
@@ -7,7 +7,7 @@
     background-image: url(../images/bg_pattern.png);
     @font_color:#333;
     .ready {padding-top: 10px;
-        padding-bottom: 60px;}
+            padding-bottom: 60px;}
     .tabs {
         list-style: none;
         margin: 0 auto; 
@@ -114,7 +114,7 @@
         position: absolute;
         padding: 0 15px;
         width: 303px;
-    margin-left: 6px;
+        margin-left: 6px;
     }
 
 
@@ -156,19 +156,19 @@
         background: #111;
     }
 
-    header.section-heading {
+    .section-heading {
         display:table;
         width:100%;
         max-width:100%;
         margin: 50px 0;
     }
-    header.section-heading div {
+    .section-heading div {
         display:table-row;
         line-height:1.5em;
         font-size:2em;
         white-space:nowrap;
     }
-    header.section-heading h2 {
+    .section-heading h2 {
         font-size:inherit; 
         overflow:hidden;
         display:table-cell;
@@ -177,13 +177,13 @@
         font-weight:  bold;
         color: #333;
     }
-    header.section-heading span.spacer {
+    .section-heading span.spacer {
         display:table-cell;
     }
-    header.section-heading h2 {
+    .section-heading h2 {
         padding:0 10px;
     }
-    header.section-heading span.spacer:after {
+    .section-heading span.spacer:after {
         display:inline-block;
         width:100%;
         content:".";
@@ -195,7 +195,7 @@
         position:relative;
         top:-1px;
     }
-    header.section-heading > a {
+    .section-heading > a {
         font-size:.4em;
         vertical-align:middle;
         background:#25a2a4;
@@ -212,7 +212,7 @@
         top:50px;
         right: 10px;
     }
-
+    
     /*----------REPONSIVE-----------*/
     @media (max-width: @xs-480){
         .tuyen-sinh{
@@ -223,25 +223,25 @@
             margin: 15px 0;
         }
     }
-       @media (min-width:  @md-1200){
+    @media (min-width:  @md-1200){
         .container {
             max-width: 960px;
             padding: 0;
         }
     }
-        @media (max-width: @md-1200){
-            .cube{
+    @media (max-width: @md-1200){
+        .cube{
             width: 250px;
-            }
-            .tabs li .more{
-                width: 267px;
-            }
         }
+        .tabs li .more{
+            width: 267px;
+        }
+    }
     @media(max-width:@md-992){
         .tabs li{
-         float:none;
-         margin: 0 auto 73px auto;
-         text-align:center;
+            float:none;
+            margin: 0 auto 73px auto;
+            text-align:center;
         }
     }
     /*----------END REPONSIVE-----------*/

@@ -1,0 +1,20 @@
+
+@media (min-width:768px){
+
+    .container{
+        width: 960px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+#page{
+    overflow: hidden;
+    background: url(../images/bg_pattern.png) repeat;
+}
+.scroll_menu{
+    position: fixed;
+    top:0px;
+    z-index: 999;
+    width:100%;
+    
+}

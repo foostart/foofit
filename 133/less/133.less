@@ -1,6 +1,43 @@
 @import "../../var/var.less";
 .type-133{
     overflow: hidden;
+    .scroll_menu{
+        .navbar-inverse {
+            height: auto;
+            -webkit-box-shadow: 0px -10px 6px 10px rgba(0,0,0,0.35);
+            -moz-box-shadow: 0px -10px 6px 10px rgba(0,0,0,0.35);
+            box-shadow: 0px 8px -10px 10px rgba(0,0,0,0.35);
+        }
+        .navbar-inverse .navbar-nav>li>a {
+            padding: 15px 20px;
+            font-size: 1em;
+        }
+        .left-bg {
+            height: 50px;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+        .logo a img {
+            height: 40px;
+        }
+        .logo {
+            padding: 5px 0;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+        .logo .triangle-arrow {
+            border-top: 50px solid #fff;
+            border-right: 30px solid transparent;
+            right: -30px;
+            -webkit-filter: drop-shadow(2px 3px 1px rgba(0,0,0,0));
+            -moz-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0));
+            -ms-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0));
+            -o-filter: drop-shadow(1px 1px 4px rgba(0,0,0,0));
+            filter: drop-shadow(1px 1px 4px rgba(0,0,0,0));
+        }
+    }
     #maintop{
         a:hover{
             color: @color_white !important;
@@ -54,14 +91,14 @@
     }
     .logo {
         background-color: @color_white;
-        padding: 1.7rem 0;
+        padding: 1.23rem 0;
         padding-right: 3rem;
         position: absolute;
         float: left;
     }
     .triangle-arrow {
         border-right: 5.8rem solid transparent;
-        border-top: 9rem solid @color_white;
+        border-top: 8.6rem solid @color_white;
         display: block;
         position: absolute;
         height: 0;
@@ -75,7 +112,7 @@
         background-color: @color_white;
         width: 100%;
         left: -100%;
-        height: 10rem;
+        height: 8.7rem;
     }
     .logo a img {
         height: auto;
@@ -177,6 +214,11 @@
     @media (min-width: @sm-768){
         .navbar-right:last-child{
             margin-right: -10px !important;
+        }
+        .left-bg {
+            -webkit-box-shadow: 7px 6px 6px -6px rgba(0,0,0,0.25);
+            -moz-box-shadow: 7px 6px 6px -6px rgba(0,0,0,0.25);
+            box-shadow: 260px 6px 6px -6px rgba(0,0,0,0.25);
         }
     }
 }

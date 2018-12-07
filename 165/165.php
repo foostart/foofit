@@ -24,14 +24,13 @@ $less->compileFile('less/165.less', 'css/165.css');
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
     <link href="<?php echo $url_path ?>/css/165.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo $url_path ?>/css/aos.css" rel="stylesheet" type="text/css"/>
-    <script src="js/jquery-2.1.4.min.js"></script> 
-    <script src="js/AOS.js"></script> 
-     
+    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script> 
+    <script src="<?php echo $url_path ?>/js/AOS.js"></script> 
+    <script src="<?php echo $url_path ?>/js/165.js"></script> 
 </head>
 
 <body>
-    <script>AOS.init();</script>
     <?php include '../165/165-content.php'; ?>
-    
+
 </body>
 

@@ -15,7 +15,6 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container sidebar">
         <div class="row">
             <!--LEFT SIDE BAR-->
-            <div class="col-md-4"></div>
             <!--/END LEFT SIDE BAR-->
             <!--RIGHT CONTENTS HOME-->
             <div class="col-md-8">

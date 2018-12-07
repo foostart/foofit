@@ -2,15 +2,6 @@
   background: url(../images/bg_pattern.png) repeat;
   font-family: 'Open Sans', sans-serif;
 }
-.type-138 .fontsize {
-  font-size: 2.5rem;
-}
-.type-138 a:hover,
-.type-138 a:focus {
-  color: #2a6496;
-  text-decoration: none;
-  transition: all 0.5s ease;
-}
 .type-138 .panel {
   background: none;
   box-shadow: none;
@@ -30,6 +21,20 @@
 .type-138 .panel-heading h2 span {
   font-weight: normal;
   font-size: 2.5rem;
+}
+.type-138 .productdot {
+  position: absolute;
+  width: 0%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+  background: #42a7a9;
+  height: 2px;
+  transition-duration: 0.5s;
+}
+.type-138 .boxshow:hover .productdot {
+  width: 100%;
 }
 .type-138 .crossedbg {
   background: url(../images/bg_cr_grey.png);
@@ -63,8 +68,13 @@
   position: relative;
   top: 0.4rem;
 }
-.type-138 .list-group-item:last-child {
-  border: none;
+.type-138 .list-group-item a {
+  color: lightslategrey;
+}
+.type-138 .list-group-item a:hover {
+  color: #f5ce31 !important;
+  text-decoration: none;
+  transition: all 0.5s ease;
 }
 @media (min-width: 992px) {
   .type-138 .sidebar {

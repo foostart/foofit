@@ -1,11 +1,7 @@
 .type-140 {
   background: url(../images/bg_pattern.png) repeat;
   font-family: 'Open Sans', sans-serif;
-}
-.type-140 a:hover,
-.type-140 a:focus {
-  color: #2a6496;
-  text-decoration: underline;
+  overflow: hidden;
 }
 .type-140 .panel {
   background: none;
@@ -41,10 +37,36 @@
 .type-140 .panel-body {
   background: #fff;
 }
-.type-140 .panel-body a:hover {
-  color: #003b7a;
+.type-140 .panel-body .left p a {
+  color: lightslategrey;
+}
+.type-140 .panel-body .left p a:hover {
+  color: #f5ce31;
   transition: all 0.5s ease;
   text-decoration: none;
+}
+.type-140 .panel-body .right a {
+  -webkit-mask: url(../images/aboutfit.jpg) center center;
+  display: inline-block;
+}
+.type-140 .panel-body .right a:after {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: -110%;
+  left: -400%;
+  width: 150%;
+  height: 150%;
+  opacity: 0;
+  background: linear-gradient(to right,rgba(255,255,255,0.13) 0%,rgba(255,255,255,0.13) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);
+}
+.type-140 .panel-body .right a:hover:after {
+  opacity: 1;
+  top: -20%;
+  left: -30%;
+  transition-property: left, top, opacity;
+  transition-duration: .8s, .8s, .15s;
+  transition-timing-function: ease;
 }
 @media (min-width: 992px) {
   .type-140 .content {

@@ -1,9 +1,5 @@
 .type-136 {
   background: url(../images/bg_pattern.png) repeat;
-  font-family: 'Open Sans', sans-serif;
-}
-.type-136 .padding {
-  padding: 0;
 }
 .type-136 .img {
   margin-top: 3rem;
@@ -11,9 +7,9 @@
 }
 .type-136 .img a {
   position: relative;
-  display: inline-block;
   -webkit-mask: url(../images/tuyensinh.jpg) center center;
   border-radius: 50%;
+  display: inline-block;
 }
 .type-136 .img a img {
   max-width: 100%;
@@ -25,7 +21,7 @@
   position: absolute;
   pointer-events: none;
   top: -110%;
-  left: -210%;
+  left: -400%;
   width: 150%;
   height: 150%;
   opacity: 0;

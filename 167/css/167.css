@@ -2,10 +2,13 @@
   background: url(../images/bg_pattern.png) repeat;
   font-family: 'Open Sans', sans-serif;
 }
-.type-335 a:hover,
-.type-335 a:focus {
-  color: #2a6496;
+.type-335 a {
+  color: lightslategrey;
+}
+.type-335 a:hover {
+  color: #f5ce31 !important;
   text-decoration: none;
+  transition: all 0.5s ease;
 }
 .type-335 .panel {
   background: none;

@@ -1,11 +1,13 @@
-$(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
+$('document').ready(function () {
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
 });
 $('document').ready(function () {
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.swiper-container1', {
 
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 22,
         slidesPerGroup: 1,
         nextButton: '.swiper-button-next', // tao ra nút next
@@ -14,7 +16,7 @@ $('document').ready(function () {
         breakpointsInverse: true,
         breakpoints: {
             1024: {
-                slidesPerView: 4,
+                slidesPerView: 3,
                 spaceBetween: 40,
             },
             991: {
@@ -34,30 +36,30 @@ $('document').ready(function () {
                 spaceBetween: 40,
             },
             800: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 spaceBetween: 40,
             },
             780: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 spaceBetween: 40,
             },
             768: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 spaceBetween: 30,
 
             },
             740: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 spaceBetween: 20,
 
             },
             720: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 spaceBetween: 20,
             },
             640: {
-                slidesPerView:3,
-                spaceBetween:10,
+                slidesPerView: 2,
+                spaceBetween: 10,
 
             },
             620: {
