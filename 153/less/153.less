@@ -1,19 +1,16 @@
 @import "../../var/var.less";
 .type-153 {
-    background: url(../images/bg_pattern.png) repeat;
-    font-family: 'Open Sans', sans-serif;
-
     a{
-            color:lightslategrey;
-            &:hover{
-                color: @color_Cylindrical_coordinate !important;
-                text-decoration: none;
-                transition: all 0.5s ease;
-            }
+        color:lightslategrey;
+        &:hover{
+            color: @color_Cylindrical_coordinate !important;
+            text-decoration: none;
+            transition: all 0.5s ease;
         }
-		a, a:hover, a:active, a:visited, a:focus {
-    text-decoration:none;
-}
+    }
+    a, a:hover, a:active, a:visited, a:focus {
+        text-decoration:none;
+    }
 
     /*------------------GENERAL--------------------*/
     .panel {
@@ -40,27 +37,13 @@
         background: url(../images/bg_cr_grey.png);
         height: 15px;
     }
-     .productdot{
-        position: absolute;
-        width: 0%;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        bottom: 0;
-        background: #42a7a9;
-        height: 2px;
-        transition-duration: 0.5s;
-    }
-    .boxshow:hover{
-        .productdot{
-            width: 100%;
-        }
-    }
+    .effect;
     /*------------------/END GENERAL--------------------*/
 
     /*------------------TOP WORKS & TOP ALUMNUS--------------------*/
     .panel-body {
         background:@color_white;
+        padding:0;
     }
     .list-group {
         list-style: disc;
@@ -94,7 +77,6 @@
 
     /*------------------RECENT NEWS--------------------*/
     .on-recent-news {
-        padding: 5px 15px !important;
         margin: 0 5px !important;
         span {
             font-size: 11px; 

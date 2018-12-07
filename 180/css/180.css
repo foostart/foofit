@@ -1,0 +1,19 @@
+.type-180 #top {
+  bottom: 50px;
+  cursor: pointer;
+  display: none;
+  height: 35px;
+  position: fixed;
+  right: 50px;
+  width: 44px;
+  z-index: 1000;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 15px;
+  border: 1px solid #1789d9;
+  background: transparent;
+  transition: all 0.5s ease;
+}
+.type-180 #top .fa {
+  color: #1789d9;
+}

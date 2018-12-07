@@ -30,7 +30,6 @@ $less->compileFile('less/141.less', 'css/141.css');
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
         <script src="<?php echo $url_path ?>/js/141.js"></script>
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');

@@ -29,7 +29,16 @@
 }
 .type-338 #catenav a {
   color: #000;
-  transition: color 0.5 ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+.type-338 #catenav a:hover {
+  text-decoration: none;
+}
+.type-338 .title {
+  margin-right: 15px;
+}
+.type-338 .auto-width {
+  padding: 0;
 }
 @media (min-width: 768px) {
   .type-338 .special {

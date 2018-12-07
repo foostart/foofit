@@ -28,11 +28,11 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="navbar-collapse collapse" id="maintop">
                     <ul  class="nav navbar-nav">
                         <li class="active"><a href="#">Trang chủ</a></li>
-                        <li><a href="gioi-thieu">Giới thiệu</a></li>
-                        <li><a href="tuyen-sinh">Tuyển sinh</a></li>
-                        <li><a href="brochure">Brochure</a></li>
-                        <li><a href="tai-lieu-chuyen-nganh">Tài liệu chuyên ngành</a></li>
-                        <li><a href="lien-he">Liên hệ</a></li> 
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Tuyển sinh</a></li>
+                        <li><a href="#">Brochure</a></li>
+                        <li><a href="#">Tài liệu chuyên ngành</a></li>
+                        <li><a href="#">Liên hệ</a></li> 
                     </ul>
                 </div>
             </nav>

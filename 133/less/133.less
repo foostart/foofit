@@ -39,18 +39,32 @@
         }
     }
     #maintop{
-        a:hover{
-            color: @color_white !important;
-            background: linear-gradient(to bottom,#42a7a9 0%,#48D1CC 100%);
-            transition: all 0.5s ease;
+        a{
+            &:hover{
+                color: @color_white !important;
+                background: linear-gradient(to bottom,#42a7a9 0%,#48D1CC 100%);
+                transition: all 0.5s ease;
+            }
+            &:focus{
+                color: @color_white !important;
+                background: linear-gradient(to bottom,#42a7a9 0%,#48D1CC 100%);
+                transition: all 0.5s ease;
+            }
         }
     }
 
     #mainnav{
-        a:hover{
-            color: @color_white !important;
-            background: linear-gradient(to bottom, @color_dark_cerulean 0%,#145397 100%);
-            transition: all 0.5s ease;
+        a{
+            &:hover{
+                color: @color_white !important;
+                background: linear-gradient(to bottom, @color_dark_cerulean 0%,#145397 100%);
+                transition: all 0.5s ease;
+            }
+            &:focus{
+                color: @color_white !important;
+                background: linear-gradient(to bottom, @color_dark_cerulean 0%,#145397 100%);
+                transition: all 0.5s ease;
+            }
         }
     }
     .navbar-default {

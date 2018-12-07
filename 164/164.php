@@ -24,10 +24,8 @@ $less->compileFile('less/164.less', 'css/164.css');
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo $url_path ?>/css/164.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Prata" />
-
 </head>
 
 <body>
-	 <?php include '../164/164-content.php'; ?>
+    <?php include '../164/164-content.php'; ?>
 </body>

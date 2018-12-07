@@ -25,7 +25,6 @@ $less->compileFile('less/146.less', 'css/146.css');
         <link href="<?php echo $url_path ?>/css/146.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');

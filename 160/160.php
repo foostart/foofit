@@ -25,8 +25,8 @@ $less->compileFile('less/160.less', 'css/160.css');
 </head>
 
 <body>
-        <?php
-        include '../160/160-content.php';
-        ?>
+    <?php
+    include '../160/160-content.php';
+    ?>
 </body>
 

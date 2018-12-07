@@ -14,16 +14,13 @@ $less = new lessc;
 $less->compileFile('less/157.less', 'css/157.css');
 ?>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>157</title>
-    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $url_path ?>/css/157.css" rel="stylesheet" type="text/css"/>
-</head>
-
-<body>
-
-     <?php include '../157/157-content.php'; ?>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>157</title>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/157.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <?php include '../157/157-content.php'; ?>
+    </body>
 </html>

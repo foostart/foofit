@@ -23,7 +23,6 @@ $less->compileFile('less/143.less', 'css/143.css');
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/143.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');

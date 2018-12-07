@@ -1,9 +1,9 @@
 @import "../../var/var.less";
 .type-154 {
-    font-family: 'Open Sans', sans-serif;
-
     /*------------------GENERAL--------------------*/
-
+    .panel{
+        background: none;
+    }
     .panel-default {
         border: none;
     }   
@@ -31,9 +31,6 @@
         .feedback_thumb img {
             border-radius: 50%;
         }
-        .feedback_desc {
-            padding: 5px 0;
-        }
         .feedback_name {
             color: @color_Cylindrical_coordinate;
             font-family: 'Open Sans Condensed', sans-serif;
@@ -46,54 +43,36 @@
         }
         .mobile{
             margin-top: 15px;
-              margin-bottom: 15px;
+            margin-bottom: 15px;
         }
         cursor: pointer;
-       
+
     }
-  .mask{
-			position: relative;
-			display: inline-block;
-			-webkit-mask: url(../images/sv.jpg) center;
-		
-			mask: url('#mask-firefox');
-		}
-		.mask:hover:after,
-		.mask:focus{
-			opacity: 1;
-			top: -30%;
-			left: -30%;
-			transition-property: left, top, opacity;
-			transition-duration: 1s, 1s, .15s;
-			transition-timing-function: ease;
-		}
-		.mask:active:after {
-			opacity: 0;
-		}
-		.mask:after {
-			content: '';
-			position: absolute;
-			pointer-events: none;
-			top: -110%;
-			left: -210%;
-			width: 200%;
-			height: 200%;
-			opacity: 0;
-		}
-		.shine:after {
-			transform: rotate(30deg);
-		}
-		.shine:after {
-			background: linear-gradient(
-				to right, 
-				rgba(255, 255, 255, 0.13) 0%,
-				rgba(255, 255, 255, 0.13) 77%,
-				rgba(255, 255, 255, 0.5) 92%,
-				rgba(255, 255, 255, 0.0) 100%
-			);			
-		}
-       
-      /*------------------/END STUDENT--------------------*/
+    a {
+        position: relative;
+        -webkit-mask: url(../images/sv.jpg) center center;
+        border-radius: 50%;
+        img{
+            max-width: 100%;
+            width: 100%;
+            border-radius: 50%;
+        }
+        .hover-img;
+    }
+    .shine:after {
+        transform: rotate(30deg);
+    }
+    .shine:after {
+        background: linear-gradient(
+            to right, 
+            rgba(255, 255, 255, 0.13) 0%,
+            rgba(255, 255, 255, 0.13) 77%,
+            rgba(255, 255, 255, 0.5) 92%,
+            rgba(255, 255, 255, 0.0) 100%
+            );			
+    }
+
+    /*------------------/END STUDENT--------------------*/
     /*------------------REPONSIVE--------------*/
     @media (min-width: 992px){
         .sidebar{

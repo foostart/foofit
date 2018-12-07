@@ -1,14 +1,9 @@
-@media (min-width: 1200px) {
-  .type-162 .container {
-    max-width: 960px;
-  }
-}
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   .type-162 .container {
     width: 960px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .type-162 .demo {
     padding: 0;
   }

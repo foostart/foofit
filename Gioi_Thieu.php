@@ -12,8 +12,6 @@
         <meta name="description" content="Tai lieu web" />
         <meta name="keywords" content="Tai lieu web"/>
 
-        <link rel="shortcut icon" href="blocks/2034/images/favicon.ico"/>
-
         <link href="../foofit/133/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/var/page.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/133/css/133.css" rel="stylesheet" type="text/css"/> 
@@ -26,16 +24,19 @@
         <link href="../foofit/165/css/165.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/152/css/152.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/167/css/167.css" rel="stylesheet" type="text/css"/>
+        <link href="../foofit/180/css/180.css" rel="stylesheet" type="text/css"/>
 
-        <script src="../foofit/165/css/font-awesome.min.css" type="text/javascript"></script>
-        <script src="../foofit/165/css/aos.css" type="text/javascript"></script>
-        <script src="../foofit/133/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="../foofit/165/js/AOS.js" type="text/javascript"></script>
-        <script src="../foofit/165/js/165.js" type="text/javascript"></script>
-        <script src="../foofit/var/page.js" type="text/javascript"></script>
+        <script src="../foofit/165/css/font-awesome.min.css"></script>
+        <script src="../foofit/165/css/aos.css"></script>
+        <script src="../foofit/133/js/jquery-2.1.4.min.js"></script>
+        <script src="../foofit/165/js/AOS.js"></script>
+        <script src="../foofit/165/js/165.js"></script>
+        <script src="../foofit/180/js/180.js"></script>
+        <script src="../foofit/var/page.js"></script>
     </head>
     <body>
         <div id="page">
+            <?php include '../foofit/180/180-content.php'; ?>
             <?php include '../foofit/133/133-content.php'; ?>
             <div class="a">
                 <div class="container">

@@ -15,8 +15,6 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container teacher">
         <div class="row">
             <!--FACULTY OFFICE (văn phòng khoa)--> 
-            <div class="col-sm-4 col-md-4">
-            </div>  
             <!--LIST TEACHER OF FACULTY OFFICE-->
             <div class="col-sm-8 col-md-8 prof_list">
                 <div class="row">
@@ -24,7 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="profview_thumb">
                             <div class="profview_thumb_wrap">
                                 <a href="#">
-                                    <img src="images/VoThanhTrung.jpg" alt=""/>
+                                    <img src="http://<?php echo $url_path ?>/images/VoThanhTrung.jpg" alt=""/>
                                 </a>
                             </div>
                         </div>
@@ -35,7 +33,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="profview_thumb">
                             <div class="profview_thumb_wrap">
                                 <a href="#">
-                                    <img src="images/TieuKimCuong.jpg" alt=""/>
+                                    <img src="http://<?php echo $url_path ?>/images/TieuKimCuong.jpg" alt=""/>
                                 </a>
                             </div>
                         </div>
@@ -46,7 +44,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="profview_thumb">
                             <div class="profview_thumb_wrap">
                                 <a href="#">
-                                    <img src="images/NguyenHongLan.png" alt=""/>
+                                    <img src="http://<?php echo $url_path ?>/images/NguyenHongLan.png" alt=""/>
                                 </a>
                             </div>
                         </div>
@@ -57,7 +55,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="profview_thumb">
                             <div class="profview_thumb_wrap">
                                 <a href="#">
-                                    <img src="images/DongThiHoan.jpg" alt=""/>
+                                    <img src="http://<?php echo $url_path ?>/images/DongThiHoan.jpg" alt=""/>
                                 </a>
                             </div>
                         </div>

@@ -1,0 +1,81 @@
+@import "../../var/var.less";
+.type-179{
+    .title {
+        border: none;
+        margin-top: 45px;
+    }
+
+    .title .headlinesdate {
+        background: #f5ce31;
+        border-radius: 50%;
+        padding: 10px 17px;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    }
+    .title h1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.8em;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    .overview {
+        font-style: italic;
+        margin: 15px 0;
+        text-align: justify;
+    }
+    .maincontent {margin: 20px 0; text-align: justify; line-height: 1.7em;}
+    .overview_thumb img,   .maincontent img {width: 100%; max-width: 100%;}
+    .overviewline {border-bottom: 1px solid #cecece; margin: 25px 0 15px; position: relative;}
+    .overviewline:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50px;
+        border-width: 12px 12px 0;
+        border-style: solid;
+        border-color: #cecece transparent;
+        display: block;
+        width: 0;
+    }
+
+    .overviewline:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 51px;
+        border-width: 11px 11px 0;
+        border-style: solid;
+        border-color: #f5f5f5 transparent;
+        display: block;
+        width: 0;
+    }
+    .list_news {margin: 45px 0;}
+    .headlinesdate .headlinesdm, .news > .headlines .headlinesdate, .headlinesdate {
+        float: left;
+        font-family: 'Prata', serif;
+    }
+    .headlines .headlinesdate { font-size: 0.8em; width: 15%; min-width: 55px; display: table-cell; vertical-align: middle;}
+    .headlinesdate .headlinesday, .news > .headlines .headlinesmonth {line-height: 1.7em;}
+    .headlinesdate .headlinesday {
+        border-bottom: 1px solid #000;
+    }
+    .headlinesdate .headlinesyear {
+        line-height: 3.5em;
+        float: left;
+        margin-left: 3px;
+    }
+    .padding{
+        padding: 0;
+    }
+    a{
+        color:lightslategrey;
+        &:hover{
+            color: @color_Cylindrical_coordinate !important;
+            text-decoration: none;
+            transition: all 0.5s ease;
+        }
+    }
+}
+

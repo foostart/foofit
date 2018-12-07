@@ -2,11 +2,6 @@
   background: url(../images/bg_pattern.png) repeat;
   font-family: 'Open Sans', sans-serif;
 }
-.type-155 a:hover,
-.type-155 a:focus {
-  color: #2a6496;
-  text-decoration: underline;
-}
 .type-155 .panel {
   background: none;
   box-shadow: none;
@@ -31,33 +26,33 @@
   background: url(../images/bg_cr_grey.png);
   height: 15px;
 }
-.type-155 .mask {
+.type-155 a {
   position: relative;
+  -webkit-mask: url(../images/oth_logo.gif) center center;
   display: inline-block;
-  -webkit-mask: url(../images/oth_logo.gif) center;
-  mask: url('#mask-firefox');
 }
-.type-155 .mask:hover:after,
-.type-155 .mask:focus {
-  opacity: 1;
-  top: -30%;
-  left: -30%;
-  transition-property: left, top, opacity;
-  transition-duration: 1s, 1s, .15s;
-  transition-timing-function: ease;
+.type-155 a img {
+  max-width: 100%;
+  width: 100%;
 }
-.type-155 .mask:active:after {
-  opacity: 0;
-}
-.type-155 .mask:after {
+.type-155 a:after {
   content: '';
   position: absolute;
   pointer-events: none;
   top: -110%;
-  left: -210%;
-  width: 200%;
-  height: 200%;
+  left: -400%;
+  width: 150%;
+  height: 150%;
   opacity: 0;
+  background: linear-gradient(to right,rgba(255,255,255,0.13) 0%,rgba(255,255,255,0.13) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);
+}
+.type-155 a:hover:after {
+  opacity: 1;
+  top: -20%;
+  left: -30%;
+  transition-property: left, top, opacity;
+  transition-duration: .8s, .8s, .15s;
+  transition-timing-function: ease;
 }
 .type-155 .shine:after {
   transform: rotate(30deg);
