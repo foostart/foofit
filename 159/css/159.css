@@ -1,6 +1,3 @@
-.type-159 {
-  background-image: url('../images/bg_pattern.png');
-}
 .type-159 .panel-default {
   border: none;
 }
@@ -24,7 +21,7 @@
   height: 15px;
 }
 .type-159 .panel-default .panel-body {
-  background: #fff;
+  background: ;
 }
 .type-159 .panel-default .panel-body strong {
   font-weight: 700;

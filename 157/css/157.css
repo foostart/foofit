@@ -1,5 +1,4 @@
 .type-157 {
-  background: url(../images/bg_pattern.png) repeat;
   margin-top: 20px;
 }
 .type-157 a {
@@ -44,9 +43,6 @@
   width: 200%;
   height: 200%;
   opacity: 0;
-}
-.type-157 .shine:after {
-  transform: rotate(30deg);
 }
 .type-157 .shine:after {
   background: linear-gradient(to right,rgba(255,255,255,0.13) 0%,rgba(255,255,255,0.13) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);

@@ -15,13 +15,17 @@ if (!class_exists('lessc')) {
 $less = new lessc;
 $less->compileFile('less/161.less', 'css/161.css');
 ?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>161</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/161.css" rel="stylesheet" type="text/css"/>
-    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+     
+    <link href="<?php echo $url_path ?>/css/161.css" rel="stylesheet" type="text/css"/>
+    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
 
 </head>
 
@@ -30,3 +34,4 @@ $less->compileFile('less/161.less', 'css/161.css');
         include '../161/161-content.php';
         ?>
 </body>
+</html>

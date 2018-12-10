@@ -1,26 +1,5 @@
-@media (min-width: 768px) {
-  .type-161 .container {
-    width: 960px;
-    padding: 0;
-  }
-}
-@media (min-width: 992px) {
-  .type-161 .col-md-5 {
-    width: 41.66666667%;
-    float: left;
-  }
-}
-@media (min-width: 992px) {
-  .type-161 .col-md-12 {
-    width: 100%;
-    padding: 0;
-  }
-}
-@media (min-width: 992px) {
-  .type-161 .col-md-2 {
-    width: 16.66666667%;
-    float: left;
-  }
+.type-161 {
+  background: url(../images/bg_pattern.png);
 }
 @media (min-width: 768px) {
   .type-161 .program h3 {
@@ -33,9 +12,19 @@
   }
 }
 @media (min-width: 768px) {
+  .type-161 .program .desc {
+    padding-left: 20%;
+  }
+}
+@media (min-width: 768px) {
   .type-161 .flag {
     font-size: 4vw;
     padding: 0;
+  }
+}
+@media (min-width: 120px) {
+  .type-161 .major {
+    float: left !important;
   }
 }
 @media (min-width: 768) {
@@ -65,6 +54,12 @@
   margin: 50px 0;
   clear: both;
 }
+.type-161 .program .major ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
 .type-161 .program:after {
   content: "";
   position: absolute;
@@ -84,7 +79,7 @@
   margin-top: 25px;
 }
 .type-161 .desc {
-  text-align: justify;
+  text-align: justify !important;
 }
 .type-161 .f-college {
   background: #c02e25;
@@ -140,36 +135,36 @@
 .type-161 .college {
   color: #c02e25;
 }
-.type-161 .college1 a {
+.type-161 .college a {
   color: #c02e25;
   text-decoration: none;
   transition: all 0.5s ease;
 }
-.type-161 .college1 a:hover {
+.type-161 .college a:hover {
   opacity: 0.5;
   transition: all 0.5s ease;
 }
 .type-161 .vocational {
   color: #258b77;
 }
-.type-161 .vocational1 a {
+.type-161 .vocational a {
   color: #258b77;
   text-decoration: none;
   transition: all 0.5s ease;
 }
-.type-161 .vocational1 a:hover {
+.type-161 .vocational a:hover {
   opacity: 0.5;
   transition: all 0.5s ease;
 }
 .type-161 .collegetrans {
   color: #d69200;
 }
-.type-161 .collegetrans1 a {
+.type-161 .collegetrans a {
   color: #d69200;
   text-decoration: none;
   transition: all 0.5s ease;
 }
-.type-161 .collegetrans1 a:hover {
+.type-161 .collegetrans a:hover {
   opacity: 0.5;
   transition: all 0.5s ease;
 }
@@ -178,4 +173,9 @@
 }
 .type-161 .corp {
   color: #106982;
+}
+@media (min-width: 480px) {
+  .type-161 .major {
+    float: left;
+  }
 }
