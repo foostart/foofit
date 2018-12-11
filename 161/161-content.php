@@ -30,7 +30,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-8 college">
                             <h3>Cao đẳng chính quy</h3>
-                            <div class="desc" style="text-align: justify ;">
+                            <div class="desc">
                                 Đào tạo Cử nhân Cao Đẳng Công nghệ thông tin có những nền tảng cơ bản để phát triển toàn diện về nhân cách và nghề nghiệp.<br>
                                 Thời gian đào tạo: 3 năm  
                             </div>

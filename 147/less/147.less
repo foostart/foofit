@@ -1,3 +1,4 @@
+@import "../../var/var.less";
 .type-147{
     .teacher{
         .panel-heading {
@@ -16,49 +17,14 @@
                 margin: 0 0 10px;
             }
         }
-        .profview {
-            text-align: center;
-            margin-top: 20px;
-            .profview_thumb {
-                padding: 8px;
-                background: url(../images/bg_cr_grey.png);
-                border-radius: 50%;
-            }
-            .profview_thumb_wrap {
-                overflow: hidden;
-                border-radius: 50%;
-                img {
-                    border-radius: 50%;
-                    transition: all 0.1s linear;
-                    display: block;
-                    max-width: 100%;
-                    height: auto;
-                }
-                
-            }
-            h4 {
-                margin-top: 10px;
-                margin-bottom: 10px;
-                font-size: 15px;
-                font-weight: bold;
-            }
-            .prof_name{
-                a {
-                    font-family: 'Open Sans Condensed', sans-serif;
-                    color: #428bca;
-                    text-decoration: none;
-                }
-            }
-            .prof_name, .prof_title{
-                text-align: center;
-            }
-        }
-        .prof_list{
-            .profview:nth-child(4n+1) {
-                clear: both;
-            }
-        }
-    }
+		}
+        .desc{
+		margin: -8px 0px 0px 0px;
+				 text-align: justify;
+		}
+		.name{
+		margin: -5px 0px 10px 0px;
+		}
     /*------REPONSIVE----------*/
     @media (min-width: 992px){
         .teacher{padding: 20;}
