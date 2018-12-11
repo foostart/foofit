@@ -42,7 +42,7 @@
   transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
 .active-state {
-  background: #1976d2;
+  background: #3d9fab;
   transform: perspective(1000px) rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
 }
 .cube:hover .default-state {

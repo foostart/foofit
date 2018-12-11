@@ -185,15 +185,6 @@
   top: 50px;
   right: 10px;
 }
-.type-172 .ribbon:before,
-.type-172 .ribbon:after {
-  content: '';
-  position: absolute;
-  display: block;
-  bottom: -1em;
-  border: 1.5em solid #c23a3a;
-  z-index: -1;
-}
 @media (max-width: 480px) {
   .type-172 .tuyen-sinh {
     padding: 0;
@@ -217,10 +208,32 @@
     width: 267px;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 992px) and (min-width: 768px) {
   .type-172 .tabs li {
-    float: none;
+    float: left;
     margin: 0 auto 73px auto;
     text-align: center;
+  }
+  .type-172 .heading-2 {
+    margin-top: 0px;
+  }
+  .type-172 .col-sm-6 .second-li {
+    margin-left: 63px;
+  }
+  .type-172 .col-sm-12 .third-li {
+    margin-top: 75px;
+    margin-left: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .type-172 .tabs li {
+    float: none;
+  }
+  .type-172 .tabs li {
+    margin: 0 auto 73px auto;
+    text-align: center;
+  }
+  .type-172 .heading-2 {
+    margin-top: 0px;
   }
 }

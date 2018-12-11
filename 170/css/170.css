@@ -34,6 +34,9 @@
 .type-338 #catenav a:hover {
   text-decoration: none;
 }
+.type-338 .boxshow a {
+  text-decoration: none;
+}
 .type-338 .title {
   margin-right: 15px;
 }
@@ -49,6 +52,11 @@
   }
   .type-338 .auto-width {
     width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .type-338 .title {
+    margin-right: 0px;
   }
 }
 @media (max-width: 480px) {
