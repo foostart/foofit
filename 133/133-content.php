@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-133">
     <!--MENU HOME-->
 
-    <div class="navbar-default" role="navigation">
+    <div class="navbar-default hidden-menutop" role="navigation">
         <div class="container menu">        
             <nav class="topnav">
                 <div class="navbar-header">
@@ -40,7 +40,7 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
     <!--END MENU HOME-->
     <header id="scoll-top">
-        <div class="navbar navbar-inverse navbar-static-top">
+        <nav id="clear-navbar-fixed"class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
             <!--LIST OF HEADER -->
             <div class="container menu">
                 <div class="left-bg">&nbsp;</div>
@@ -58,19 +58,30 @@ $url_path = str_replace('\\', '/', $url_path);
                             <span class="icon-bar"></span> 
                         </button>
                     </div>
-
                     <div class="navbar-collapse collapse" id="mainnav">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="first parent"><a href="#">TIN TỨC</a></li>
-                            <li class="parent"><a href="#">GIẢNG VIÊN</a></li>
-                            <li class="parent"><a href="#">SINH VIÊN</a></li>
-                            <li class="parent"><a href="#">CHUYÊN ĐỀ</a></li>
-                            <li class="last parent"><a href="#">ĐÀO TẠO</a></li>
-                        </ul>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 menutop clear_padding">
+                            <ul  class="nav navbar-nav">
+                                <li><a href="#">Trang chủ</a></li>
+                                <li><a href="#">Giới thiệu</a></li>
+                                <li><a href="#">Tuyển sinh</a></li>
+                                <li><a href="#">Brochure</a></li>
+                                <li><a href="#">Tài liệu chuyên ngành</a></li>
+                                <li><a href="#">Liên hệ</a></li> 
+                            </ul>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 clear_padding">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="first parent"><a href="#">tin tức</a></li>
+                                <li class="parent"><a href="#">giảng viên</a></li>
+                                <li class="parent"><a href="#">sinh viên</a></li>
+                                <li class="parent"><a href="#">chuyên đề</a></li>
+                                <li class="last parent"><a href="#">đào tạo</a></li>
+                            </ul>
+                        </div>
                     </div>                  
                 </div>
             </div>
-        </div>
+        </nav>
     </header>
     <!--END MENU HEADER-->
 

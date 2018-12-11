@@ -1,6 +1,5 @@
 @import "../../var/var.less";
 .type-134 {
-    margin-top: -20px;
     .clear{clear: both;}
     .slideshow{
         padding: 0;
@@ -24,8 +23,8 @@
         h3 {
             font-size: 2rem;
             line-height: 2rem;
-            margin-top:0px!important;
-            margin-bottom:0px!important;
+            margin-top:0!important;
+            margin-bottom:0!important;
         }
     }
 
@@ -92,7 +91,7 @@
             display: none;
 
             .swiper-pagination-bullet {
-                margin:0px 0.2rem;
+                margin:0 0.2rem;
             }
         }
 
@@ -156,7 +155,7 @@
     /***********************Reponsive*************************/
     @media(min-width: @sm-768)
         {
-        .slideshow{width: 960px;}
+        .slideshow{width: 96rem; margin-top:7rem;}
         .content-slide-show {
             width: 34rem!important;
             opacity: 0;
@@ -184,7 +183,12 @@
     }
     @media (max-width:@xs-480){
         .swiper-button-next, .swiper-button-prev{
-            display: none
+            display: none;
+        }
+    }
+    @media (max-width:@sm-768){
+        .slideshow{
+            margin-top: 5rem;
         }
     }
 }

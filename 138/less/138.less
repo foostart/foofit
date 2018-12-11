@@ -1,5 +1,9 @@
 @import "../../var/var.less";
 .type-138 {
+    .sidebar{
+        padding:0;
+    }
+    overflow: hidden;
     .fontsize(){
         font-size: 2.5rem;
     }
@@ -35,6 +39,7 @@
     /*------------------TOP WORKS & TOP ALUMNUS--------------------*/
     .panel-body {
         background: @color_white;
+        padding: 0;
     }
     .list-group {
         list-style: disc;
@@ -43,10 +48,8 @@
     .list-group-item {
         border: none;
         border-bottom: 0.1rem @color_border_gray solid;
-        margin-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
-        margin: 0 1.5rem;
+        margin: 0 ;
+        padding: 0.5rem 1.5rem 1rem 1.5rem;
         &:first-child{
             border-top-right-radius: 0.4rem;
             border-top-left-radius: 0.4rem;
@@ -81,9 +84,11 @@
             width: 96rem;
         }
     }
+    
     @media (max-width: @xs-480){
         .sidebar{
             padding: 0;
         }
     }
+
 }

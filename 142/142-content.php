@@ -33,12 +33,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <img src="http://<?php echo $url_path ?>/images/files.png" alt="files.png">
                                         </a>
                                     </div>
-                                    <h4>
-                                        <a href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp (Phần 2)</a>                
-                                    </h4>
-                                    <div>
-                                        (PCWorldVN) Ba bài thực hành ở cấp độ trung cấp đòi hỏi bạn phải "võ luyện" nhiều lần, kết hợp với cọ xát thực tế với thiết bị, mạng giả lập và mạng thực tế tại gia đình, doanh nghiệp.                    
-                                        <a href="#">[...]</a>                
+                                    <div class="content">
+                                        <h4>
+                                            <a href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp (Phần 2)</a>                
+                                        </h4>
+                                        <div>
+                                            (PCWorldVN) Ba bài thực hành ở cấp độ trung cấp đòi hỏi bạn phải "võ luyện" nhiều lần, kết hợp với cọ xát thực tế với thiết bị, mạng giả lập và mạng thực tế tại gia đình, doanh nghiệp.                    
+                                            <a href="#">[...]</a>                
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">

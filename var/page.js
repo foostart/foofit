@@ -8,6 +8,11 @@ $('document').ready(function () {
             } else {
                 $('header').removeClass("scroll_menu");
             }
+            if ($(this).scrollTop() > scroll_top) {
+                $('nav').addClass("clear-margin-fixed");
+            } else {
+                $('nav').removeClass("clear-margin-fixed");
+            }
         });
     });
 });

@@ -64,7 +64,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <div class="eventlocation">
                                                 Hội trường H                                </div>
                                             <div class="eventdesc">
-                                                <a href="http://fit.tdc.edu.vn/su-kien/le-chao-don-tan-fit-tdcers">Lễ chào đón Tân FIT - TDCers</a>                                </div>
+                                                <a href="#">Lễ chào đón Tân FIT - TDCers</a>                                </div>
                                         </div>
                                     </div>
                                 </div>

@@ -22,6 +22,7 @@
         <link href="../foofit/172/css/Cube_Animation.css" rel="stylesheet" type="text/css"/>
         
         <script src="../foofit/133/js/jquery-2.1.4.min.js"></script>
+        <script src="../foofit/133/js/bootstrap.min.js"></script>
         <script src="../foofit/180/js/180.js"></script>
         <script src="../foofit/172/js/jquery.event.move.js"></script>
         <script src="../foofit/var/page.js"></script>

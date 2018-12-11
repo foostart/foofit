@@ -122,11 +122,7 @@
                 margin-top: 1.5rem;
                 a{
                     color: lightslategrey;
-                    &:hover{
-                        text-decoration: none;
-                        color: @color_Cylindrical_coordinate;
-                        transition: all 0.5s ease;
-                    }
+                    .focus_hover
                 }
             }
         }
@@ -135,7 +131,7 @@
                 float: right;
                 &:before{
                     position: absolute;
-                    top: 27px;
+                    top: 2.7rem;
                     right: 0.5rem;
                     display: inline-block;
                     border-top: 0.1rem solid @color_border_gray;
@@ -163,7 +159,7 @@
     /*--------Reponsive--------*/
     @media (min-width: @sm-768){
         .event{
-            width: 960px;
+            width: 96rem;
         }
         .timeline-badge{
             left: 50%;
@@ -183,7 +179,7 @@
     }
     @media (max-width: @sm-768) {
         .bodytimeline{
-            margin-left: 20px;
+            margin-left: 2rem;
         }
         .timeline{
             margin-right: 5rem;
@@ -202,7 +198,7 @@
                     padding-left: 2rem;
                     &:before{
                         width: 99%;
-                        left: 5px;
+                        left: 0.5rem;
                     }
                 }
             }
@@ -210,14 +206,15 @@
                 left: 0rem;
             }
         }
-
-        .panel-default{
-            padding: 0 1.5rem;
-        }
     }
     @media (max-width: @xs-480){
         .panel-default{
             padding: 0;
+        }
+    }
+    @media (max-width: @md-992){
+        .eventdetails{
+            width: 80% !important;
         }
     }
 }

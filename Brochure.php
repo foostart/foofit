@@ -14,22 +14,26 @@
         
         <link href="../foofit/133/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/var/page.css" rel="stylesheet" type="text/css"/>
+        <link href="../foofit/180/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/133/css/133.css" rel="stylesheet" type="text/css"/> 
         <link href="../foofit/173/css/173.css" rel="stylesheet" type="text/css"/> 
         <link href="../foofit/177/css/177.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/180/css/180.css" rel="stylesheet" type="text/css"/>
         
         <script src="../foofit/133/js/jquery-2.1.4.min.js"></script>
+        <script src="../foofit/133/js/bootstrap.min.js"></script>
         <script src="../foofit/173/js/turn.min.js"></script>
         <script src="../foofit/180/js/180.js"></script>
+        <script src="../foofit/173/js/173.js"></script>
         <script src="../foofit/var/page.js"></script>
     </head>
     <body>
         <div id="page">
-            <?php include '../foofit/180/180-content.php'; ?>
+            
             <?php include '../foofit/133/133-content.php'; ?>
             <?php include '../foofit/173/173-content.php'; ?>
             <?php include '../foofit/177/177-content.php'; ?>
+            <?php include '../foofit/180/180-content.php'; ?>
         </div>
     </body>
 </html>

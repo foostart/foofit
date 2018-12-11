@@ -14,6 +14,9 @@
 
         <link href="../foofit/133/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/var/page.css" rel="stylesheet" type="text/css"/>
+        <link href="../foofit/165/css/aos.css"  rel="stylesheet" type="text/css"/></link>
+        <link href="../foofit/165/css/font-awesome.min.css"  rel="stylesheet" type="text/css"/></link>
+
         <link href="../foofit/133/css/133.css" rel="stylesheet" type="text/css"/> 
         <link href="../foofit/134/css/134.css" rel="stylesheet" type="text/css"/> 
         <link href="../foofit/136/css/136.css" rel="stylesheet" type="text/css"/> 
@@ -26,10 +29,11 @@
         <link href="../foofit/167/css/167.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/180/css/180.css" rel="stylesheet" type="text/css"/>
 
-        <script src="../foofit/165/css/font-awesome.min.css"></script>
-        <script src="../foofit/165/css/aos.css"></script>
+
         <script src="../foofit/133/js/jquery-2.1.4.min.js"></script>
+        <script src="../foofit/133/js/bootstrap.min.js"></script>
         <script src="../foofit/165/js/AOS.js"></script>
+        
         <script src="../foofit/165/js/165.js"></script>
         <script src="../foofit/180/js/180.js"></script>
         <script src="../foofit/var/page.js"></script>

@@ -1,5 +1,8 @@
 @import "../../var/var.less";
 .type-178{
+    .video{
+        padding:0;
+    }
     .hover(){
         color: @color_Cylindrical_coordinate !important;
         text-decoration: none;
@@ -8,7 +11,9 @@
     .video-container {
         position: relative;
         padding-bottom: 56.25%;
-        padding-top: 30px; height: 0; overflow: hidden;
+        padding-top: 3rem;
+        height: 0; 
+        overflow: hidden;
     }
 
     .video-container iframe,
@@ -20,23 +25,34 @@
         width: 100%;
         height: 100%;
     }
-    .panel {background: none; -webkit-box-shadow: none; box-shadow: none;}
-    .panel-body { background: #fff;}
+    .crossedbg {
+        background: url(../images/bg_cr_grey.png);
+        height: 1.5rem;
+    }
+    .panel {
+        background: none; 
+        -webkit-box-shadow: none; 
+        box-shadow: none;
+    }
+    .panel-body {
+        background: @color_white;
+        padding: 1.5rem 0 0 1.5rem;
+    }
     .panel-default {
         border: none;
     }
     .panel-heading {
         border: none !important;
         background: none !important;
-        padding: 20px 0 0;
-    }
-    .panel-heading h2{
-        font-weight: bold;
-        font-size: 1.8em;
-    }
-    .panel-heading h2>span {
-        font-weight: normal;
-        font-size: 1em;
+        padding: 2rem 0 0;
+        h2{
+            font-weight: bold;
+            font-size: 2.5rem;
+        }
+        span {
+            font-weight: normal;
+            font-size: 1.75rem;
+        }
     }
     a{
         color:lightslategrey;

@@ -12,7 +12,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-179">
-    <div class="container">
+    <div class="container sidebar">
         <div class="row">
             <div class="col-md-8">
                 <div class="row title">
@@ -41,7 +41,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="row maincontent">
                     <div class="col-md-12 padding">
                         <p>
-                            <a class="pyro-file" href="#">Danh sách xóa tên sinh viên.</a>       
+                            <a href="#">Danh sách xóa tên sinh viên.</a>       
                         </p>
                     </div>
                 </div>
