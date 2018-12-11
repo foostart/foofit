@@ -13,6 +13,7 @@
         <meta name="keywords" content="Tai lieu web"/>
 
         <link href="../foofit/133/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link href="../foofit/167/css/font-awesome.min.css"  rel="stylesheet" type="text/css"/></link>
         <link href="../foofit/var/page.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/133/css/133.css" rel="stylesheet" type="text/css"/> 
         <link href="../foofit/143/css/143.css" rel="stylesheet" type="text/css"/> 
