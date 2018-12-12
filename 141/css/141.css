@@ -2,6 +2,9 @@
   background: url(../images/bg_pattern.png) repeat;
   font-family: 'Open Sans', sans-serif;
 }
+.type-141 .sidebar {
+  padding: 0;
+}
 .type-141 .row {
   margin-right: 0;
 }
@@ -31,7 +34,6 @@
 .type-141 .partnerlogo {
   cursor: pointer;
   position: relative;
-  margin-bottom: 2.5rem;
   z-index: 1;
 }
 .type-141 .partnerlogo img {
@@ -161,7 +163,7 @@
     padding: 0;
   }
   .type-141 .padding {
-    padding-right: 5px;
+    padding-right: 0.5rem;
   }
 }
 @media (max-width: 768px) {

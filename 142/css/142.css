@@ -1,7 +1,8 @@
 .type-142 {
-  background: url(../images/bg_pattern.png) repeat;
-  font-family: 'Open Sans', sans-serif;
   overflow: hidden;
+}
+.type-142 .sidebar {
+  padding: 0;
 }
 .type-142 a {
   color: lightslategrey;
@@ -38,6 +39,7 @@
 }
 .type-142 .panel-body {
   background: #fff;
+  padding: 0 0 0 1.5rem;
 }
 .type-142 .list-group {
   list-style: disc;
@@ -47,11 +49,10 @@
   border: none;
   border-bottom: 0.1rem #d9d9d9 solid;
   margin-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  margin: 0 1.5rem;
+  padding: 0.5rem 0 1.5rem 0;
 }
 .type-142 .list-group-item:first-child {
+  padding-top: 1rem;
   border-top-right-radius: 0.4rem;
   border-top-left-radius: 0.4rem;
 }
@@ -105,17 +106,21 @@
   max-width: 100%;
 }
 .type-142 .toparticle {
+  padding-left: 0;
   margin-top: 2.5rem;
 }
-.type-142 .toparticle h4 {
+.type-142 .toparticle .content {
+  padding-left: 1.5rem;
+}
+.type-142 .toparticle .content h4 {
   font-weight: bold;
   font-size: 2rem;
   line-height: 2.5rem;
 }
-.type-142 .toparticle h4 a {
+.type-142 .toparticle .content h4 a {
   color: lightslategrey;
 }
-.type-142 .toparticle h4 a:hover {
+.type-142 .toparticle .content h4 a:hover {
   color: #f5ce31;
 }
 @media (min-width: 992px) {

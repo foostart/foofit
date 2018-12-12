@@ -1,6 +1,8 @@
 .type-138 {
-  background: url(../images/bg_pattern.png) repeat;
-  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+}
+.type-138 .sidebar {
+  padding: 0;
 }
 .type-138 .panel {
   background: none;
@@ -42,6 +44,7 @@
 }
 .type-138 .panel-body {
   background: #fff;
+  padding: 0;
 }
 .type-138 .list-group {
   list-style: disc;
@@ -50,10 +53,8 @@
 .type-138 .list-group-item {
   border: none;
   border-bottom: 0.1rem #d9d9d9 solid;
-  margin-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  margin: 0 1.5rem;
+  margin: 0;
+  padding: 0.5rem 1.5rem 1rem 1.5rem;
 }
 .type-138 .list-group-item:first-child {
   border-top-right-radius: 0.4rem;

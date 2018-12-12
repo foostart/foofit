@@ -69,7 +69,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <li><a href="#">Liên hệ</a></li> 
                             </ul>
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 clear_padding">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6 clear-left clear_padding">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="first parent"><a href="#">tin tức</a></li>
                                 <li class="parent"><a href="#">giảng viên</a></li>

@@ -39,10 +39,11 @@
         <script src="../foofit/var/page.js"></script>
     </head>
     <body>
-        <div id="page">
+       <div id="page">
             <?php include '../foofit/180/180-content.php'; ?>
             <?php include '../foofit/133/133-content.php'; ?>
             <?php include '../foofit/134/134-content.php'; ?>
+			 
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-12 col-xs-12">

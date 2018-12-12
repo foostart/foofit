@@ -1,3 +1,6 @@
+.type-136 {
+  overflow: hidden;
+}
 .type-136 .img {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -45,9 +48,6 @@
 @media only screen and (min-width: 480px) and (max-width: 992px) {
   .type-136 .sidebar {
     padding: 0;
-  }
-  .type-136 .img {
-    width: calc(50%);
   }
 }
 @media (max-width: 480px) {

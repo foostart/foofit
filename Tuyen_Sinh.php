@@ -13,7 +13,7 @@
         <meta name="keywords" content="Tai lieu web"/>
 
         <link href="../foofit/133/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-		<link href="../foofit/162/css/font-awesome.min.css"  rel="stylesheet" type="text/css"/></link>
+        <link href="../foofit/162/css/font-awesome.min.css"  rel="stylesheet" type="text/css"/></link>
         <link href="../foofit/var/page.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/133/css/133.css" rel="stylesheet" type="text/css"/> 
         <link href="../foofit/162/css/162.css" rel="stylesheet" type="text/css"/> 
@@ -21,7 +21,7 @@
         <link href="../foofit/172/css/172.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/180/css/180.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/172/css/Cube_Animation.css" rel="stylesheet" type="text/css"/>
-        
+
         <script src="../foofit/133/js/jquery-2.1.4.min.js"></script>
         <script src="../foofit/133/js/bootstrap.min.js"></script>
         <script src="../foofit/180/js/180.js"></script>
@@ -32,8 +32,10 @@
         <div id="page">
             <?php include '../foofit/180/180-content.php'; ?>
             <?php include '../foofit/133/133-content.php'; ?>
-            <?php include '../foofit/162/162-content.php'; ?>
-            <?php include '../foofit/172/172-content.php'; ?>
+            <div class="main">
+                <?php include '../foofit/162/162-content.php'; ?>
+                <?php include '../foofit/172/172-content.php'; ?>
+            </div>
             <?php include '../foofit/177/177-content.php'; ?>
         </div>
     </body>

@@ -1,6 +1,4 @@
 .type-140 {
-  background: url(../images/bg_pattern.png) repeat;
-  font-family: 'Open Sans', sans-serif;
   overflow: hidden;
 }
 .type-140 .panel {
@@ -16,6 +14,9 @@
 }
 .type-140 .panel-default {
   border: none;
+}
+.type-140 .panel-body {
+  padding: 1.5rem 0 0 0;
 }
 .type-140 .panel-heading {
   border: none !important;

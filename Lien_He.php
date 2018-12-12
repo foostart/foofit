@@ -30,7 +30,7 @@
         <div id="page">
             <?php include '../foofit/180/180-content.php'; ?>
             <?php include '../foofit/133/133-content.php'; ?>
-            <div class="container">
+            <div class="container main">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <?php include '../foofit/163/163-content.php'; ?>

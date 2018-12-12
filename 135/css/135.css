@@ -49,7 +49,7 @@
   display: table-cell;
   vertical-align: middle;
   text-transform: uppercase;
-  font-style: italic / 2;
+  font-style: italic;
   padding-left: 1.5rem;
 }
 .type-135 .prof_profile .prof_ide:before {

@@ -32,18 +32,20 @@
         <div id="page">
             <?php include '../foofit/180/180-content.php'; ?>
             <?php include '../foofit/133/133-content.php'; ?>
-            <?php include '../foofit/135/135-content.php'; ?>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-sm-12 col-xs-12">
-                        <?php include '../foofit/160/160-content.php'; ?>
-                        <?php include '../foofit/159/159-content.php'; ?>
-                    </div> 
-                    <div class="col-md-4 col-sm-12 col-xs-12">
-                        <?php include '../foofit/152/152-content.php'; ?>
-                    </div> 
-                </div>
-            </div> 
+            <div class="main">
+                <?php include '../foofit/135/135-content.php'; ?>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <?php include '../foofit/160/160-content.php'; ?>
+                            <?php include '../foofit/159/159-content.php'; ?>
+                        </div> 
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <?php include '../foofit/152/152-content.php'; ?>
+                        </div> 
+                    </div>
+                </div> 
+            </div>
             <?php include '../foofit/177/177-content.php'; ?>
         </div>
     </body>

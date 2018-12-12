@@ -1,7 +1,8 @@
 .type-139 {
-  background: url(../images/bg_pattern.png) repeat;
-  font-family: 'Open Sans', sans-serif;
   overflow: hidden;
+}
+.type-139 .sidebar {
+  padding: 0;
 }
 .type-139 .news a {
   color: #fff;
@@ -37,7 +38,7 @@
 }
 .type-139 .news .topnews {
   background: #4bb4b6;
-  padding: 3rem 0;
+  padding: 3rem .5rem 3rem .5rem;
 }
 .type-139 .news .topnews .row .row {
   margin: 0 !important;
@@ -48,7 +49,7 @@
   padding-left: 0;
 }
 .type-139 .news .topnews .img a {
-  -webkit-mask: url(../images/hinh1.jpg)  ;
+  -webkit-mask: url(../images/hinh1.jpg) center center;
   display: inline-block;
 }
 .type-139 .news .topnews .img a:after {

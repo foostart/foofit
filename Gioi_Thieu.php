@@ -33,7 +33,7 @@
         <script src="../foofit/133/js/jquery-2.1.4.min.js"></script>
         <script src="../foofit/133/js/bootstrap.min.js"></script>
         <script src="../foofit/165/js/AOS.js"></script>
-        
+
         <script src="../foofit/165/js/165.js"></script>
         <script src="../foofit/180/js/180.js"></script>
         <script src="../foofit/var/page.js"></script>
@@ -42,23 +42,21 @@
         <div id="page">
             <?php include '../foofit/180/180-content.php'; ?>
             <?php include '../foofit/133/133-content.php'; ?>
-            <div class="a">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-12 col-xs-12">
-                            <?php include '../foofit/165/165-content.php'; ?>
-                        </div> 
-                        <div class="col-md-4 col-sm-12 col-xs-12">
-                            <?php include '../foofit/136/136-content.php'; ?>
-                            <?php include '../foofit/176/176-content.php'; ?>
-                            <?php include '../foofit/137/137-content.php'; ?>
-                            <?php include '../foofit/138/138-content.php'; ?>
-                            <?php include '../foofit/152/152-content.php'; ?>
-                            <?php include '../foofit/167/167-content.php'; ?>
-                        </div> 
-                    </div>
+            <div class="container main">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                        <?php include '../foofit/165/165-content.php'; ?>
+                    </div> 
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <?php include '../foofit/136/136-content.php'; ?>
+                        <?php include '../foofit/176/176-content.php'; ?>
+                        <?php include '../foofit/137/137-content.php'; ?>
+                        <?php include '../foofit/138/138-content.php'; ?>
+                        <?php include '../foofit/152/152-content.php'; ?>
+                        <?php include '../foofit/167/167-content.php'; ?>
+                    </div> 
                 </div>
-            </div> 
+            </div>
             <?php include '../foofit/177/177-content.php'; ?>
         </div>
     </body>
