@@ -27,9 +27,10 @@
     float: left !important;
   }
 }
-@media (max-width: 768px) {
-  .type-161 .flag {
-    font-size: 2em;
+@media (min-width: 768) {
+  .type-161 .flagtri {
+    width: 50%;
+    float: left;
   }
 }
 .type-161 .heading h1 {

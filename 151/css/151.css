@@ -1,128 +1,90 @@
+.type-151 {
+  overflow: hidden;
+}
 .type-151 .news {
-  width: 960px;
+  width: 96rem;
   padding: 0;
 }
-.type-151 .panel-heading {
-  padding: 20px 0 0;
+.type-151 .top_news_block {
+  margin-top: 5.5rem;
+  background: #fff;
 }
-.type-151 .panel-heading h2 {
-  font-weight: bold;
-  font-size: 1.8em;
-}
-.type-151 .panel-heading h2 span {
-  font-weight: normal;
-  font-size: 1em;
-}
-.type-151 a {
-  color: lightslategrey;
-}
-.type-151 a:hover {
-  color: #f5ce31 !important;
-  text-decoration: none;
-  transition: all 0.5s ease;
-}
-.type-151 .mask {
-  position: relative;
+.type-151 .top_news_block .thumb a {
+  -webkit-mask: url(../images/posts-1.png) center center;
   display: inline-block;
-  -webkit-mask: url(../images/posts-4.png) center;
-  mask: url('#mask-firefox');
 }
-.type-151 .mask:hover:after,
-.type-151 .mask:focus {
-  opacity: 1;
-  top: -30%;
-  left: -30%;
-  transition-property: left, top, opacity;
-  transition-duration: 1s, 1s, .15s;
-  transition-timing-function: ease;
-}
-.type-151 .mask:active:after {
-  opacity: 0;
-}
-.type-151 .mask:after {
+.type-151 .top_news_block .thumb a:after {
   content: '';
   position: absolute;
   pointer-events: none;
   top: -110%;
-  left: -210%;
-  width: 200%;
-  height: 200%;
+  left: -400%;
+  width: 150%;
+  height: 150%;
   opacity: 0;
-}
-.type-151 .shine:after {
   background: linear-gradient(to right,rgba(255,255,255,0.13) 0%,rgba(255,255,255,0.13) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);
 }
-.type-151 .hover-fill {
-  font-weight: bold;
-  position: relative;
-  font-size: 18px;
-  letter-spacing: 1px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: lightslategrey;
-  transition: all .3s;
+.type-151 .top_news_block .thumb a:hover:after {
+  opacity: 1;
+  top: -20%;
+  left: -30%;
+  transition-property: left, top, opacity;
+  transition-duration: .8s, .8s, .15s;
+  transition-timing-function: ease;
 }
-.type-151 .hover-fill:after {
-  max-width: 100%;
-}
-.type-151 .hover-fill:after {
-  content: attr(data-txthover);
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width: 0;
-  color: red;
-  white-space: nowrap;
-  overflow: hidden;
-  transition: max-width .3s ease-out;
-}
-.type-151 .crossedbg {
-  background: url(../images/bg_cr_grey.png);
-  height: 15px;
-}
-.type-151 .top_news_block {
-  margin-bottom: 15px;
-  background: #fff;
-}
-.type-151 .top_news_block img {
-  max-width: 100%;
+.type-151 .top_news_block .thumb a img {
   width: 100%;
-  height: 100%;
+  max-width: 100%;
 }
 .type-151 .top_news_block .top_news_block_desc {
-  font-size: 0.9em;
-  padding: 15px;
+  font-size: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .type-151 .top_news_block .top_news_block_desc h4 {
   text-transform: uppercase;
-  font: bold 18px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
 }
 .type-151 .top_news_block .top_news_block_desc .topnewstime {
-  margin-top: -7px;
   text-align: center;
   padding-left: 0;
 }
 .type-151 .top_news_block .top_news_block_desc .topnewstime .topnewsdate {
   font-family: 'Prata', serif;
-  font-size: 3.1em;
-  line-height: 1em;
-  margin-left: 15px;
+  font-size: 4rem;
+  line-height: 3rem;
+  margin-left: 1.5rem;
 }
 .type-151 .top_news_block .top_news_block_desc .topnewstime .topnewsmonth {
   text-transform: uppercase;
-  font-size: 0.9em;
-  margin-left: 15px;
+  font-size: 1rem;
+  margin-left: 1.5rem;
 }
 .type-151 .top_news_block .top_news_block_desc .shortdesc {
-  border-left: 1px solid #666;
+  border-left: 0.1rem solid #666;
+}
+.type-151 .top_news_block .top_news_block_desc .shortdesc a {
+  color: lightslategrey;
+}
+.type-151 .top_news_block .top_news_block_desc .shortdesc a:hover {
+  text-decoration: none;
+  color: #f5ce31;
+  transition: all 0.5s ease;
+}
+.type-151 .top_news_block .top_news_block_desc .shortdesc a:focus {
+  text-decoration: none;
+  color: #f5ce31;
+  transition: all 0.5s ease;
 }
 .type-151 .top_news_block .top_news_block_desc .topnewsmonth,
 .type-151 .top_news_block .top_news_block_desc p {
   color: #333;
-  text-align: justify;
+  font-size: 1.25rem;
 }
-.type-151 .top_news_block .thumb:hover {
-  opacity: 0.8;
+.type-151 .blocks {
+  text-align: justify;
 }
 .type-151 .pagination-centered {
   text-align: center;
@@ -140,12 +102,81 @@
 }
 @media (min-width: 992px) {
   .type-151 .row {
-    margin-left: -15px !important;
-    margin-right: -15px !important;
+    margin-left: -1.5rem !important;
+    margin-right: -1.5rem !important;
   }
 }
 @media (max-width: 768px) {
   .type-151 .news {
     width: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .type-151 .top_col {
+    margin-top: 1.5rem;
+  }
+}
+@media (min-width: 72rem) and (max-width: 768px) {
+  .type-151 .topnewstime {
+    text-align: right !important;
+    padding-right: 2rem;
+  }
+  .type-151 .topnewstime .topnewsdate {
+    margin-right: 2rem !important;
+    font-size: 4rem !important;
+  }
+  .type-151 .topnewstime .topnewsmonth {
+    font-size: 1.5rem !important;
+  }
+  .type-151 .shortdesc p {
+    width: 85%;
+  }
+}
+@media (min-width: 65rem) and (max-width: 72rem) {
+  .type-151 .topnewstime {
+    text-align: right !important;
+    padding-right: 4rem;
+  }
+  .type-151 .topnewstime .topnewsdate {
+    margin-right: 1rem !important;
+    font-size: 4rem !important;
+  }
+  .type-151 .topnewstime .topnewsmonth {
+    font-size: 1.25rem !important;
+  }
+  .type-151 .shortdesc p {
+    width: 85%;
+  }
+}
+@media (min-width: 60rem) and (max-width: 65rem) {
+  .type-151 .topnewstime {
+    text-align: right !important;
+    padding-right: 3rem;
+  }
+  .type-151 .topnewstime .topnewsdate {
+    margin-right: 1rem !important;
+    font-size: 4rem !important;
+  }
+  .type-151 .topnewstime .topnewsmonth {
+    font-size: 1.25rem !important;
+  }
+  .type-151 .shortdesc p {
+    width: 90%;
+  }
+}
+@media (min-width: 57rem) and (max-width: 60rem) {
+  .type-151 .topnewstime {
+    text-align: right !important;
+    padding-right: 4rem;
+  }
+  .type-151 .topnewstime .topnewsdate {
+    margin-right: 1rem !important;
+    font-size: 4rem !important;
+  }
+  .type-151 .topnewstime .topnewsmonth {
+    font-size: 1.25rem !important;
+  }
+  .type-151 .shortdesc p {
+    width: 95%;
   }
 }
