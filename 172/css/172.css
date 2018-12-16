@@ -92,7 +92,7 @@
   font-size: 11px;
   font-weight: bold;
   height: 40px;
-  left: 0;
+  left: -15px;
   line-height: 43px;
   text-decoration: none;
   text-transform: uppercase;
@@ -180,10 +180,11 @@
   padding: .3em .5em;
   text-decoration: none;
 }
-.type-172 .button_more {
-  position: relative;
-  top: 50px;
-  right: 10px;
+.type-172 .title_desktop_mode {
+  display: table-cell;
+}
+.type-172 .title_mobile_mode {
+  display: none !important;
 }
 @media (max-width: 480px) {
   .type-172 .tuyen-sinh {
@@ -235,5 +236,29 @@
   }
   .type-172 .heading-2 {
     margin-top: 0px;
+  }
+  .type-172 .title_desktop_mode {
+    display: none !important;
+  }
+  .type-172 .title_mobile_mode {
+    display: table-cell !important;
+  }
+  .type-172 .section-heading span.spacer:after {
+    top: 10px;
+  }
+}
+@media (min-width: 500px) and (max-width: 550px) {
+  .type-172 .cube {
+    margin-left: -58px;
+  }
+}
+@media (min-width: 551px) and (max-width: 600px) {
+  .type-172 .cube {
+    margin-left: -40px;
+  }
+}
+@media (min-width: 601px) and (max-width: 700px) {
+  .type-172 .cube {
+    margin-left: -30px;
   }
 }

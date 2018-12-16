@@ -26,7 +26,6 @@ $less->compileFile('less/172.less', 'css/172.css');
     <link href="<?php echo $url_path ?>/css/172.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo $url_path ?>/css/Cube_Animation.css" rel="stylesheet" type="text/css"/>
     <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-    <script src="<?php echo $url_path ?>/js/jquery.event.move.js"></script>
 
 </head>
 <body>
