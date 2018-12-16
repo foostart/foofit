@@ -23,7 +23,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="headlinesyear">14</div>
                             </div>
                             <div class="headlinestitle">
-                                <div class="effect-hover">  <a href="#">CSS Image Sprites</a>   </div>             
+                                <p class="effect-hover">  <a href="#">CSS Image Sprites</a>   </p>             
                             </div>
                         <li>
                             <div class="headlinesdate">
@@ -34,8 +34,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="headlinesyear">14</div>
                             </div>
                             <div class="headlinestitle">
-                                <div class="effect-hover">   <a href="#">CSS Image Sprites CSS Image Sprites CSS Image Sprites</a>                
-                                </div>
+                                <p class="effect-hover">   <a href="#">CSS Image Sprites CSS Image Sprites CSS Image Sprites</a>                
+                                </p>
                             </div>     
                         </li>
                         <li>
@@ -47,8 +47,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="headlinesyear">14</div>
                             </div>
                             <div class="headlinestitle">
-                                <div class="effect-hover"> <a href="#">CSS Image Sprites CSS Image Sprites</a>                
-                                </div>
+                                <p class="effect-hover"> <a href="#">CSS Image Sprites CSS Image Sprites</a>                
+                                </p>
                             </div>
                         </li>
                     </ul>

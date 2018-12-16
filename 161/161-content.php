@@ -30,10 +30,10 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-8 college">
                             <h3>Cao đẳng chính quy</h3>
-                            <div class="desc">
+                            <p class="desc">
                                 Đào tạo Cử nhân Cao Đẳng Công nghệ thông tin có những nền tảng cơ bản để phát triển toàn diện về nhân cách và nghề nghiệp.<br>
                                 Thời gian đào tạo: 3 năm  
-                            </div>
+                            </p>
                         </div>
                         <div class="col-md-2 col-sm-2 col-xs-4">
                             <div class="flag f-college">
@@ -57,10 +57,10 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-8 vocational">
                             <h3>Trung Cấp Chuyên Nghiệp</h3>
-                            <div class="desc">
+                            <p class="desc">
                                 Đào tạo Kỹ thuật viên có đủ năng lực chuyên môn và kỹ năng nghề nghiệp.<br>
                                 Thời gian đào tạo: 2năm 
-                            </div>
+                            </p>
                         </div>
                         <div class="col-md-2 col-sm-2 col-xs-4">
                             <div class="flag f-vocational">
@@ -83,10 +83,10 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-8 collegetrans">
                             <h3>cao đẳng liên thông</h3>
-                            <div class="desc">
+                            <p class="desc">
                                 Đào tạo Cử nhân Cao Đẳng Công nghệ thông tin có những nền tảng cơ bản để phát triển toàn diện về nhân cách và nghề nghiệp.<br>
                                 Thời gian đào tạo: 1.5 năm
-                            </div>
+                            </p>
                         </div>
                         <div class="col-md-2 col-sm-2 col-xs-4">
                             <div class="flag f-collegetrans">
@@ -108,9 +108,9 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-8 courses">
                             <h3>chuyên đề ngắn hạn</h3>
-                            <div class="desc" >
+                            <p class="desc" >
                                 Đào tạo các khóa chuyên đề ngắn hạn với các chủ đề liên quan đến công nghệ thông tin và thiết kế.
-                            </div>
+                            </p>
                         </div>
                         <div class="col-md-2 col-sm-2 col-xs-4">
                             <div class="flag f-courses">
@@ -129,9 +129,9 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-8 corp">
                             <h3>Hợp tác đào tạo</h3>
-                            <div class="desc">
+                            <p class="desc">
                                 Chương trình đào tạo liên kết với các cơ sở giáo dục nước ngoài và các doanh nghiệp.
-                            </div>
+                            </p>
                         </div>
                         <div class="col-md-2 col-sm-2 col-xs-4">
                             <div class="flag f-corp">

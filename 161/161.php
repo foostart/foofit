@@ -25,7 +25,7 @@ $less->compileFile('less/161.less', 'css/161.css');
 
      
     <link href="<?php echo $url_path ?>/css/161.css" rel="stylesheet" type="text/css"/>
-    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+  
 
 </head>
 

@@ -95,7 +95,13 @@
   transition: all 0.5s;
 }
 .type-155 .contest_list .contest_item {
-  padding: 0 2px 4px 2px;
+  padding: 0;
+}
+.type-155 .img-left {
+  padding-right: 3px !important;
+}
+.type-155 .img-right {
+  padding-left: 2px !important;
 }
 @media (min-width: 992px) {
   .type-155 .sidebar {

@@ -8,11 +8,6 @@
 }
 @media (min-width: 768px) {
   .type-161 .program .desc {
-    padding-right: 15%;
-  }
-}
-@media (min-width: 768px) {
-  .type-161 .program .desc {
     padding-left: 20%;
   }
 }
@@ -58,7 +53,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-top: 40px;
+  margin-top: 58px;
 }
 .type-161 .program:after {
   content: "";

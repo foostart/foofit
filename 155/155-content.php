@@ -24,23 +24,23 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                         <div class="crossedbg"></div>
                         <div class="contest_list">
-                            <div class="col-md-6 col-sm-6 col-xs-6 contest_item mask shine">
+                            <div class="col-md-6 col-sm-6 col-xs-6 contest_item mask shine img-left">
 
                                 <a href="#">
                                     <img class="img-responsive" src="http://<?php echo $url_path ?>/images/oth_logo.gif" alt="logo">
                                 </a>
                             </div>
-                            <div class="col-md-6 col-sm-6 col-xs-6 contest_item mask shine">
+                            <div class="col-md-6 col-sm-6 col-xs-6 contest_item mask shine img-right">
                                 <a href="#">
                                     <img class="img-responsive" src="http://<?php echo $url_path ?>/images/oth_logo.gif" alt="logo">
                                 </a>
                             </div>
-                            <div class="col-md-6 col-sm-6 col-xs-6 contest_item mask shine">
+                            <div class="col-md-6 col-sm-6 col-xs-6 contest_item mask shine img-left">
                                 <a href="#">
                                     <img class="img-responsive" src="http://<?php echo $url_path ?>/images/oth_logo.gif" alt="logo">
                                 </a>
                             </div>
-                            <div class="col-md-6 col-sm-6 col-xs-6 contest_item mask shine">
+                            <div class="col-md-6 col-sm-6 col-xs-6 contest_item mask shine img-right">
                                 <a href="#">
                                     <img class="img-responsive" src="http://<?php echo $url_path ?>/images/oth_logo.gif" alt="logo">
                                 </a>

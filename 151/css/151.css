@@ -5,6 +5,14 @@
   width: 96rem;
   padding: 0;
 }
+.type-151 a {
+  color: lightslategrey;
+}
+.type-151 a:hover {
+  text-decoration: none;
+  color: #f5ce31;
+  transition: all 0.5s ease;
+}
 .type-151 .top_news_block {
   margin-top: 5.5rem;
   background: #fff;

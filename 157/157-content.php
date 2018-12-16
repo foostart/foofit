@@ -28,7 +28,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <span class="topnewsmonth">Tháng 09</span><br>
                                         </div>
                                         <div class="col-md-9 col-xs-9 shortdesc">
-                                            <h4><a href="#">PHP5 và những cải tiến vượt bậc</a></h4>
+                                            <h4 class="title"><a href="#">PHP5 và những cải tiến vượt bậc</a></h4>
                                             <p>
                                                 Công nghệ mới PHP5 và những cải tiến hỗ trợ developer lập trình tốt hơn so với các phiên bản trước đó.
                                                 <a href="#">[...]</a>
@@ -53,7 +53,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <span class="topnewsmonth">Tháng 09</span><br>
                                         </div>
                                         <div class="col-md-9 col-xs-9 shortdesc">
-                                            <h4><a href="#">PHP5 và những cải tiến vượt bậc</a></h4>
+                                             <h4 class="title"><a href="#">PHP5 và những cải tiến vượt bậc</a></h4>
                                             <p>
                                                 Công nghệ mới PHP5 và những cải tiến hỗ trợ developer lập trình tốt hơn so với các phiên bản trước đó.
                                                 <a href="#">[...]</a>
@@ -78,7 +78,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <span class="topnewsmonth">Tháng 09</span><br>
                                         </div>
                                         <div class="col-md-9 col-xs-9 shortdesc">
-                                            <h4><a href="#">PHP5 và những cải tiến vượt bậc</a></h4>
+                                             <h4 class="title"><a href="#">PHP5 và những cải tiến vượt bậc</a></h4>
                                             <p>
                                                 Công nghệ mới PHP5 và những cải tiến hỗ trợ developer lập trình tốt hơn so với các phiên bản trước đó.
                                                 <a href="#">[...]</a>
