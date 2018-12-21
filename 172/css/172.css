@@ -1,3 +1,4 @@
+@import "../../var/var.less";
 .type-172 {
   background-image: url(../images/bg_pattern.png);
 }
@@ -84,7 +85,7 @@
 }
 .type-172 .tabs li .more {
   backface-visibility: hidden;
-  background: #EAEAEA;
+  background: #d5d7d8;
   bottom: 0;
   border-bottom: 1px solid rgba(0,0,0,0.1);
   box-shadow: inset 0 4px 2px -3px rgba(0,0,0,0.3);
@@ -180,6 +181,14 @@
   padding: .3em .5em;
   text-decoration: none;
 }
+.type-172 .button_more a {
+  font-weight: bold;
+  text-shadow: none !important;
+  transition: all 0.5s;
+}
+.type-172 .button_more a:hover {
+  background: #EAEAEA;
+}
 .type-172 .title_desktop_mode {
   display: table-cell;
 }
@@ -243,13 +252,18 @@
   .type-172 .title_mobile_mode {
     display: table-cell !important;
   }
-  .type-172 .section-heading span.spacer:after {
+  .type-172 .heading-2 span.spacer:after {
     top: 10px;
   }
 }
-@media (min-width: 500px) and (max-width: 550px) {
+@media (min-width: 481px) and (max-width: 550px) {
   .type-172 .cube {
     margin-left: -58px;
+  }
+}
+@media (max-width: 480px) {
+  .type-172 .cube {
+    margin: 0 auto;
   }
 }
 @media (min-width: 551px) and (max-width: 600px) {

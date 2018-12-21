@@ -99,7 +99,7 @@
     /* Call to action */
     .tabs li .more {
         backface-visibility: hidden;
-        background: #EAEAEA;
+        background: #d5d7d8;
         bottom: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         box-shadow: inset 0 4px 2px -3px rgba(0, 0, 0, .3);
@@ -207,7 +207,13 @@
         text-decoration:none;
     }
 
-    .button_more{
+    .button_more a{
+        font-weight: bold;
+        text-shadow: none !important;
+        transition: all 0.5s;
+    }
+    .button_more a:hover{
+        background: #EAEAEA;
     }
     .title_desktop_mode{
      display: table-cell ;
@@ -269,20 +275,26 @@
                 .heading-2{
             margin-top: 0px;
         }
+
     .title_desktop_mode{
      display: none !important;
     }
     .title_mobile_mode{
      display: table-cell !important;
     }  
-    .section-heading span.spacer:after{
+    .heading-2 span.spacer:after{
         top: 10px;
     }
    
     }
-    @media (min-width: 500px) and (max-width: 550px){
+    @media (min-width: 481px) and (max-width: 550px){
         .cube{
             margin-left: -58px;
+        }
+    }
+    @media (max-width: 480px){
+        .cube{
+            margin: 0 auto;
         }
     }
     @media (min-width: 551px) and (max-width: 600px){
