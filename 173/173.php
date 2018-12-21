@@ -34,11 +34,9 @@ $less->compileFile('less/173.less', 'css/173.css');
         $less->compileFile('less/173.less', 'css/173.css');
         ?>
     </head>
-
     <body>
         <?php
         include '../173/173-content.php';
         ?>
-
     </body>
 </html>

@@ -17,9 +17,14 @@ $url_path = str_replace('\\', '/', $url_path);
             <!--SPECIAL SUBJECT-->
             <div class="navbar-collapse" id="catenav">
                 <ul class="nav navbar-nav">
-                    <li class="boxshow title"><h4><a href="#">BÀI VIẾT CHUYÊN ĐỀ <span class="productdot"></a>
+                    <li class="boxshow title">
+                        <h4>
+                            <a href="#">BÀI VIẾT CHUYÊN ĐỀ
+                            </a>
+                        </h4>
+                        <span class="productdot"> </span>
 
-                        </h4></span></li>
+                    </li>
                     <li class="col-xs-6 auto-width boxshow"><a href="#">Tin học cơ sở <span class="productdot"></span></a></li>
                     <li class="col-xs-6 auto-width boxshow"><a href="#">Công nghệ phần mềm <span class="productdot"></span></a></li>
                     <li class="col-xs-6 auto-width boxshow"><a href="#">Đồ họa</a> <span class="productdot"></span></li>

@@ -16,21 +16,20 @@ $less = new lessc;
 $less->compileFile('less/165.less', 'css/165.css');
 ?>
 <!DOCTYPE html>
-<head lang="en" > 
-    <title>Module 165</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
-    <link href="<?php echo $url_path ?>/css/165.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $url_path ?>/css/aos.css" rel="stylesheet" type="text/css"/>
-    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script> 
-    <script src="<?php echo $url_path ?>/js/AOS.js"></script> 
-    <script src="<?php echo $url_path ?>/js/165.js"></script> 
-</head>
-
-<body>
-    <?php include '../165/165-content.php'; ?>
-
-</body>
-
+<html lang="en">
+    <head>
+        <title>Module 165</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>  
+        <link href="<?php echo $url_path ?>/css/165.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/aos.css" rel="stylesheet" type="text/css"/>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script> 
+        <script src="<?php echo $url_path ?>/js/AOS.js"></script> 
+        <script src="<?php echo $url_path ?>/js/165.js"></script> 
+    </head>
+    <body>
+        <?php include '../165/165-content.php'; ?>
+    </body>
+</html>

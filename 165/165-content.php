@@ -154,10 +154,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <!-- ---END INTRODUCTION---- -->
-            <!-- ----SIDEBAR -->
-            <div class="col-md-4">
-
-            </div>
             <!-- ---END SIDEBAR -->
         </div>
     </div>

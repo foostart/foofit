@@ -16,14 +16,16 @@ $less = new lessc;
 $less->compileFile('less/162.less', 'css/162.css');
 ?>
 <!DOCTYPE html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Module 162</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $url_path ?>/css/162.css" rel="stylesheet" type="text/css"/>
-</head>
-<body>
-    <?php include'../162/162-content.php'; ?>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Module 162</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/162.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <?php include'../162/162-content.php'; ?>
+    </body>
+</html>

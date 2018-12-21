@@ -50,7 +50,6 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
                 <!--/END LEFT ADDRESS-->
                 <!--/END RIGHT CONTACTS-->
-
             </div>
         </div>
     </div>
