@@ -11,24 +11,19 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
 <div class="type-154">
     <div class="container sidebar">
         <div class="row">
             <!--/END LEFT-->
-
             <!--RIGHT SIDE BAR-->
             <div class="col-md-4">
-
                 <!--STUDENT-->
-
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h2>Sinh viên<br><span>Tiêu biểu</span></h2>
                     </div>
                     <div class="crossedbg"></div>
                     <div class="row">
-
                         <div class="feedback_owner col-sm-6 col-xs-12 col-md-12 ">
                             <div class="row mobile" >
                                 <div class="col-md-4 col-sm-4 col-xs-4">
@@ -123,10 +118,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="divider"></div>
                 </div>
                 <!--/END STUDENT-->
-
             </div>
             <!--/END RIGHT SIDE BAR-->
-
         </div>
     </div>
 </div>

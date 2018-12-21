@@ -2,6 +2,8 @@
 .type-158 {
     a{
         color:lightslategrey;
+        border-bottom: 1px solid #dedede;
+        padding-bottom:5px;
         &:hover{
             color: @color_Cylindrical_coordinate !important;
             text-decoration: none;
@@ -11,7 +13,6 @@
     a, a:hover, a:active, a:visited, a:focus {
         text-decoration:none;
     }
-
     /*------------------LIST HEADLINES--------------------*/
     .headlines {
         background: @color_white ;
@@ -59,16 +60,15 @@
             width: 0;
             bottom: 0;
             height: 2px;
-            margin: -5px 0;
+            margin: -1px 0;
             left: 0;
-            background-color:  @color_Cylindrical_coordinate;
+            background-color:  #42a7a9;
             transition: all 0.4s ease-in 0s;
         }
         &:hover:after {
             width: 100%;
         }
     }
-
     .headlinesdate .headlinesdm, .headlinesdate {
         float: left;
         font-family: 'Prata', serif;
@@ -77,7 +77,6 @@
         line-height: 1.7em;
     }
     /*------------------/END LIST HEADLINES--------------------*/
-
     /*------------------PAGINATION--------------------*/
     .pagination-center {
         text-align: center;

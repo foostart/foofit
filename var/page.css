@@ -8,14 +8,21 @@
     }
 }
 
+body{
+    background: url(../images/bg_pattern.png) repeat;
+
+}
 #page{
     overflow: hidden;
-    background: url(../images/bg_pattern.png) repeat;
 }
 .scroll_menu{
     position: fixed;
     top:0px;
     z-index: 999;
     width:100%;
+
+}
+.main{
+    margin-top: 75px;
 
 }

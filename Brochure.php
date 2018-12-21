@@ -21,10 +21,11 @@
         <link href="../foofit/180/css/180.css" rel="stylesheet" type="text/css"/>
 
         <script src="../foofit/133/js/jquery-2.1.4.min.js"></script>
-        <script src="../foofit/133/js/bootstrap.min.js"></script>
         <script src="../foofit/173/js/turn.min.js"></script>
+         <script src="../foofit/173/js/173.js"></script>
+        <script src="../foofit/133/js/bootstrap.min.js"></script>
+        
         <script src="../foofit/180/js/180.js"></script>
-        <script src="../foofit/173/js/173.js"></script>
         <script src="../foofit/var/page.js"></script>
     </head>
     <body>

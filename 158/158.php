@@ -18,17 +18,12 @@ $less->compileFile('less/158.less', 'css/158.css');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <title>158</title>
-    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $url_path ?>/css/158.css" rel="stylesheet" type="text/css"/>
- 
-
-</head>
-
-<body>
- <?php include'../158/158-content.php'; ?>
- 
-
-</body>
+        <meta charset="UTF-8">
+        <title>158</title>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/158.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <?php include'../158/158-content.php'; ?>
+    </body>
 </html>

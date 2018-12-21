@@ -11,27 +11,21 @@ if (!class_exists('lessc')) {
     $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
     require_once($dir_block . '/libs/lessc.inc.php');
 }
-
 $less = new lessc;
 $less->compileFile('less/161.less', 'css/161.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>161</title>
-    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
-     
-    <link href="<?php echo $url_path ?>/css/161.css" rel="stylesheet" type="text/css"/>
-  
-
-</head>
-
-<body>
-            <?php
+    <head>
+        <meta charset="UTF-8">
+        <title>161</title>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/161.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <?php
         include '../161/161-content.php';
         ?>
-</body>
+    </body>
 </html>

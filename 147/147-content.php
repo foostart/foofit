@@ -20,7 +20,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="panel-heading">
                         <h2><span>Bộ môn</span><br>Tin học cơ sở</h2>
                     </div>
-                     <p class="name">
+                    <p class="name">
                         Trưởng bộ môn: Lâm Thị Phương Thảo
                     </p>
                     <p class="desc">
@@ -29,15 +29,11 @@ $url_path = str_replace('\\', '/', $url_path);
                         Nghiên cứu xây dựng các đề tài khoa học có khả năng áp dụng trong thực tế như: các thuật toán, e-learning, các phần mềm thiết kế bài giảng điện tử.
                     </p>	
                 </div>
-
             </div>
             <!--LIST TEACHER OF INFORMATICS BASIS-->
-            <div class="col-sm-8 col-md-8 prof_list">
-            </div>
             <!--END LIST TEACHER OF INFORMATICS BASIS-->
             <!--END INFORMATICS BASIS-->
         </div>
     </div>
 </div>
-</body>
 

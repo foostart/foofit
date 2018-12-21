@@ -1,23 +1,19 @@
 .type-177 {
   background: #003b7a;
   color: #fff;
-  padding: 30px 0;
+  padding: 3rem 0;
 }
 .type-177 h4 {
-  font-size: 1.1em;
+  font-size: 1.75rem;
   font-weight: bold;
 }
 .type-177 .bottom-link {
   list-style: none;
   padding-left: 0px;
 }
-.type-177 .bottom-link .info {
-  list-style: none;
-  padding: 0 10px;
-}
 .type-177 .bottom-link li {
-  border-bottom: 1px dotted #0060c5;
-  padding: 15px 0;
+  border-bottom: 0.1rem dotted #0060c5;
+  padding: 1.5rem 0;
 }
 .type-177 a {
   color: #fff;

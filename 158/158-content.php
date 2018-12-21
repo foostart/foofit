@@ -54,7 +54,6 @@ $url_path = str_replace('\\', '/', $url_path);
                     </ul>
                 </div>
                 <!--/END LIST HEADLINES-->
-
                 <!--PAGINATION-->
                 <div class="pagination-center">
                     <ul class="pagination">

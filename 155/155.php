@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <?php
 $url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
@@ -14,18 +12,15 @@ if (!class_exists('lessc')) {
 $less = new lessc;
 $less->compileFile('less/155.less', 'css/155.css');
 ?>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>155</title>
-    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $url_path ?>/css/155.css" rel="stylesheet" type="text/css"/>
-
-</head>
-
-<body>
-
-   <?php include '../155/155-content.php'; ?>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>155</title>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/155.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <?php include '../155/155-content.php'; ?>
+    </body>
 </html>

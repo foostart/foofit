@@ -24,7 +24,6 @@ $less->compileFile('less/162.less', 'css/162.css');
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo $url_path ?>/css/162.css" rel="stylesheet" type="text/css"/>
 </head>
-
 <body>
-   <?php include'../162/162-content.php'; ?>
+    <?php include'../162/162-content.php'; ?>
 </body>

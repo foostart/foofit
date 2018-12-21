@@ -5,54 +5,22 @@
     @color_font2:#d69200;
     @color_font3:#992255;
     @color_font4:#106982;
-    /*---reponsive--*/
-   
-   
-    
-    @media (min-width: 768px){
-        .program h3 {
-            text-align: right;
-        }
-    }
-   
-	@media (min-width: 768px){
-			.program .desc {
-			padding-left: 20%;
-			}}
-    @media (min-width: 768px){
-        .flag {
-            font-size: 4vw;
-            padding:0;
-        }
-		
-    }
-	
-	@media (min-width: 120px){
- .major {
-    float: left !important;
-}}
-	
-    @media(min-width:768){
-        .flagtri{
-            width:50%;
-            float:left;
-        }
-    }
+
     /*---header---*/
-    .heading h1 {
-        font-weight: bold;
-        float: left;
-        margin: 0;
-        margin-left: 10px;
-        margin-bottom: -6px;
-        display: inline-block;
-    }
-    .heading h1 span {       
-        font-weight: normal;
-        font-size: 0.6em;
-    }
     .heading {
         clear: both;
+        h1 {
+            font-weight: bold;
+            float: left;
+            margin: 0;
+            margin-left: 10px;
+            margin-bottom: -6px;
+            display: inline-block;
+        }
+        span {       
+            font-weight: normal;
+            font-size: 0.6em;
+        }
     }
     .programmer{
         position: relative;
@@ -60,29 +28,41 @@
         margin: 50px 0;
         clear: both;
     }
-	.program .major ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-top: 58px;
-}
-    .program:after {
-        content: "";
-        position: absolute;
-        background: black;
-        height: 5px;
-        left: 1.5%;
-        right: 1.5%;
-        top: -5px;
-        border-radius: 50%;
-        -webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
-        -moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
-        box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
-    }
-    .program h3 {
-        text-transform: uppercase;
-        font-weight: 700;
-        margin-top: 25px;
+    .program {
+        .major ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-top: 58px;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            background: black;
+            height: 5px;
+            left: 1.5%;
+            right: 1.5%;
+            top: -5px;
+            border-radius: 50%;
+            -webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+            -moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+            box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+        }
+        h3 {
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-top: 25px;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-top: 40px;
+            li {
+                padding: 2px 0;
+                font-size: 1.15em;
+            }
+        }
     }
     .desc{
         text-align: justify !important;
@@ -117,62 +97,52 @@
         padding-left: 50%;
         padding-bottom: 30%;
         overflow: hidden;
-    }
-    .flagtri:after {
-        content: "";
-        display: block;
-        width: 0;
-        height: 0;
-        margin-left: -500px;
-        border-left: 500px solid transparent;
-        border-right: 500px solid transparent;
-        border-bottom: 300px solid #f5f5f5;
-    }  
-    .program ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        margin-top: 40px;
-    }
-    .program ul li {
-        padding: 2px 0;
-        font-size: 1.15em;
-    }
+        &:after{
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            margin-left: -500px;
+            border-left: 500px solid transparent;
+            border-right: 500px solid transparent;
+            border-bottom: 300px solid #f5f5f5;
+        }
+    } 
     .college {
         color: @color_font;
+        a {
+            color:@color_font;
+            text-decoration: none;
+            transition: all 0.5s ease;
+            &:hover{
+                opacity: 0.5;
+                transition: all 0.5s ease;
+            }
+        }
     }    
-    .college a {
-        color:@color_font;
-        text-decoration: none;
-        transition: all 0.5s ease;
-    }
-    .college a:hover{
-        opacity: 0.5;
-        transition: all 0.5s ease;
-    }
     .vocational{
-        color:@color_font1;     
-    }
-    .vocational a{
-        color:@color_font1;  
-        text-decoration: none;
-        transition: all 0.5s ease;
-    }
-    .vocational a:hover{
-        opacity: 0.5;
-        transition: all 0.5s ease;
+        color:@color_font1;
+        a{
+            color:@color_font1;  
+            text-decoration: none;
+            transition: all 0.5s ease;
+            &:hover{
+                opacity: 0.5;
+                transition: all 0.5s ease;
+            }
+        }
     }
     .collegetrans{
         color: @color_font2;
-    }
-    .collegetrans a {
-        color: @color_font2;
-        text-decoration: none;
-        transition: all 0.5s ease;
-    }
-    .collegetrans a:hover{
-    opacity: 0.5;
-        transition: all 0.5s ease;
+        a {
+            color: @color_font2;
+            text-decoration: none;
+            transition: all 0.5s ease;
+            &:hover{
+                opacity: 0.5;
+                transition: all 0.5s ease;
+            }
+        }
     }
     .courses{
         color: @color_font3;
@@ -180,10 +150,37 @@
     .corp{
         color: @color_font4;
     }
-	 @media (min-width: 480px){
+    @media (min-width: 480px){
         .major {
-           float: left;
+            float: left;
         }
-}
+    }
+    /*---reponsive--*/
+    @media (min-width: 768px){
+        .program h3 {
+            text-align: right;
+        }
+    }
+    @media (min-width: 768px){
+        .program .desc {
+            padding-left: 20%;
+        }}
+    @media (min-width: 768px){
+        .flag {
+            font-size: 4vw;
+            padding:0;
+        }
+    }
+    @media (min-width: 120px){
+        .major {
+            float: left !important;
+        }
+    }
+    @media(min-width:768){
+        .flagtri{
+            width:50%;
+            float:left;
+        }
+    }
 }
 

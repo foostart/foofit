@@ -19,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="col-md-10 col-xs-9">
                         <h1>Thông báo danh sách SV khóa 2018 bị xóa tên vì rút học phí và không đóng học phí</h1>
                     </div>
-                    <div class="col-md-2 col-xs-3">
+                    <div class="col-md-2 col-xs-3 padding-left">
                         <div class="headlinesdate">
                             <div class="headlinesdm">
                                 <div class="headlinesday">04</div>
