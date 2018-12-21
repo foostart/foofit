@@ -1,5 +1,5 @@
 .type-165 .title {
-  margin-top: 45px;
+  margin-top: 4.5rem;
 }
 .type-165 .title h1 {
   font-size: 2.1em;
@@ -8,16 +8,16 @@
   padding: 0;
 }
 .type-165 .overviewline {
-  border-bottom: 1px solid #cecece;
-  margin: 25px 0 15px;
+  border-bottom: 0.1rem solid #cecece;
+  margin: 2.5rem 0 1.5rem;
   position: relative;
 }
 .type-165 .overviewline:before {
   content: "";
   position: absolute;
   top: 0;
-  left: 50px;
-  border-width: 12px 12px 0;
+  left: 5rem;
+  border-width: 1.2rem 1.2rem 0;
   border-style: solid;
   border-color:  transparent;
   display: block;
@@ -27,16 +27,16 @@
   content: "";
   position: absolute;
   top: 0;
-  left: 51px;
-  border-width: 11px 11px 0;
+  left: 5.1rem;
+  border-width: 1.1rem 1.1rem 0;
   border-style: solid;
   border-color: #f5f5f5 transparent;
   display: block;
   width: 0;
 }
 .type-165 .maincontent {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   line-height: 1.7em;
 }
 .type-165 .maincontent img {
@@ -45,11 +45,11 @@
 }
 .type-165 .images_Center {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 1rem;
 }
 .type-165 .images_Center .em {
-  font-size: 13px;
-  line-height: 20.8px;
+  font-size: 1.3rem;
+  line-height: 2.08rem;
   text-align: center;
 }
 @media (min-width: 992px) {
@@ -59,7 +59,7 @@
 }
 @media (min-width: 768px) {
   .type-165 .intro {
-    width: 960px;
+    width: 96rem;
   }
 }
 @media (max-width: 480px) {
@@ -67,6 +67,6 @@
     padding: 0;
   }
   .type-165 .maincontent {
-    padding: 0 15px;
+    padding: 0 1.5rem;
   }
 }

@@ -8,7 +8,7 @@
 .type-163 .panel-heading {
   border: none !important;
   background: none !important;
-  padding: 20px 0 0;
+  padding: 2rem 0 0;
 }
 .type-163 .panel-heading h2 {
   font-weight: bold;
@@ -20,32 +20,32 @@
 }
 .type-163 .crossedbg {
   background: url(../images/bg_cr_grey.png);
-  height: 15px;
+  height: 1.5rem;
 }
 .type-163 .panel-body {
   background: #fff;
 }
 .type-163 address {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   font-style: normal;
   line-height: 1.42857143;
 }
 .type-163 .itdcadd {
   list-style: none;
-  margin: 10px 0;
+  margin: 1rem 0;
   padding: 0;
 }
 .type-163 .itdcadd li {
-  margin: 10px 0;
+  margin: 1rem 0;
 }
 .type-163 .Date-Time {
-  padding-left: 5px;
+  padding-left: 0.5rem;
 }
 .type-163 .Date-time-Secondline {
-  padding-left: 32px;
+  padding-left: 3.2rem;
 }
 .type-163 #map-canvas {
-  height: 450px;
+  height: 45rem;
 }
 @media (min-width: 992px) {
   .type-163 .address {
@@ -54,7 +54,7 @@
 }
 @media (min-width: 768px) {
   .type-163 .address {
-    width: 960px;
+    width: 96rem;
   }
 }
 @media (max-width: 480px) {

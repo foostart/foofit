@@ -1,77 +1,60 @@
 .type-161 {
   background: url(../images/bg_pattern.png);
 }
-@media (min-width: 768px) {
-  .type-161 .program h3 {
-    text-align: right;
-  }
-}
-@media (min-width: 768px) {
-  .type-161 .program .desc {
-    padding-left: 20%;
-  }
-}
-@media (min-width: 768px) {
-  .type-161 .flag {
-    font-size: 4vw;
-    padding: 0;
-  }
-}
-@media (min-width: 120px) {
-  .type-161 .major {
-    float: left !important;
-  }
-}
-@media (min-width: 768) {
-  .type-161 .flagtri {
-    width: 50%;
-    float: left;
-  }
+.type-161 .heading {
+  clear: both;
 }
 .type-161 .heading h1 {
   font-weight: bold;
   float: left;
   margin: 0;
-  margin-left: 10px;
-  margin-bottom: -6px;
+  margin-left: 1rem;
+  margin-bottom: -0.6rem;
   display: inline-block;
 }
-.type-161 .heading h1 span {
+.type-161 .heading span {
   font-weight: normal;
   font-size: 0.6em;
-}
-.type-161 .heading {
-  clear: both;
 }
 .type-161 .programmer {
   position: relative;
   overflow: hidden;
-  margin: 50px 0;
+  margin: 5rem 0;
   clear: both;
 }
 .type-161 .program .major ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-top: 58px;
+  margin-top: 5.8rem;
 }
 .type-161 .program:after {
   content: "";
   position: absolute;
   background: black;
-  height: 5px;
+  height: 0.5rem;
   left: 1.5%;
   right: 1.5%;
-  top: -5px;
+  top: -0.5rem;
   border-radius: 50%;
-  -webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
-  -moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
-  box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0rem 0rem 1rem 1rem rgba(0,0,0,0.25);
+  -moz-box-shadow: 0rem 0rem 1rem 1rem rgba(0,0,0,0.25);
+  box-shadow: 00rem 0rem 1rem 1rem rgba(0,0,0,0.25);
 }
 .type-161 .program h3 {
   text-transform: uppercase;
   font-weight: 700;
-  margin-top: 25px;
+  margin-top: 2.5rem;
+}
+.type-161 .program ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 4rem;
+}
+.type-161 .program ul li {
+  padding: 0.2rem 0;
+  font-size: 1.15em;
 }
 .type-161 .desc {
   text-align: justify !important;
@@ -117,16 +100,6 @@
   border-right: 500px solid transparent;
   border-bottom: 300px solid #f5f5f5;
 }
-.type-161 .program ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 40px;
-}
-.type-161 .program ul li {
-  padding: 2px 0;
-  font-size: 1.15em;
-}
 .type-161 .college {
   color: #c02e25;
 }
@@ -171,6 +144,33 @@
 }
 @media (min-width: 480px) {
   .type-161 .major {
+    float: left;
+  }
+}
+@media (min-width: 768px) {
+  .type-161 .program h3 {
+    text-align: right;
+  }
+}
+@media (min-width: 768px) {
+  .type-161 .program .desc {
+    padding-left: 20%;
+  }
+}
+@media (min-width: 768px) {
+  .type-161 .flag {
+    font-size: 4vw;
+    padding: 0;
+  }
+}
+@media (min-width: 120px) {
+  .type-161 .major {
+    float: left !important;
+  }
+}
+@media (min-width: 768) {
+  .type-161 .flagtri {
+    width: 50%;
     float: left;
   }
 }

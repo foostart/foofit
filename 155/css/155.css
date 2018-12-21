@@ -8,7 +8,7 @@
 .type-155 .panel-heading {
   border: none !important;
   background: none !important;
-  padding: 20px 0 0;
+  padding: 2rem 0 0;
 }
 .type-155 .panel-heading h2 {
   font-weight: bold;
@@ -20,7 +20,7 @@
 }
 .type-155 .crossedbg {
   background: url(../images/bg_cr_grey.png);
-  height: 15px;
+  height: 1.5rem;
 }
 .type-155 a {
   position: relative;
@@ -65,15 +65,15 @@
 }
 .type-155 .list-group-item {
   border: none;
-  border-bottom: 1px #d9d9d9 solid;
+  border-bottom: 0.1rem #d9d9d9 solid;
   margin-bottom: 0;
   padding-left: 0;
   padding-right: 0;
-  margin: 0 15px;
+  margin: 0 1.5rem;
 }
 .type-155 .list-group-item:first-child {
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
 }
 .type-155 .list-group-item:before {
   font-family: Arial, Helvetica, sans-serif;
@@ -98,10 +98,10 @@
   padding: 0;
 }
 .type-155 .img-left {
-  padding-right: 3px !important;
+  padding-right: 0.3rem !important;
 }
 .type-155 .img-right {
-  padding-left: 2px !important;
+  padding-left: 0.3rem !important;
 }
 @media (min-width: 992px) {
   .type-155 .sidebar {
@@ -110,7 +110,7 @@
 }
 @media (min-width: 768px) {
   .type-155 .sidebar {
-    width: 960px;
+    width: 96rem;
   }
 }
 @media (max-width: 480px) {

@@ -1,3 +1,10 @@
+.type-164 #feedbackForm {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.type-164 .help-block {
+  display: none;
+}
 .type-164 .panel {
   background: none;
   box-shadow: none;
@@ -8,7 +15,7 @@
 .type-164 .panel-heading {
   border: none !important;
   background: none !important;
-  padding: 20px 0 0;
+  padding: 2rem 0 0;
 }
 .type-164 .panel-heading h2 {
   font-weight: bold;
@@ -20,11 +27,14 @@
 }
 .type-164 .crossedbg {
   background: url(../images/bg_cr_grey.png);
-  height: 15px;
+  height: 1.5rem;
 }
 .type-164 .panel-body {
   background: #fff;
-  padding: 15px 0 0 0;
+  padding: 1.5rem 0 0 0;
+}
+.type-164 .btn-primary:hover {
+  transition: all 0.5s ease;
 }
 @media (min-width: 992px) {
   .type-164 .address {
@@ -33,7 +43,7 @@
 }
 @media (min-width: 768px) {
   .type-164 .address {
-    width: 960px;
+    width: 96rem;
   }
 }
 @media (max-width: 480px) {

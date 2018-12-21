@@ -1,5 +1,7 @@
 .type-158 a {
   color: lightslategrey;
+  border-bottom: 0.1rem solid #dedede;
+  padding-bottom: 0.5rem;
 }
 .type-158 a:hover {
   color: #f5ce31 !important;
@@ -16,7 +18,7 @@
 .type-158 .headlines {
   background: #fff;
   overflow: hidden;
-  padding: 20px 30px;
+  padding: 2rem 3rem;
 }
 .type-158 .headlines ul {
   list-style: none;
@@ -26,7 +28,7 @@
 .type-158 .headlines ul li {
   overflow: hidden;
   display: table;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
   width: 100%;
 }
 .type-158 .headlines ul li .headlinestitle {
@@ -37,17 +39,17 @@
 .type-158 .headlines .headlinesdate {
   font-size: 0.8em;
   width: 15%;
-  min-width: 55px;
+  min-width: 5.5rem;
   display: table-cell;
   vertical-align: middle;
 }
 .type-158 .headlines .headlinesday {
-  border-bottom: 1px solid #000;
+  border-bottom: 0.1rem solid #000;
 }
 .type-158 .headlines .headlinesyear {
   line-height: 3.5em;
   float: left;
-  margin-left: 3px;
+  margin-left: 0.3rem;
 }
 .type-158 .effect-hover> a {
   display: inline-block;
@@ -59,10 +61,10 @@
   position: absolute;
   width: 0;
   bottom: 0;
-  height: 2px;
-  margin: -5px 0;
+  height: 0.2rem;
+  margin: -0.1rem 0;
   left: 0;
-  background-color: #f5ce31;
+  background-color: #42a7a9;
   transition: all 0.4s ease-in 0s;
 }
 .type-158 .effect-hover> a:hover:after {
@@ -83,8 +85,8 @@
 .type-158 .pagination {
   display: inline-block;
   padding-left: 0;
-  margin: 20px 0;
-  border-radius: 4px;
+  margin: 2rem 0;
+  border-radius: 0.4rem;
 }
 .type-158 .pagination li {
   display: inline;
@@ -96,7 +98,7 @@
 }
 @media (min-width: 768px) {
   .type-158 .sidebar {
-    width: 960px;
+    width: 96rem;
   }
 }
 @media (max-width: 480px) {

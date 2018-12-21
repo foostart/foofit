@@ -38,7 +38,7 @@
 }
 .type-152 .crossedbg {
   background: url(../images/bg_cr_grey.png);
-  height: 15px;
+  height: 1.5rem;
 }
 .type-152 .mask a {
   position: relative;
@@ -66,37 +66,37 @@
   background: linear-gradient(to right,rgba(255,255,255,0.13) 0%,rgba(255,255,255,0.13) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0) 100%);
 }
 .type-152 .dep_item {
-  padding: 10px;
+  padding: 1rem;
   background: #fff;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1.3em;
-  margin-bottom: 1px;
+  margin-bottom: 0.1rem;
   cursor: pointer;
 }
 .type-152 .dep_network {
-  border-left: 10px #45b29d solid;
+  border-left: 1rem #45b29d solid;
   color: #45b29d;
 }
 .type-152 .dep_software {
-  border-left: 10px #efc94c solid;
+  border-left: 1rem #efc94c solid;
   color: #efc94c;
 }
 .type-152 .dep_graphic {
-  border-left: 10px #e27a3f solid;
+  border-left: 1rem #e27a3f solid;
   color: #e27a3f;
 }
 .type-152 .dep_informatics {
-  border-left: 10px #992255 solid;
+  border-left: 1rem #992255 solid;
   color: #992255;
 }
 .type-152 .dep_name {
-  padding: 15px 0;
+  padding: 1.5rem 0;
 }
 @media (min-width: 768px) {
   .type-152 .slidebar {
-    width: 960px;
+    width: 96rem;
   }
 }
 @media (max-width: 480px) {

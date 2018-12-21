@@ -7,7 +7,7 @@
 .type-154 .panel-heading {
   border: none !important;
   background: none !important;
-  padding: 20px 0 0;
+  padding: 2rem 0 0;
 }
 .type-154 .panel-heading h2 {
   font-weight: 800;
@@ -19,21 +19,7 @@
 }
 .type-154 .crossedbg {
   background: url(../images/bg_cr_grey.png);
-  height: 15px;
-}
-.type-154 .productdot {
-  position: absolute;
-  width: 0%;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  bottom: 0;
-  background: #42a7a9;
-  height: 2px;
-  transition-duration: 0.5s;
-}
-.type-154 .boxshow:hover .productdot {
-  width: 100%;
+  height: 1.5rem;
 }
 .type-154 .feedback_owner {
   margin: 0;
@@ -50,11 +36,11 @@
   font-size: 1.2em;
 }
 .type-154 .feedback_owner .feedback_title {
-  margin: 5px 0 0;
+  margin: 0.5rem 0 0;
 }
 .type-154 .feedback_owner .mobile {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .type-154 a {
   position: relative;
@@ -99,7 +85,7 @@
 }
 @media (min-width: 768px) {
   .type-154 .sidebar {
-    width: 960px;
+    width: 96rem;
   }
 }
 @media (max-width: 480px) {
