@@ -9,8 +9,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-165">
     <div class="container intro">
         <div class="row">
-            <!-----INTRODUCTION------> 
-            <div class="col-md-8 headline">
+            <div class="col-md-8">
                 <div class="row title" data-aos="slide-up">
                     <div class="col-md-10 col-xs-9">
                         <h1  >Giới thiệu</h1>
@@ -63,9 +62,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div data-aos="fade-right">
                             Chương trình đào tạo của khoa được xây dựng công phu với sự tham khảo chương trình của nhiều trường đại học, cao đẳng nổi tiếng trong nước và quốc tế. Nhờ đó, hầu hết sinh viên ra trường đều đã có việc làm với công việc ổn định, phù hợp với ngành nghề đã được đào tạo. Bên canh đó, một số cựu sinh viên;sẵn sàng hỗ trợ sinh viên các khóa sau như hướng nghiệp, giới thiệu việc làm.;Ngoài ra, sinh viên của khoa cũng đạt giải cao trong các kỳ thi tay nghề trẻ, học sinh giỏi nghề do thành phố tổ chức.<br>    
                         </div>
-
                         <br>
-
                         <div class="images_Center" data-aos="fade-right" >
                             <img src="http://<?php echo $url_path ?>/images/tdc-7.jpg" alt=""/>
                             <em>Sinh viên;Khoa CNTT giao lưu, học tập với sinh viên ĐH;Singapore Polytechnic</em>
@@ -153,8 +150,6 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
             </div>
-            <!-- ---END INTRODUCTION---- -->
-            <!-- ---END SIDEBAR -->
         </div>
     </div>
 </div>

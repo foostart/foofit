@@ -18,7 +18,6 @@ $less->compileFile('less/163.less', 'css/163.css');
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
         <title>Module 163</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
