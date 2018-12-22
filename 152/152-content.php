@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!--LIST DEPARTMENTS-->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h2>Bộ môn <br><span>chuyên ngành</span></h2>
+                        <h2>Bộ môn <br><span>Chuyên ngành</span></h2>
                     </div>
                     <div class="crossedbg"></div>
                     <div class="dep_item dep_network">

@@ -1,13 +1,8 @@
 @import "../../var/var.less";
 .type-172{
-    @md-1200: 1200px;
-    @md-992: 992px;
-    @sm-768: 768px;
-    @xs-480: 480px;
-    background-image: url(../images/bg_pattern.png);
-    @font_color:#333;
-    .ready {padding-top: 10px;
-            padding-bottom: 60px;}
+    margin-bottom:1.5rem;
+    .ready {padding-top: 1rem;
+            padding-bottom: 6rem;}
     .tabs {
         list-style: none;
         margin: 0 auto; 
@@ -15,15 +10,15 @@
 
     }
     .tabs li {
-        margin-right: 1px;
+        margin-right: 0.1rem;
         counter-increment: tab;
-        perspective: 350px;
+        perspective: 35rem;
         float: left;
-        height: 90px;
+        height: 9rem;
         opacity: 0;
         position: relative;
         transform-origin: 50% 0;
-        transform: translateY(400px);
+        transform: translateY(40rem);
         transition: all 600ms cubic-bezier(.3, .7, .1, 1);
         width: 49.7%;
         vertical-align: top;
@@ -54,11 +49,11 @@
     .tabs li h3 {
         backface-visibility: hidden;
         background: #e0593e;
-        color: #FFF;
-        font-size: 12px;
-        line-height: 50px;
+        color: @color_white;
+        font-size: 1.2rem;
+        line-height: 5rem;
         margin: 0;
-        height: 50px;
+        height: 5rem;
         text-transform: uppercase;
     }
 
@@ -67,19 +62,19 @@
         background-position: 50% 50%;
         background-origin: content-box;
         background-size: contain;
-        border: 2px solid rgba(255, 255, 255, .2);
+        border: 0.2rem solid rgba(255, 255, 255, .2);
         border-radius: 100%;
         color: rgba(255, 255, 255, .6);
         content: counter(tab);
         display: block;
         float: left;
-        font-size: 12px;
+        font-size: 1.2rem;
         font-weight: 400;
-        height: 24px;
-        line-height: 25px;
-        margin: 10px 10px 0 10px;
+        height: 2.4rem;
+        line-height: 2.5rem;
+        margin: 1rem 1rem 0 1rem;
         text-align: center;
-        width: 24px;
+        width: 2.4rem;
     }
 
     /* Revealed copy */
@@ -87,11 +82,11 @@
         backface-visibility: hidden;
         background: #222;
         color: #222;
-        font-size: 12px;
+        font-size: @font-size-heading-5 - 0.3rem;
         line-height: 140%;
-        height: 100px;
+        height: 10rem;
         margin: -1px 0 0;
-        padding: 5px 15px 15px;
+        padding: .5rem 1.5rem 1.5rem;
         transform: rotateX(-60deg);
         transform-origin: 50% 0;
     }
@@ -101,33 +96,33 @@
         backface-visibility: hidden;
         background: #d5d7d8;
         bottom: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        box-shadow: inset 0 4px 2px -3px rgba(0, 0, 0, .3);
+        border-bottom: .1rem solid rgba(0, 0, 0, .1);
+        box-shadow: inset 0 .4rem .2rem -.3rem rgba(0, 0, 0, .3);
         color: #3A3F41;
-        font-size: 11px;
+        font-size: 1.1rem;
         font-weight: bold;
-        height: 40px;
-        left: -15px;
-        line-height: 43px;
+        height: 4rem;
+        left: -1.5rem;
+        line-height: 4.3rem;
         text-decoration: none;
         text-transform: uppercase;
         position: absolute;
-        padding: 0 15px;
-        width: 303px;
-        margin-left: 6px;
+        padding: 0 1.5rem;
+        width: 30.3rem;
+        margin-left: .6rem;
     }
 
 
 
     .tabs li:before {
-        bottom: 19px;
-        right: 20px;
+        bottom: 1.9rem;
+        right: 2rem;
         transform: rotate(-45deg);
     }
 
     .tabs li:after {
-        bottom: 15px;
-        right: 20px;
+        bottom: 1.5rem;
+        right: 2rem;
         transform: rotate(45deg);
     }
 
@@ -232,13 +227,13 @@
             margin: 15px 0;
         }
     }
-    @media (min-width:  @md-1200){
+    @media (min-width:  @lg-1200){
         .container {
             max-width: 960px;
             padding: 0;
         }
     }
-    @media (max-width: @md-1200){
+    @media (max-width: @lg-1200){
         .cube{
             width: 250px;
         }
@@ -246,7 +241,7 @@
             width: 267px;
         }
     }
-    @media (max-width:@md-992) and (min-width: 768px) {
+    @media (max-width:@md-992) and (min-width: @sm-768) {
         .tabs li{
             float:left;
             margin: 0 auto 73px auto;
@@ -264,7 +259,7 @@
         }
        
     }
-    @media (max-width: 768px){
+    @media (max-width: @sm-768){
         .tabs li{
             float: none;
         }

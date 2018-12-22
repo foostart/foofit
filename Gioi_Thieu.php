@@ -26,7 +26,7 @@
         <link href="../foofit/177/css/177.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/165/css/165.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/152/css/152.css" rel="stylesheet" type="text/css"/>
-        <link href="../foofit/167/css/167.css" rel="stylesheet" type="text/css"/>
+        <link href="../foofit/138/css/138.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/180/css/180.css" rel="stylesheet" type="text/css"/>
 
 
@@ -53,7 +53,7 @@
                         <?php include '../foofit/137/137-content.php'; ?>
                         <?php include '../foofit/138/138-content.php'; ?>
                         <?php include '../foofit/152/152-content.php'; ?>
-                        <?php include '../foofit/167/167-content.php'; ?>
+                        <?php include '../foofit/138/138-content.php'; ?>
                     </div> 
                 </div>
             </div>

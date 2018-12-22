@@ -13,7 +13,7 @@
         <meta name="keywords" content="Tai lieu web"/>
 
         <link href="../foofit/133/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-		<link href="../foofit/167/css/font-awesome.min.css"  rel="stylesheet" type="text/css"/></link>
+        <link href="../foofit/180/css/font-awesome.min.css"  rel="stylesheet" type="text/css"/>
         <link href="../foofit/var/page.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/133/css/133.css" rel="stylesheet" type="text/css"/> 
         <link href="../foofit/143/css/143.css" rel="stylesheet" type="text/css"/> 
@@ -21,12 +21,12 @@
         <link href="../foofit/158/css/158.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/153/css/153.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/154/css/154.css" rel="stylesheet" type="text/css"/>
-        <link href="../foofit/167/css/167.css" rel="stylesheet" type="text/css"/>
+        <link href="../foofit/138/css/138.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/155/css/155.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/152/css/152.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/177/css/177.css" rel="stylesheet" type="text/css"/>
         <link href="../foofit/180/css/180.css" rel="stylesheet" type="text/css"/>
-        
+
         <script src="../foofit/133/js/jquery-2.1.4.min.js"></script>
         <script src="../foofit/133/js/bootstrap.min.js"></script>
         <script src="../foofit/180/js/180.js"></script>
@@ -46,7 +46,7 @@
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <?php include '../foofit/153/153-content.php'; ?>
                         <?php include '../foofit/154/154-content.php'; ?>
-                        <?php include '../foofit/167/167-content.php'; ?>
+                        <?php include '../foofit/138/138-content.php'; ?>
                         <?php include '../foofit/155/155-content.php'; ?>
                         <?php include '../foofit/152/152-content.php'; ?>
                     </div> 

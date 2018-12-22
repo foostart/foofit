@@ -10,14 +10,13 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container sidebar">
         <div class="row">
             <!--RIGHT-->
-            <div class="col-md-8"></div>
             <!--END RIGHT-->
             <!--LEFT SIDE BAR-->
             <div class="col-md-4">
                 <!--RECENT NEWS-->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h2>Tin tức <br><span>thông báo</span></h2>
+                        <h2>Tin tức <br><span>Thông báo</span></h2>
                     </div>
                     <div class="crossedbg"></div>
                     <div class="panel-body">
