@@ -1,30 +1,26 @@
 @import "../../var/var.less";
 .type-172 {
   background-image: url(../images/bg_pattern.png);
-  margin-bottom: 1.5rem;
 }
 .type-172 .ready {
-  padding-top: 1rem;
-  padding-bottom: 6rem;
+  padding-top: 10px;
+  padding-bottom: 60px;
 }
 .type-172 .tabs {
   list-style: none;
   margin: 0 auto;
   padding: 0;
 }
-.type-172 ul {
-  list-style: none;
-}
 .type-172 .tabs li {
-  margin-right: 0.1rem;
+  margin-right: 1px;
   counter-increment: tab;
-  perspective: 35rem;
+  perspective: 350px;
   float: left;
-  height: 9rem;
+  height: 90px;
   opacity: 0;
   position: relative;
   transform-origin: 50% 0;
-  transform: translateY(40rem);
+  transform: translateY(400px);
   transition: all 600ms cubic-bezier(.3,.7,.1,1);
   width: 49.7%;
   vertical-align: top;
@@ -49,11 +45,11 @@
 .type-172 .tabs li h3 {
   backface-visibility: hidden;
   background: #e0593e;
-  color: ;
-  font-size: 1.2rem;
-  line-height: 5rem;
+  color: #FFF;
+  font-size: 12px;
+  line-height: 50px;
   margin: 0;
-  height: 5rem;
+  height: 50px;
   text-transform: uppercase;
 }
 .type-172 .tabs li h3:before {
@@ -61,29 +57,29 @@
   background-position: 50% 50%;
   background-origin: content-box;
   background-size: contain;
-  border: 0.2rem solid rgba(255,255,255,0.2);
+  border: 2px solid rgba(255,255,255,0.2);
   border-radius: 100%;
   color: rgba(255,255,255,0.6);
   content: counter(tab);
   display: block;
   float: left;
-  font-size: 1.2rem;
+  font-size: 12px;
   font-weight: 400;
-  height: 2.4rem;
-  line-height: 2.5rem;
-  margin: 1rem 1rem 0 1rem;
+  height: 24px;
+  line-height: 25px;
+  margin: 10px 10px 0 10px;
   text-align: center;
-  width: 2.4rem;
+  width: 24px;
 }
 .type-172 li .fold p {
   backface-visibility: hidden;
   background: #222;
   color: #222;
-  font-size:  - 0.3rem;
+  font-size: 12px;
   line-height: 140%;
-  height: 10rem;
+  height: 100px;
   margin: -1px 0 0;
-  padding: .5rem 1.5rem 1.5rem;
+  padding: 5px 15px 15px;
   transform: rotateX(-60deg);
   transform-origin: 50% 0;
 }
@@ -91,33 +87,33 @@
   backface-visibility: hidden;
   background: #d5d7d8;
   bottom: 0;
-  border-bottom: .1rem solid rgba(0,0,0,0.1);
-  box-shadow: inset 0 .4rem .2rem -0.3rem rgba(0,0,0,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  box-shadow: inset 0 4px 2px -3px rgba(0,0,0,0.3);
   color: #3A3F41;
-  font-size: 1.1rem;
+  font-size: 11px;
   font-weight: bold;
-  height: 4rem;
-  left: -1.5rem;
-  line-height: 4.3rem;
+  height: 40px;
+  left: -15px;
+  line-height: 43px;
   text-decoration: none;
   text-transform: uppercase;
   position: absolute;
-  padding: 0 1.5rem;
-  width: 30.3rem;
-  margin-left: .6rem;
+  padding: 0 15px;
+  width: 303px;
+  margin-left: 6px;
 }
 .type-172 .tabs li:before {
-  bottom: 1.9rem;
-  right: 2rem;
+  bottom: 19px;
+  right: 20px;
   transform: rotate(-45deg);
 }
 .type-172 .tabs li:after {
-  bottom: 1.5rem;
-  right: 2rem;
+  bottom: 15px;
+  right: 20px;
   transform: rotate(45deg);
 }
 .type-172 .tabs li:hover .fold {
-  transform: translateY(-7.5rem);
+  transform: translateY(-75px);
 }
 .type-172 .tabs li:hover h3 {
   background: #3d9fab;
@@ -129,7 +125,7 @@
   transform: rotateX(0deg);
   background: #3d9fab;
   color: #fff;
-  outline: .1rem solid transparent;
+  outline: 1px solid transparent;
 }
 .type-172 li:hover:before,
 .type-172 li:hover:after {
@@ -139,7 +135,7 @@
   display: table;
   width: 100%;
   max-width: 100%;
-  margin: 5rem 0;
+  margin: 50px 0;
 }
 .type-172 .section-heading div {
   display: table-row;
@@ -151,7 +147,7 @@
   font-size: inherit;
   overflow: hidden;
   display: table-cell;
-  width: .1rem;
+  width: 1px;
   table-layout: fixed;
   font-weight: bold;
   color: #333;
@@ -160,7 +156,7 @@
   display: table-cell;
 }
 .type-172 .section-heading h2 {
-  padding: 0 1rem;
+  padding: 0 10px;
 }
 .type-172 .section-heading span.spacer:after {
   display: inline-block;
@@ -168,17 +164,17 @@
   content: ".";
   font-size: 0;
   color: transparent;
-  height: .4rem;
+  height: 4px;
   background: #333;
   vertical-align: middle;
   position: relative;
-  top: -0.1rem;
+  top: -1px;
 }
 .type-172 .section-heading > a {
   font-size: .4em;
   vertical-align: middle;
   background: #25a2a4;
-  color: ;
+  color: #fff;
   text-transform: uppercase;
   font-family: monospace;
   border-radius: .5em;
@@ -199,56 +195,56 @@
 .type-172 .title_mobile_mode {
   display: none !important;
 }
-@media (max-width: ) {
+@media (max-width: 480px) {
   .type-172 .tuyen-sinh {
     padding: 0;
   }
   .type-172 .tabs li {
     width: 100%;
-    margin: 1.5rem 0;
+    margin: 15px 0;
   }
 }
-@media (min-width: ) {
+@media (min-width: 1200px) {
   .type-172 .container {
-    max-width: 96rem;
+    max-width: 960px;
     padding: 0;
   }
 }
-@media (max-width: ) {
+@media (max-width: 1200px) {
   .type-172 .cube {
-    width: 25rem;
+    width: 250px;
   }
   .type-172 .tabs li .more {
-    width: 26.7rem;
+    width: 267px;
   }
 }
-@media (max-width: ) and (min-width: ) {
+@media (max-width: 992px) and (min-width: 768px) {
   .type-172 .tabs li {
     float: left;
-    margin: 0 auto 7.3rem auto;
+    margin: 0 auto 73px auto;
     text-align: center;
   }
   .type-172 .heading-2 {
-    margin-top: 0;
+    margin-top: 0px;
   }
   .type-172 .col-sm-6 .second-li {
-    margin-left: 6.3rem;
+    margin-left: 63px;
   }
   .type-172 .col-sm-12 .third-li {
-    margin-top: 7.5rem;
-    margin-left: 20rem;
+    margin-top: 75px;
+    margin-left: 200px;
   }
 }
-@media (max-width: ) {
+@media (max-width: 768px) {
   .type-172 .tabs li {
     float: none;
   }
   .type-172 .tabs li {
-    margin: 0 auto 7.3rem auto;
+    margin: 0 auto 73px auto;
     text-align: center;
   }
   .type-172 .heading-2 {
-    margin-top: 0;
+    margin-top: 0px;
   }
   .type-172 .title_desktop_mode {
     display: none !important;
@@ -257,12 +253,12 @@
     display: table-cell !important;
   }
   .type-172 .heading-2 span.spacer:after {
-    top: 1rem;
+    top: 10px;
   }
 }
 @media (min-width: 481px) and (max-width: 550px) {
   .type-172 .cube {
-    margin-left: -5.8rem;
+    margin-left: -58px;
   }
 }
 @media (max-width: 480px) {
@@ -272,11 +268,11 @@
 }
 @media (min-width: 551px) and (max-width: 600px) {
   .type-172 .cube {
-    margin-left: -4rem;
+    margin-left: -40px;
   }
 }
 @media (min-width: 601px) and (max-width: 700px) {
   .type-172 .cube {
-    margin-left: -3rem;
+    margin-left: -30px;
   }
 }
