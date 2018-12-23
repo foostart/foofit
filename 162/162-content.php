@@ -8,15 +8,15 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>  
 <div class="type-162">
     <!--LIST OF HEADER-->
-    <div class="container demo">
+    <div class="container">
         <div class="title-tuyensinh">
             <div class="ribbon">
                 <div class="ribbon-stitches-top"></div>
-                <strong class="ribbon-content">
+                <div class="ribbon-content">
                     <h1>
                         Tuyển sinh 2017
                     </h1>
-                </strong>
+                </div>
                 <div class="ribbon-stitches-bottom"></div>
             </div>
         </div>

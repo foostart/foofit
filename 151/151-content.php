@@ -28,7 +28,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <span class="topnewsdate">19</span><br>
                                 <span class="topnewsmonth">Tháng 01</span><br>
                             </div>
-                            <div class="col-md-8 col-xs-8 col-xs-offset-1 coshortdesc blocks">
+                            <div class="col-md-7 col-xs-8 col-xs-offset-1 coshortdesc blocks">
                                 <h4>
                                     <a class="hover-fill" href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp (Phần 2)</a>                            </h4>
                                 <p>(PCWorldVN) Ba bài thực hành ở cấp độ trung cấp đòi hỏi bạn phải "võ luyện" nhiều lần, kết hợp với cọ xát thực tế với thiết bị, mạng giả lập và mạng thực tế tại gia đình, doanh nghiệp.<a href="#">[...]</a></p>
@@ -50,7 +50,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <span class="topnewsdate">19</span><br>
                                 <span class="topnewsmonth">Tháng 01</span><br>
                             </div>
-                            <div class="col-md-8 col-xs-8 col-xs-offset-1 coshortdesc blocks">
+                            <div class="col-md-7 col-xs-8 col-xs-offset-1 coshortdesc blocks">
                                 <h4>
                                     <a class="hover-fill" href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp (Phần 2)</a>                            </h4>
                                 <p>(PCWorldVN) Ba bài thực hành ở cấp độ trung cấp đòi hỏi bạn phải "võ luyện" nhiều lần, kết hợp với cọ xát thực tế với thiết bị, mạng giả lập và mạng thực tế tại gia đình, doanh nghiệp.<a href="#">[...]</a></p>
@@ -72,7 +72,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <span class="topnewsdate">19</span><br>
                                 <span class="topnewsmonth">Tháng 01</span><br>
                             </div>
-                            <div class="col-md-8 col-xs-8 col-xs-offset-1 coshortdesc blocks">
+                            <div class="col-md-7 col-xs-8 col-xs-offset-1 coshortdesc blocks">
                                 <h4>
                                     <a class="hover-fill" href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp (Phần 2)</a>                            </h4>
                                 <p>(PCWorldVN) Ba bài thực hành ở cấp độ trung cấp đòi hỏi bạn phải "võ luyện" nhiều lần, kết hợp với cọ xát thực tế với thiết bị, mạng giả lập và mạng thực tế tại gia đình, doanh nghiệp.<a href="#">[...]</a></p>
@@ -94,7 +94,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <span class="topnewsdate">19</span><br>
                                 <span class="topnewsmonth">Tháng 01</span><br>
                             </div>
-                            <div class="col-md-8 col-xs-8 col-xs-offset-1 coshortdesc blocks">
+                            <div class="col-md-7 col-xs-8 col-xs-offset-1 coshortdesc blocks">
                                 <h4>
                                     <a class="hover-fill" href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp (Phần 2)</a>                            </h4>
                                 <p>(PCWorldVN) Ba bài thực hành ở cấp độ trung cấp đòi hỏi bạn phải "võ luyện" nhiều lần, kết hợp với cọ xát thực tế với thiết bị, mạng giả lập và mạng thực tế tại gia đình, doanh nghiệp.<a href="#">[...]</a></p>
@@ -116,7 +116,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <span class="topnewsdate">19</span><br>
                                 <span class="topnewsmonth">Tháng 01</span><br>
                             </div>
-                            <div class="col-md-8 col-xs-8 col-xs-offset-1 coshortdesc blocks">
+                            <div class="col-md-7 col-xs-8 col-xs-offset-1 coshortdesc blocks">
                                 <h4>
                                     <a class="hover-fill" href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp (Phần 2)</a>                            </h4>
                                 <p>(PCWorldVN) Ba bài thực hành ở cấp độ trung cấp đòi hỏi bạn phải "võ luyện" nhiều lần, kết hợp với cọ xát thực tế với thiết bị, mạng giả lập và mạng thực tế tại gia đình, doanh nghiệp.<a href="#">[...]</a></p>
@@ -138,7 +138,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <span class="topnewsdate">19</span><br>
                                 <span class="topnewsmonth">Tháng 01</span><br>
                             </div>
-                            <div class="col-md-8 col-xs-8 col-xs-offset-1 coshortdesc blocks">
+                            <div class="col-md-7 col-xs-8 col-xs-offset-1 coshortdesc blocks">
                                 <h4>
                                     <a class="hover-fill" href="#">9 bài thực hành để trở thành quản trị mạng chuyên nghiệp (Phần 2)</a>                            </h4>
                                 <p>(PCWorldVN) Ba bài thực hành ở cấp độ trung cấp đòi hỏi bạn phải "võ luyện" nhiều lần, kết hợp với cọ xát thực tế với thiết bị, mạng giả lập và mạng thực tế tại gia đình, doanh nghiệp.<a href="#">[...]</a></p>
